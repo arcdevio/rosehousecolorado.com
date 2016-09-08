@@ -89,7 +89,7 @@
 	<div class="row">
 		<div class="small-12 medium-6 columns">
 			<h3>Welcome</h3>
-			<p>The Rose House is an licensed residential addiction treatment program for women in the beautiful state of Colorado (CO). In our 16 bed, first-class facility, we provide intensive therapy, relapse prevention, and facilitate the development of life skills necessary to maintain long term sobriety.</p>
+			<p>The Rose House is a <strong>licensed residential addiction treatment program for women</strong> in the beautiful state of Colorado. In our 16 bed facility, we provide intensive therapy, relapse prevention, and facilitate the development of life skills necessary to maintain long-term sobriety.</p>
 		</div>
 		<div class="small-12 medium-6 columns">
 			<div class="thumbnail">
