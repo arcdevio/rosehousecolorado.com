@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
 	  "pack": "muleify pack .",
-      "pack": "muleify serve ."
+      "serve": "muleify serve ."
   },
   "repository": {
     "type": "git",

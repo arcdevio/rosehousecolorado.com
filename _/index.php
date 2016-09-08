@@ -7,6 +7,7 @@
 
 <body>
 <?php include_once($_SERVER['DOCUMENT_ROOT'].'/apps/menu-bar.php'); ?>
+
 <div class="jumbo">
 	<div class="slide">
 		<div class="contact-button hide-for-small-only">
