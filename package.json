@@ -1,0 +1,20 @@
+{
+  "name": "rose-house",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	  "pack": "muleify pack .",
+      "pack": "muleify serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebCab-Design/rose-house.git"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/WebCab-Design/rose-house/issues"
+  },
+  "homepage": "https://github.com/WebCab-Design/rose-house#readme"
+}
