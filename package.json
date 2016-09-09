@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/WebCab-Design/rose-house/issues"
   },
-  "homepage": "https://github.com/WebCab-Design/rose-house#readme",
-  "dependencies": {
-    "jquery": "^3.1.0"
-  }
+  "homepage": "https://github.com/WebCab-Design/rose-house#readme"
 }
