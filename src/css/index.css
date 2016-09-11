@@ -59,12 +59,10 @@ body {
 .menu-bar a:focus, a:active{
 	background-color: rgba(255, 255, 255, 0.1);
 }
-
-.menu > li > a {
+/*.menu > li > a {
 	font-size: 1rem;
-}
+}*/
 .menu.border > li > a:hover, a:focus, a:active {
-	font-size: 1rem;
 	color: #fff;
 	border-bottom: 1px solid #fff;
 	transition: 0.25s ease-out, color 0.25s ease-out;
@@ -321,12 +319,14 @@ body {
 .testimonial .slide-text{
 	position: relative;
 	text-align: center;
-	padding-top: 25px;
+	padding-top: 15px;
 	color: #FFFCED;
 }
-
+.testimonial .slide-text h5{
+	font-size: 1rem;
+}
 .bg-image{
-	height: 350px;
+	height: 400px;
 	width: 100%;
 	background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:4572bc,c_fill,e_tint,g_center,h_500,o_36,w_1900/v1471394449/rose-house/DSC00077.jpg") no-repeat;
 }
