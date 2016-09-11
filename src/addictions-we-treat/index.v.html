@@ -16,18 +16,22 @@
 		display: inline-block;
 		list-style-position: inside;
 	}
+	.side-menu > ul > li::before {
+		font-size: 8px;
+		color: #89293D;
+		content: '\25B6';
+		padding-left: 8px;
+	}
 	.side-menu > ul > li {
 		width: 100%;
-		font-size: 18px;
-		/*font-weight: bold;*/
 	}
 	.side-menu > ul > li > a {
-		display: block;
+		display: inline-block;
 		font-size: 16px;
 		padding: 8px 16px;
 		font-weight: normal;
 	}
-	.side-menu > ul > li > a:hover {
+	.side-menu > ul > li:hover {
 		background: rgba(0,0 ,0,0.1);
 	}
 </style>
