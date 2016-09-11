@@ -289,8 +289,53 @@ body {
 	margin-bottom: 25px;
 }
 
-/*Buttons*/
+/*
+	content
+*/
+.content {
+	padding: 32px;
+}
 
+/*
+	side menu
+*/
+.side-menu {
+	margin: auto;
+	text-align: center;
+}
+.side-menu > ul {
+	width: 100%;
+	margin: 16px;
+	list-style: none;
+	text-align: left;
+	display: inline-block;
+	list-style-position: inside;
+}
+.side-menu > ul > li::before {
+	font-size: 8px;
+	color: #89293D;
+	content: '\25B6';
+	padding-left: 8px;
+}
+.side-menu > ul > li {
+	width: 100%;
+}
+.side-menu > ul > li > a {
+	display: inline-block;
+	font-size: 16px;
+	padding: 8px 16px;
+	font-weight: normal;
+}
+.side-menu > ul > li:hover {
+	background: rgba(0,0 ,0,0.1);
+}
+.head-img{
+	position: relative;
+}
+
+/*
+	buttons
+*/
 .button.green{
 	background-color: #B0BF7F;
 	color: #FFFCED;
