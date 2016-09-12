@@ -153,6 +153,7 @@ body {
 	color: #FFFCED;
 }
 
+
 .slogan {
 	background-color: rgba(0, 0, 0, 0.5);
 	position: absolute;;
@@ -225,6 +226,24 @@ body {
 	color: #FFFCED;
 }
 
+.contact-button-side {
+	position: absolute;
+	background-color: #89293D;
+	padding: 10px 20px 5px 20px;
+	text-align: center;
+	color: #fff;
+	line-height: 10px;
+	border-radius: 0 10px 0 10px;
+}
+.contact-button-side p{
+	line-height: 10px;
+	margin-top: 12px;
+	color: #D6768A;
+}
+.contact-button-side h4{
+	line-height: 12px;
+	color: #FFFCED;
+}
 .fa-comments{
 	color: #FEFDEC;
 }
