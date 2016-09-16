@@ -394,6 +394,7 @@ nav {
 	background: url('http://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:c95468,c_fill,g_center,h_900,o_53,w_1920/v1469641634/rose-house/8173917606_17e737fc7f_o_dzhgzn.jpg') no-repeat fixed;
 	color: #fff;
 	padding: 25px;
+	background-size: cover;
 }
 .footer p{
 	margin-bottom: .5rem;
