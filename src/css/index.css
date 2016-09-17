@@ -47,11 +47,12 @@ body {
 */
 .logo {
 	left: 8px;
-	z-index: 1;
+	z-index: 100;
 	height: 150px;
 	position: absolute;
 	background-color: #fff;
 	border-radius: 0 0 5px 5px;
+	box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
 }
 .logo > img {
 	margin-top: 20px;
@@ -78,6 +79,10 @@ body {
 */
 nav {
 	box-sizing: initial;
+}
+.nav-bar {
+	z-index: 1;
+	box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
 }
 .nav-tool {
 	background: #E54C66;
@@ -122,24 +127,31 @@ nav {
 }
 .slide {
 }
-.contact-button {
+.contact-widget {
 	color: #fff;
-	float: right;
 	line-height: 10px;
 	text-align: center;
 	display: inline-block;
 	background-color: #89293D;
 	padding: 10px 20px 5px 20px;
 	border-radius: 0px 0px 0px 10px;
+	box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
 }
-.contact-button p{
+.contact-widget p {
 	line-height: 10px;
 	margin-top: 12px;
 	color: #D6768A;
 }
-.contact-button h4{
+.contact-widget h4 {
 	line-height: 12px;
 	color: #FFFCED;
+}
+.contact-widget-home > div {
+	float: right;
+}
+.contact-widget-side > div {
+	position: relative;
+	padding: 5px;
 }
 .slogan {
 	width: 100%;
@@ -224,24 +236,6 @@ nav {
 	line-height: .9rem;
 	color: #FFFCED;
 }
-.contact-button-side {
-	position: relative;
-	background-color: #89293D;
-	padding: 5px;
-	text-align: center;
-	color: #fff;
-	line-height: 10px;
-	border-radius: 0 10px 0 10px;
-}
-.contact-button-side p{
-	line-height: 10px;
-	margin-top: 12px;
-	color: #D6768A;
-}
-.contact-button-side h4{
-	line-height: 12px;
-	color: #FFFCED;
-}
 .fa-comments{
 	color: #FEFDEC;
 }
@@ -254,7 +248,6 @@ nav {
 	box-shadow: none;
 	background: none;
 }
-
 [type='text']:focus{
 	border-bottom: 2px solid #FEFDEC;
 	border-top: none;
@@ -264,7 +257,6 @@ nav {
 	background: none;
 
 }
-
 .program-icons {
 	background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,h_500/v1469643887/rose-house/RoseProgramBG_xdwe0e.png") no-repeat;
 	width: 100%;
@@ -286,7 +278,6 @@ nav {
 	padding-right: 0;
 	padding-left: 0;
 }
-
 .box {
 	color: #FEFDEC;
 	text-align: center;
@@ -295,24 +286,16 @@ nav {
 	border-top: 2px solid rgba(255, 255, 255, 0.1);
 	padding: 10px;
 }
-
-
-.about-section{
-
-}
-
 .section-head {
 	margin-top: 15px;
 	margin-bottom: 25px;
 }
-
 /*
 	content
 */
 .content {
 	padding: 32px;
 }
-
 /*
 	side menu
 */
@@ -351,61 +334,53 @@ nav {
 	margin-left: 25px;
 	list-style: none;
 }
-.head-img{
-	/*position: relative;*/
-}
-
 /*
 	buttons
 */
-.button.green{
+.button.green {
 	background-color: #B0BF7F;
 	color: #FFFCED;
 }
-.button.green:hover{
+.button.green:hover {
 	background-color: #B0BF7F;
 	opacity: 0.9;
 	color: #fff;
 	border-radius: 3px;
 }
-
-.button.white{
+.button.white {
 	background: none;
 	border: 1px solid #FFFCED;
 	color: #FFFCED;
 
 }
-.button.white:hover{
+.button.white:hover {
 	background: none;
 	border: 2px solid #FFFCED;
 	color: #fff;
 }
-
-/*Testimonial Slide*/
-
-.testimonial .slide-text{
+/*
+	testimonial slide
+*/
+.testimonial .slide-text {
 	position: relative;
 	text-align: center;
 	padding-top: 15px;
 	color: #FFFCED;
 }
-.testimonial .slide-text h5{
+.testimonial .slide-text h5 {
 	font-size: 1rem;
 }
-.bg-image{
+.bg-image {
 	height: 400px;
 	width: 100%;
 	background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:4572bc,c_fill,e_tint,g_center,h_500,o_36,w_1900/v1471394449/rose-house/DSC00077.jpg") no-repeat;
 }
-
 .slick-dots li button::before {
 	color: white;
 }
-
 .slick-dots li.slick-active button:before {
 	color: white;
 }
-
 .verify-insurance {
 	padding: 25px 0 25px 0;
 	text-align: center;
@@ -413,10 +388,10 @@ nav {
 .insurance-logos {
 	padding: 25px;
 }
-
-/*Footer*/
-
-.footer{
+/*
+	footer
+*/
+.footer {
 	background: url('http://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:c95468,c_fill,g_center,h_900,o_53,w_1920/v1469641634/rose-house/8173917606_17e737fc7f_o_dzhgzn.jpg') no-repeat fixed;
 	color: #fff;
 	padding: 25px;
@@ -429,7 +404,6 @@ nav {
 .footer h3{
 	color: #fff;
 }
-
 .bottom-foot {
 	height: 75px;
 	width: 100%;
@@ -444,14 +418,12 @@ nav {
 	font-size: 12px;
 	color: #fff;
 }
-/*///////*/
-
 .contact-section {
 	padding-top: 25px;
 }
-
-/*FOUNDATION CUSTOM*/
-
+/*
+	foundation custom
+*/
 .thumbnail:hover, .thumbnail:focus {
 	box-shadow: none;
 }
@@ -461,12 +433,13 @@ nav {
 .is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a::after {
 	border-color: transparent transparent transparent #FFFCED
 }
-/*DROPDOWNs*/
-
+/*
+	dropdowns
+*/
 .dropdown.menu > li.opens-right > .is-dropdown-submenu {
 	top: 55px;
 }
-.is-dropdown-submenu{
+.is-dropdown-submenu {
 	border: none;
 }
 
