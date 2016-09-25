@@ -90,7 +90,6 @@ nav {
 }
 .nav-list-first {
 	background: #E54C66;
-
 }
 .nav-list-all {
 	background: #E54C66;
@@ -103,7 +102,7 @@ nav {
 	color: #FFFCED;
 	padding: 16px 32px !important;
 }
-.nav-bar ul{
+.nav-bar ul {
 	text-align: right;
 }
 .nav-bar [href="#!!"] {
@@ -121,13 +120,13 @@ nav {
 /*
 	globals
 */
-.float-right{
+.float-right {
 	float: right;
 }
-.float-left{
+.float-left {
 	float: left;
 }
-.jumbo{
+.jumbo {
 	width: 100%;
 }
 .slide {
@@ -139,7 +138,7 @@ nav {
 	display: inline-block;
 	background-color: #89293D;
 	padding: 10px 20px 5px 20px;
-	border-radius: 0px 0px 0px 10px;
+	border-radius: 0px 0px 10px 10px;
 	box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
 }
 .contact-widget p {
@@ -153,6 +152,7 @@ nav {
 }
 .contact-widget-home > div {
 	float: right;
+	margin-right: 8px;
 }
 .contact-widget-side > div {
 	position: relative;
