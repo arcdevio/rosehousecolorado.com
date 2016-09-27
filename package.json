@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/WebCab-Design/rose-house#readme",
   "dependencies": {
-    "erbium": "^1.0.8"
+    "erbium": "^1.0.9"
   }
 }

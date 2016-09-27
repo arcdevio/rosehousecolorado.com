@@ -83,39 +83,24 @@ nav {
 }
 .nav-bar {
 	z-index: 1;
+	color: #FFF;
 	box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
 }
 .nav-tool {
 	background: #E54C66;
 }
-.nav-list-first {
+.nav-list-main {
 	background: #E54C66;
+	text-align: right !important;
 }
-.nav-list-all {
+.nav-list-sub {
+	z-index: 1;
 	background: #E54C66;
 	box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
-}
-.nav-icon {
-	background: #fff;
 }
 .nav-bar li > a {
 	color: #FFFCED;
 	padding: 16px 32px !important;
-}
-.nav-bar ul {
-	text-align: right;
-}
-.nav-bar [href="#!!"] {
-	text-decoration: underline;
-}
-/*.nav-bar [href="#!!"]::after {
-	padding: 8px;
-	font-size: 8px;
-	color: #FFFCED;
-	content: '\25B6';
-}*/
-.nav-bar .nav-list-all {
-	z-index: 1;
 }
 /*
 	globals
