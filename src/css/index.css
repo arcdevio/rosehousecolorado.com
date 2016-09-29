@@ -20,7 +20,7 @@
 #rose-rose {
 	color: #89293D;
 }
-h1, h2{
+h1, h2 {
 	color: #89293D;
 	font-family: "trajan-sans-pro";
 }
@@ -101,6 +101,9 @@ nav {
 .nav-bar li > a {
 	color: #FFFCED;
 	padding: 16px 32px !important;
+}
+.nav-list-sub > li:nth-child(2) {
+	font-weight: bold;
 }
 /*
 	globals
@@ -229,23 +232,6 @@ nav {
 .fa-comments{
 	color: #FEFDEC;
 }
-
-[type='text']{
-	border-bottom: 1px solid #FEFDEC;
-	border-top: none;
-	border-left: none;
-	border-right: none;
-	box-shadow: none;
-	background: none;
-}
-[type='text']:focus {
-	box-shadow: none;
-	background: none;
-	border-top: none;
-	border-left: none;
-	border-right: none;
-	border-bottom: 2px solid #FEFDEC;
-}
 .program-icons {
 	width: 100%;
 	padding: 25px;
@@ -255,7 +241,6 @@ nav {
 .mobile-program-icons {
 	text-align: center;
 	margin-top: 1rem;
-
 }
 .callout.secondary {
 	border:none;
@@ -273,7 +258,6 @@ nav {
 	color: #FEFDEC;
 	text-align: center;
 	display: inline-block;
-	/*border-top: 2px solid rgba(255, 255, 255, 0.1);*/
 }
 .section-head {
 	margin-top: 15px;
