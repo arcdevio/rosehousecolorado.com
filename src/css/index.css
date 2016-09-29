@@ -238,19 +238,19 @@ nav {
 	box-shadow: none;
 	background: none;
 }
-[type='text']:focus{
-	border-bottom: 2px solid #FEFDEC;
+[type='text']:focus {
+	box-shadow: none;
+	background: none;
 	border-top: none;
 	border-left: none;
 	border-right: none;
-	box-shadow: none;
-	background: none;
-
+	border-bottom: 2px solid #FEFDEC;
 }
 .program-icons {
-	background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,h_500/v1469643887/rose-house/RoseProgramBG_xdwe0e.png") no-repeat;
 	width: 100%;
 	padding: 25px;
+	background-repeat: no-repeat;
+	background-image: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,h_500/v1469643887/rose-house/RoseProgramBG_xdwe0e.png");
 }
 .mobile-program-icons {
 	text-align: center;
@@ -259,14 +259,13 @@ nav {
 }
 .callout.secondary {
 	border:none;
-	background-color: #89293D;
 	color: #fff;
 	border-radius: 5px;
+	background-color: #89293D;
 }
-
 .remove-RL-padding {
-	padding-right: 0;
 	padding-left: 0;
+	padding-right: 0;
 }
 .box {
 	width: 100%;
