@@ -34,10 +34,114 @@
 	<div class="small-12 medium-8 large-9 columns">
 		<h1>Apply &amp; Verify Insurance</h1>
 
-		<p>Application and verification for our intensive residential treatment program is quite simple. Click the boxed link below and it will open a new window with our client portal page @ BestNotes. The information you provide is confidential and secure, hence why we take you to a separate secure site (notice the ‘https’ in the url). It will help us make the best treatment recommendations possible. THERE IS NO OBLIGATION/COMMITMENT after submission. You can expect follow-up within 24-48 hours.</p>
+		<p>Application and verification for our intensive residential treatment program is quite simple. Fill out the form below and the information you provide is confidential and secure. This submission will help us make the best treatment recommendations possible. THERE IS NO OBLIGATION/COMMITMENT after submission. You can expect follow-up within 24-48 hours.</p>
 
-		<a href="https://crm.bestnotes.com/portal/rosehouse" target="new">
-			<button class="button green">Verify Here</button>
-		</a>
+		<form id="verify-insurance" name="verify-insurance" action="/recovery-program/verify-insurance/thank-you/" method="post">
+		    <fieldset class="fieldset">
+		        <legend><strong>Patient Info</strong></legend>
+		        <div class="row">
+		            <div class="medium-6 columns">
+		                <label>Patient First Name
+		                    <input name="patient_first_name" type="text" placeholder="first name" required>
+		                </label>
+		            </div>
+		            <div class="medium-6 columns">
+		                <label>Patient Last Name
+		                    <input name="patient_last_name" type="text" placeholder="last name" required>
+		                </label>
+		            </div>
+		        </div>
+		        <div class="row">
+		            <div class="medium-4 columns">
+		                <label>Date of Birth
+		                    <input name="patient_dob" type="date" placeholder="DOB (no spaces)" maxlength="10" required>
+		                </label>
+		            </div>
+		        </div>
+		        <div class="row">
+		            <div class="medium-12 columns">
+		                <label>Street Address
+		                    <input name="patient_address" type="text" placeholder="street address">
+		                </label>
+		            </div>
+		        </div>
+		        <div class="row">
+		            <div class="medium-4 columns">
+		                <label>City
+		                    <input name="patient_city" type="text" placeholder="city">
+		                </label>
+		            </div>
+		            <div class="medium-4 columns">
+		                <label>State
+		                    <input name="patient_state" type="text" placeholder="state">
+		                </label>
+		            </div>
+		            <div class="medium-4 columns">
+		                <label>Zip
+		                    <input name="patient_zip" type="text" placeholder="zipcode" maxlength="6">
+		                </label>
+		            </div>
+		        </div>
+		        <div class="row">
+		            <div class="medium-6 columns">
+		                <label>Phone Number
+		                    <input name="patient_phone" type="tel" placeholder="phone number">
+		                </label>
+		            </div>
+		            <div class="medium-6 columns">
+		                <label>Email Address
+		                    <input name="patient_email" type="email" placeholder="email" required>
+		                </label>
+		            </div>
+		        </div>
+		    </fieldset>
+		    <fieldset class="fieldset">
+		        <legend><strong>Insurance Info</strong></legend>
+		        <div class="row">
+		            <div class="medium-6 columns">
+		                <label>Primary Insured Full Name
+		                    <input name="primary_full_name" type="text" placeholder="name here" required>
+		                </label>
+		            </div>
+		            <div class="medium-6 columns">
+		                <label>Primary Insured Date of Birth
+		                    <input name="primary_dob" type="date" placeholder="DOB (no spaces)" maxlength="10" required>
+		                </label>
+		            </div>
+		        </div>
+		        <div class="row">
+		            <div class="medium-4 columns">
+		                <label>Insurance Provider
+		                    <input name="primary_provider" type="text" placeholder="provider name" required>
+		                </label>
+		            </div>
+		            <div class="medium-4 columns">
+		                <label>Insurance Group
+		                    <input name="primary_insurance_group" type="text" placeholder="group" required>
+		                </label>
+		            </div>
+		            <div class="medium-4 columns">
+		                <label>Insurance Group ID
+		                    <input name="primary_group_id" type="text" placeholder="group id" required>
+		                </label>
+		            </div>
+		        </div>
+		        <div class="row">
+		            <div class="medium-4 columns">
+		                <label>Insurance Phone Number
+		                    <input name="primary_phone" type="tel" placeholder="insurance phone" required>
+		                </label>
+		            </div>
+		        </div>
+		        <div class="row">
+		            <div class="medium-12 columns">
+		                <label>Comments
+		                    <textarea name="comments" type="text" placeholder="any comments?"></textarea>
+		                </label>
+		            </div>
+		        </div>
+		    </fieldset>
+		    <button class="button green" type="submit" value="submit">Submit</button>
+		</form>
 	</div>
 </div>
