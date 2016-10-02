@@ -333,21 +333,21 @@ nav {
 */
 .button.green {
 	margin: auto;
+	display: block;
 	color: #FFFCED;
 	padding: 1rem 2rem;
-	background-color: #B0BF7F;
+	background: #B0BF7F;
 }
 .button.green:hover {
-	background-color: #B0BF7F;
-	opacity: 0.9;
 	color: #fff;
+	opacity: 0.9;
 	border-radius: 3px;
+	background: #B0BF7F;
 }
 .button.white {
 	background: none;
-	border: 1px solid #FFFCED;
 	color: #FFFCED;
-
+	border: 1px solid #FFFCED;
 }
 .button.white:hover {
 	background: none;
