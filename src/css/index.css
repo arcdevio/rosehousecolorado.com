@@ -119,6 +119,27 @@ nav {
 }
 .slide {
 }
+.contact-form, .contact-form:focus {
+	border-radius: 0;
+	box-shadow: none;
+	border: none;
+	border-bottom: 1px solid #cacaca;
+}
+.contact-form:focus {
+	border-bottom: 2px solid #8a8a8a;
+}
+.contact-form:focus::-webkit-input-placeholder {
+   color: #8a8a8a;
+}
+.contact-form:focus:-moz-placeholder {
+	color: #8a8a8a;
+}
+.contact-form:focus::-moz-placeholder {
+	color: #8a8a8a;
+}
+.contact-form:focus:-ms-input-placeholder {
+	color: #8a8a8a;
+}
 .contact-widget {
 	color: #fff;
 	line-height: 10px;
