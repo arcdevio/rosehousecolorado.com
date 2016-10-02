@@ -119,25 +119,25 @@ nav {
 }
 .slide {
 }
-.contact-form > input, .contact-form > textarea, .contact-form > input:focus, .contact-form > textarea:focus {
+.contact-form input, .contact-form textarea, .contact-form input:focus, .contact-form textarea:focus {
 	border-radius: 0;
 	box-shadow: none;
 	border: none;
 	border-bottom: 1px solid #cacaca;
 }
-.contact-form > input:focus, .contact-form > textarea:focus {
+.contact-form input:focus, .contact-form textarea:focus {
 	border-bottom: 2px solid #8a8a8a;
 }
-.contact-form > input:focus::-webkit-input-placeholder, .contact-form > textarea:focus::-webkit-input-placeholder {
+.contact-form input:focus::-webkit-input-placeholder, .contact-form textarea:focus::-webkit-input-placeholder {
    color: #8a8a8a;
 }
-.contact-form > input:focus:-moz-placeholder, .contact-form > textarea:focus:-moz-placeholder {
+.contact-form input:focus:-moz-placeholder, .contact-form textarea:focus:-moz-placeholder {
 	color: #8a8a8a;
 }
-.contact-form > input:focus::-moz-placeholder, .contact-form > textarea:focus::-moz-placeholder {
+.contact-form input:focus::-moz-placeholder, .contact-form textarea:focus::-moz-placeholder {
 	color: #8a8a8a;
 }
-.contact-form > input:focus:-ms-input-placeholder, .contact-form > textarea:focus:-ms-input-placeholder {
+.contact-form input:focus:-ms-input-placeholder, .contact-form textarea:focus:-ms-input-placeholder {
 	color: #8a8a8a;
 }
 .contact-widget {
