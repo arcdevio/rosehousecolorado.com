@@ -45,20 +45,20 @@
 		        <legend><strong>Patient Info</strong></legend>
 		        <div class="row">
 		            <div class="medium-6 columns">
-						<input name="patient_first_name" type="text" placeholder="Patient First Name" required>
+						<input name="patient_first_name" type="text" placeholder="First Name" required>
 		            </div>
 		            <div class="medium-6 columns">
-	                    <input name="patient_last_name" type="text" placeholder="Patient Last Name" required>
+	                    <input name="patient_last_name" type="text" placeholder="Last Name" required>
 		            </div>
 		        </div>
 		        <div class="row">
-		            <div class="medium-4 columns">
-	                    <input name="patient_dob" type="date" placeholder="Date Of Birth" maxlength="10" required>
+		            <div class="small-12 columns">
+	                    <input name="patient_dob" type="date" required>
 		            </div>
 		        </div>
 		        <div class="row">
 		            <div class="medium-12 columns">
-						<input name="patient_address" type="text" placeholder="Street Address">
+						<input name="patient_address" type="text" placeholder="Street">
 		            </div>
 		        </div>
 		        <div class="row">
@@ -69,12 +69,12 @@
 						<input name="patient_state" type="text" placeholder="State">
 		            </div>
 		            <div class="medium-4 columns">
-						<input name="patient_zip" type="text" placeholder="Zipcode" maxlength="6">
+						<input name="patient_zip" type="number" min="0" max="99999" placeholder="Zip">
 		            </div>
 		        </div>
 		        <div class="row">
 		            <div class="medium-6 columns">
-						<input name="patient_phone" type="tel" placeholder="Phone Number">
+						<input name="patient_phone" type="tel" placeholder="Phone">
 		            </div>
 		            <div class="medium-6 columns">
 						<input name="patient_email" type="email" placeholder="Email" required>
@@ -89,22 +89,22 @@
 						<input name="primary_full_name" type="text" placeholder="Primary Insured Full Name" required>
 		            </div>
 		            <div class="medium-6 columns">
-						<input name="primary_dob" type="date" placeholder="Primary Insured Date of Birth" maxlength="10" required>
+						<input name="primary_dob" type="date" required>
 		            </div>
 		        </div>
 		        <div class="row">
-		            <div class="medium-4 columns">
+		            <div class="medium-6 columns">
 						<input name="primary_provider" type="text" placeholder="Insurance Provider" required>
 		            </div>
-		            <div class="medium-4 columns">
+		            <div class="medium-6 columns">
 	                    <input name="primary_insurance_group" type="text" placeholder="Insurance Group" required>
-		            </div>
-		            <div class="medium-4 columns">
-	                    <input name="primary_group_id" type="text" placeholder="Insurance Group ID" required>
 		            </div>
 		        </div>
 		        <div class="row">
-		            <div class="medium-4 columns">
+					<div class="medium-6 columns">
+						<input name="primary_group_id" type="text" placeholder="Insurance Group ID" required>
+					</div>
+		            <div class="medium-6 columns">
 	                    <input name="primary_phone" type="tel" placeholder="Insurance Phone Number" required>
 		            </div>
 		        </div>

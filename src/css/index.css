@@ -119,6 +119,13 @@ nav {
 }
 .slide {
 }
+
+.contact-form input[type="date"] {
+	text-align: center;
+}
+.contact-form textarea {
+	max-width: 630px;
+}
 .contact-form input, .contact-form textarea, .contact-form input:focus, .contact-form textarea:focus {
 	border-radius: 0;
 	box-shadow: none;

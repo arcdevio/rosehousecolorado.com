@@ -3,5 +3,5 @@
 
 	var inusranceForm = document.querySelector('insurance-form');
 
-	
+
 }());
