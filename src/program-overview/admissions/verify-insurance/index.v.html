@@ -1,7 +1,12 @@
 <!-- { "title": "Verify Insurance | Admissions | The Rose House" } -->
 
 <style>
-
+	.form-response {
+		margin: 50px auto;
+		text-align: center;
+		font-weight: bold;
+		font-size: 2em;
+	}
 </style>
 
 <div class="head-img">
@@ -39,45 +44,45 @@
 
 		<p>Application and verification for our intensive residential treatment program is quite simple. Fill out the form below and the information you provide is confidential and secure. This submission will help us make the best treatment recommendations possible. THERE IS NO OBLIGATION/COMMITMENT after submission. You can expect follow-up within 24-48 hours.</p>
 
-		<form class="contact-form insurance-form">
+		<form class="insurance-form form" method="POST" enctype="application/json" action="https://formspree.io/aelias@webcabdesign.com">
 
 			<fieldset class="fieldset">
 		        <legend><strong>Patient Info</strong></legend>
 		        <div class="row">
 		            <div class="medium-6 columns">
-						<input name="patient_first_name" type="text" placeholder="First Name" required>
+						<input name="Patient_First_Name" type="text" placeholder="First Name" required>
 		            </div>
 		            <div class="medium-6 columns">
-	                    <input name="patient_last_name" type="text" placeholder="Last Name" required>
+	                    <input name="Patient_Last_Name" type="text" placeholder="Last Name" required>
 		            </div>
 		        </div>
 		        <div class="row">
 		            <div class="small-12 columns">
-	                    <input name="patient_dob" type="date" required>
+	                    <input name="Patient_Birth" type="date" required>
 		            </div>
 		        </div>
 		        <div class="row">
 		            <div class="medium-12 columns">
-						<input name="patient_address" type="text" placeholder="Street">
+						<input name="Patient_Address" type="text" placeholder="Street">
 		            </div>
 		        </div>
 		        <div class="row">
 		            <div class="medium-4 columns">
-						<input name="patient_city" type="text" placeholder="City">
+						<input name="Patient_City" type="text" placeholder="City">
 		            </div>
 		            <div class="medium-4 columns">
-						<input name="patient_state" type="text" placeholder="State">
+						<input name="Patient_State" type="text" placeholder="State">
 		            </div>
 		            <div class="medium-4 columns">
-						<input name="patient_zip" type="number" min="0" max="99999" placeholder="Zip">
+						<input name="Patient_Zip" type="number" min="0" max="99999" placeholder="Zip">
 		            </div>
 		        </div>
 		        <div class="row">
 		            <div class="medium-6 columns">
-						<input name="patient_phone" type="tel" placeholder="Phone">
+						<input name="Patient_Phone" type="tel" placeholder="Phone">
 		            </div>
 		            <div class="medium-6 columns">
-						<input name="patient_email" type="email" placeholder="Email" required>
+						<input name="Patient_Email" type="email" placeholder="Email" required>
 		            </div>
 		        </div>
 		    </fieldset>
@@ -86,37 +91,40 @@
 		        <legend><strong>Insurance Info</strong></legend>
 		        <div class="row">
 		            <div class="medium-6 columns">
-						<input name="primary_full_name" type="text" placeholder="Primary Insured Full Name" required>
+						<input name="Primary_Full_Name" type="text" placeholder="Primary Insured Full Name" required>
 		            </div>
 		            <div class="medium-6 columns">
-						<input name="primary_dob" type="date" required>
+						<input name="Primary_Birth" type="date" required>
 		            </div>
 		        </div>
 		        <div class="row">
 		            <div class="medium-6 columns">
-						<input name="primary_provider" type="text" placeholder="Insurance Provider" required>
+						<input name="Primary_Provider" type="text" placeholder="Insurance Provider" required>
 		            </div>
 		            <div class="medium-6 columns">
-	                    <input name="primary_insurance_group" type="text" placeholder="Insurance Group" required>
+	                    <input name="Primary_Insurance_Group" type="text" placeholder="Insurance Group" required>
 		            </div>
 		        </div>
 		        <div class="row">
 					<div class="medium-6 columns">
-						<input name="primary_group_id" type="text" placeholder="Insurance Group ID" required>
+						<input name="Primary_Group_Id" type="text" placeholder="Insurance Group ID" required>
 					</div>
 		            <div class="medium-6 columns">
-	                    <input name="primary_phone" type="tel" placeholder="Insurance Phone Number" required>
+	                    <input name="Primary_Phone" type="tel" placeholder="Insurance Phone Number" required>
 		            </div>
 		        </div>
 		        <div class="row">
 		            <div class="medium-12 columns">
-	                    <textarea name="comments" type="text" placeholder="Comments"></textarea>
+	                    <textarea name="Primary_Comments" type="text" placeholder="Comments"></textarea>
 		            </div>
 		        </div>
 		    </fieldset>
 
-		    <button class="button green" type="submit">Submit</button>
+		    <input class="button green" type="submit" value="Submit">
 
 		</form>
+
+		<div class="form-response"></div>
+
 	</div>
 </div>
