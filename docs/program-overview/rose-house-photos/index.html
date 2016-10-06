@@ -32,7 +32,9 @@
 	<script src="https://cdn.jsdelivr.net/jquery/2.2.4/jquery.min.js" defer></script>
 	<script src="https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.js" defer></script>
 
+	<script src="/js/gallery.min.js"></script>
 	<script src="/js/nav-bar.min.js"></script>
+	
 	<script src="/js/jquery.min.js" defer></script>
 	<script src="/js/foundation.min.js" defer></script>
 	<script src="/js/what-input.js" defer></script>
@@ -48,7 +50,8 @@
 	<link rel="stylesheet" type="text/css" href="/css/index.css"/>
 </head>
 <body>
-<!-- <div id="fb-root"></div>
+
+	<!-- <div id="fb-root"></div>
 <script>
 	(function(d, s, id) {
 		var js, fjs = d.getElementsByTagName(s)[0];
@@ -68,6 +71,7 @@
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+
 
 	<header>
 		<div class="logo">
@@ -189,20 +193,44 @@
 
 	<main>
 		
+
 <style>
-	.thumbnail{
+	.thumbnail {
 		box-shadow: 0 0 0 1px rgba(137,41,61,0.3 );
 	}
+	.gallery {
+		color: white;
+	}
+	.gallery > a {
+		margin: 4px 1px;
+		width: 200px;
+		display: inline-block;
+	}
+	.gallery > a > img {
+		border: solid 4px #FFF;
+		box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
+	}
+	@media screen and (max-width: 640px) {
+		.gallery > a {
+			width: 90%;
+			display: block;
+			margin: 4px auto;
+		}
+	}
 </style>
+
 <div class="head-img">
 	<img src="http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,h_400,w_1920/v1473772808/rose-house/AdobeStock_116669310.jpg" alt="women releasing doves sunset" />
 </div>
+
 <div class="row content">
+
 	<div class="small-12 columns">
 		<h1>Rose House Photos</h1>
 		<h3>At sit nullam scripserit</h3>
 		<hr>
 	</div>
+
 	<div class="small-12 medium-4 large-3 columns">
 		<nav class="side-menu">
 			<ul>
@@ -232,31 +260,24 @@
 
 		</div>
 	</div>
-	<div class="small-12 medium-8 large-9 columns">
-		<div class="row">
-			<div class="small-12 medium-4 columns">
-				<img class="thumbnail" src="http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_north,h_600,w_600/v1473782699/rose-house/man.png">
-			</div>
-			<div class="small-12 medium-4 columns">
-				<img class="thumbnail" src="http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_north,h_600,w_600/v1473782699/rose-house/man.png">
-			</div>
-			<div class="small-12 medium-4 columns">
-				<img class="thumbnail" src="http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_north,h_600,w_600/v1473782699/rose-house/man.png">
-			</div>
-		</div>
-		<div class="row">
-			<div class="small-12 medium-4 columns">
-				<img class="thumbnail" src="http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_north,h_600,w_600/v1473782699/rose-house/man.png">
-			</div>
-			<div class="small-12 medium-4 columns">
-				<img class="thumbnail" src="http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_north,h_600,w_600/v1473782699/rose-house/man.png">
-			</div>
-			<div class="small-12 medium-4 columns">
-				<img class="thumbnail" src="http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_north,h_600,w_600/v1473782699/rose-house/man.png">
-			</div>
-		</div>
+
+
+	<div class="gallery small-12 medium-8 large-9 columns">
+		<a href="http://res.cloudinary.com/dbc2wlvk8/image/upload/v1475687153/rose-house/gallery/DSC00019.jpg">
+			<img src="http://res.cloudinary.com/dbc2wlvk8/image/upload/v1475687153/rose-house/gallery/DSC00019.jpg"/>
+		</a>
+		<a href="http://res.cloudinary.com/dbc2wlvk8/image/upload/v1475687153/rose-house/gallery/DSC00019.jpg">
+			<img src="http://res.cloudinary.com/dbc2wlvk8/image/upload/v1475687153/rose-house/gallery/DSC00019.jpg"/>
+		</a>
+		<a href="http://res.cloudinary.com/dbc2wlvk8/image/upload/v1475687153/rose-house/gallery/DSC00019.jpg">
+			<img src="http://res.cloudinary.com/dbc2wlvk8/image/upload/v1475687153/rose-house/gallery/DSC00019.jpg"/>
+		</a>
 	</div>
+
+
 </div>
+
+<!-- https://633285329698126:a5gKBidY-bUVngfsca4jxE-sVH8@api.cloudinary.com/v1_1/dbc2wlvk8/resources/image/upload/?prefix=rose-house/gallery -->
 
 	</main>
 

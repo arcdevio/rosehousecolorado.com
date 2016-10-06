@@ -19,6 +19,6 @@
   "homepage": "https://github.com/WebCab-Design/rose-house#readme",
   "dependencies": {
     "astatine": "^1.0.5",
-    "erbium": "^1.0.9"
+    "erbium": "^1.1.0"
   }
 }
