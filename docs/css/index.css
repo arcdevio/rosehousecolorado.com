@@ -219,6 +219,7 @@ nav {
 }
 
 .slogan > div {
+    max-width: 600px;
     margin: auto;
     color: #FFFCED;
     display: inline-block;
