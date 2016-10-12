@@ -6,477 +6,763 @@
 	rose-rose: 89293D
 */
 #rose-blue {
-	color: #578DA0;
+    color: #578DA0;
 }
+
 #rose-green {
-	color: #B0BF7F;
+    color: #B0BF7F;
 }
+
 #rose-white {
-	color: #FFFCED;
+    color: #FFFCED;
 }
+
 #rose-pink {
-	color: #E54C66;
+    color: #E54C66;
 }
+
 #rose-rose {
-	color: #89293D;
+    color: #89293D;
 }
+
 h1, h2 {
-	color: #89293D;
-	font-family: "trajan-sans-pro";
+    color: #89293D;
+    font-family: "trajan-sans-pro";
 }
+
 h3 {
-	font-family: "trajan-sans-pro";
+    font-family: "trajan-sans-pro";
 }
+
 p {
-	font-family: "ingra";
+    font-family: "ingra";
 }
+
 a {
-	color: #89293D;
-	font-family: "ingra";
+    color: #89293D;
+    font-family: "ingra";
 }
+
 a:hover {
-	color: #E54C66;
-	font-family: "ingra";
+    color: #E54C66;
+    font-family: "ingra";
 }
+
 body {
-	margin-right:0;
-	padding-right:0;
+    margin-right: 0;
+    padding-right: 0;
 }
+
 /*
 	logo
 */
 .logo {
-	left: 8px;
-	z-index: 100;
-	height: 150px;
-	position: absolute;
-	background-color: #fff;
-	border-radius: 0 0 5px 5px;
-	box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
+    left: 8px;
+    z-index: 100;
+    height: 150px;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
 }
+
 .logo > img {
-	margin-top: 20px;
-	max-width: 100%;
+    margin-top: 20px;
+    max-width: 100%;
 }
+
 /*
 	top
 */
 .top {
-	width: 100%;
-	display: block;
-	min-height: 32px;
-	padding-top: 8px;
+    width: 100%;
+    display: block;
+    min-height: 32px;
+    padding-top: 8px;
 }
+
 .top > div:nth-child(1) {
-	margin-left: 232px;
-	display: inline-block;
+    margin-left: 232px;
+    display: inline-block;
 }
+
 .top > div:nth-child(2) {
-	float: right;
-	display: inline-block;
-	margin-right: 25px;
+    float: right;
+    display: inline-block;
+    margin-right: 25px;
 }
+
 /*
 	nav
 */
 nav {
-	box-sizing: initial;
+    box-sizing: initial;
 }
+
 .nav-bar {
-	z-index: 1;
-	color: #FFF;
-	box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
+    z-index: 1;
+    color: #FFF;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
 }
+
 .nav-tool {
-	background: #E54C66;
+    background: #E54C66;
 }
+
 .nav-list-main {
-	background: #E54C66;
-	text-align: right !important;
+    background: #E54C66;
+    text-align: right !important;
 }
+
 .nav-list-sub {
-	z-index: 1;
-	background: #E54C66;
-	box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
+    z-index: 1;
+    background: #E54C66;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
 }
+
 .nav-bar li > a {
-	color: #FFFCED;
-	padding: 16px 32px !important;
+    color: #FFFCED;
+    padding: 16px 32px !important;
 }
+
 .nav-list-sub > li:nth-child(2) {
-	font-weight: bold;
+    font-weight: bold;
 }
+
 /*
 	globals
 */
 .float-right {
-	float: right;
+    float: right;
 }
+
 .float-left {
-	float: left;
+    float: left;
 }
+
 .jumbo {
-	width: 100%;
-}
-.slide {
+    width: 100%;
 }
 
 .contact-form input[type="date"] {
-	text-align: center;
+    text-align: center;
 }
+
 .contact-form textarea {
-	max-width: 630px;
+    max-width: 630px;
 }
+
 .contact-form input, .contact-form textarea, .contact-form input:focus, .contact-form textarea:focus {
-	border-radius: 0;
-	box-shadow: none;
-	border: none;
-	border-bottom: 1px solid #cacaca;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #cacaca;
 }
+
 .contact-form input:focus, .contact-form textarea:focus {
-	border-bottom: 2px solid #8a8a8a;
+    border-bottom: 2px solid #8a8a8a;
 }
+
 .contact-form input:focus::-webkit-input-placeholder, .contact-form textarea:focus::-webkit-input-placeholder {
-   color: #8a8a8a;
+    color: #8a8a8a;
 }
+
 .contact-form input:focus:-moz-placeholder, .contact-form textarea:focus:-moz-placeholder {
-	color: #8a8a8a;
+    color: #8a8a8a;
 }
+
 .contact-form input:focus::-moz-placeholder, .contact-form textarea:focus::-moz-placeholder {
-	color: #8a8a8a;
+    color: #8a8a8a;
 }
+
 .contact-form input:focus:-ms-input-placeholder, .contact-form textarea:focus:-ms-input-placeholder {
-	color: #8a8a8a;
+    color: #8a8a8a;
 }
+
 .contact-widget {
-	color: #fff;
-	line-height: 10px;
-	text-align: center;
-	display: inline-block;
-	background-color: #89293D;
-	padding: 10px 20px 5px 20px;
-	border-radius: 0px 0px 10px 10px;
-	box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
+    color: #fff;
+    line-height: 10px;
+    text-align: center;
+    display: inline-block;
+    background-color: #89293D;
+    padding: 10px 20px 5px 20px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
 }
+
 .contact-widget p {
-	line-height: 10px;
-	margin-top: 12px;
-	color: #D6768A;
+    line-height: 10px;
+    margin-top: 12px;
+    color: #D6768A;
 }
+
 .contact-widget h4 {
-	line-height: 12px;
-	color: #FFFCED;
+    line-height: 12px;
+    color: #FFFCED;
 }
+
 .contact-widget-home > div {
-	float: right;
-	margin-right: 8px;
+    float: right;
+    margin-right: 8px;
 }
+
 .contact-widget-side > div {
-	position: relative;
-	padding: 5px;
+    position: relative;
+    padding: 5px;
 }
+
 .slogan {
-	width: 100%;
-	bottom: 0px;
-	position: absolute;
-	text-align: center;
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+    text-align: center;
 }
+
 .slogan > div {
-	margin: auto;
-	color: #FFFCED;
-	display: inline-block;
-	padding: 10px 10px 0 10px;
-	background-color: rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    margin: auto;
+    color: #FFFCED;
+    display: inline-block;
+    padding: 10px 10px 0 10px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
+
 /*
 	social
 */
 .facebook {
-	color: #3b5998;
+    color: #3b5998;
 }
 
 .pinterest {
-	color: #C92228;
+    color: #C92228;
 }
 
 .google {
-	color: #dd4b39;
+    color: #dd4b39;
 }
-.icon {
-	display: inline;
-	font-size: 1.3rem;
-	padding: 10px;
-}
-.icon.facebook {
-	background-color: #fff;
-	  -webkit-transition: background-color 0.25s ease-out;
-	  -moz-transition: background-color 0.25s ease-out;
-	  -o-transition: background-color 0.25s ease-out;
-	  transition: background-color 0.25s ease-out;
-}
-.icon.google {
-	background-color: #fff;
-	  -webkit-transition: background-color 0.25s ease-out;
-	  -moz-transition: background-color 0.25s ease-out;
-	  -o-transition: background-color 0.25s ease-out;
-	  transition: background-color 0.25s ease-out;
-}
-.icon.pinterest {
-	background-color: #fff;
-	  -webkit-transition: background-color 0.25s ease-out;
-	  -moz-transition: background-color 0.25s ease-out;
-	  -o-transition: background-color 0.25s ease-out;
-	  transition: background-color 0.25s ease-out;
-}
-.icon.facebook:hover {
-	background-color: #3b5998;
-	color: #fff;
-}
-.icon.google:hover {
-	background-color: #dd4b39;
-	color: #fff;
-}
-.icon.pinterest:hover {
-	background-color: #C92228;
-	color: #fff;
-}
-/*---*/
-.contact-slogan{
-	padding-bottom: 25px;
-}
-.contact-bar{
-	position: relative;
-	padding-top: 10px;
-	background-color: #E54C66;
 
+.icon {
+    display: inline;
+    font-size: 1.3rem;
+    padding: 10px;
 }
-.contact-bar input{
-	color: #FEFDEC;
+
+.icon.facebook {
+    background-color: #fff;
+    -webkit-transition: background-color 0.25s ease-out;
+    -moz-transition: background-color 0.25s ease-out;
+    -o-transition: background-color 0.25s ease-out;
+    transition: background-color 0.25s ease-out;
 }
+
+.icon.google {
+    background-color: #fff;
+    -webkit-transition: background-color 0.25s ease-out;
+    -moz-transition: background-color 0.25s ease-out;
+    -o-transition: background-color 0.25s ease-out;
+    transition: background-color 0.25s ease-out;
+}
+
+.icon.pinterest {
+    background-color: #fff;
+    -webkit-transition: background-color 0.25s ease-out;
+    -moz-transition: background-color 0.25s ease-out;
+    -o-transition: background-color 0.25s ease-out;
+    transition: background-color 0.25s ease-out;
+}
+
+.icon.facebook:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.icon.google:hover {
+    background-color: #dd4b39;
+    color: #fff;
+}
+
+.icon.pinterest:hover {
+    background-color: #C92228;
+    color: #fff;
+}
+
+/*---*/
+.contact-slogan {
+    padding-bottom: 25px;
+}
+
+.contact-bar {
+    position: relative;
+    padding-top: 10px;
+    background-color: #E54C66;
+}
+
+.contact-bar input {
+    color: #FEFDEC;
+}
+
 .center {
-	text-align: center;
-	line-height: .9rem;
-	color: #FFFCED;
+    text-align: center;
+    line-height: .9rem;
+    color: #FFFCED;
 }
-.fa-comments{
-	color: #FEFDEC;
+
+.fa-comments {
+    color: #FEFDEC;
 }
+
 .program-icons {
-	width: 100%;
-	padding: 25px;
-	background-repeat: no-repeat;
-	background-image: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,h_500/v1469643887/rose-house/RoseProgramBG_xdwe0e.png");
+    width: 100%;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-image: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,h_500/v1469643887/rose-house/RoseProgramBG_xdwe0e.png");
 }
+
 .mobile-program-icons {
-	text-align: center;
-	margin-top: 1rem;
+    text-align: center;
+    margin-top: 1rem;
 }
+
 .callout.secondary {
-	border:none;
-	color: #fff;
-	border-radius: 5px;
-	background-color: #89293D;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #89293D;
 }
+
 .remove-RL-padding {
-	padding-left: 0;
-	padding-right: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
+
 .box {
-	width: 100%;
-	padding: 10px;
-	color: #FEFDEC;
-	text-align: center;
-	display: inline-block;
+    width: 100%;
+    padding: 10px;
+    color: #FEFDEC;
+    text-align: center;
+    display: inline-block;
 }
+
 .section-head {
-	margin-top: 15px;
-	margin-bottom: 25px;
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
+
 /*
 	content
 */
 .content {
-	padding: 32px;
+    padding: 32px;
 }
+
 /*
 	side menu
 */
 .side-menu {
-	margin: auto;
-	text-align: center;
+    margin: auto;
+    text-align: center;
 }
+
 .side-menu > ul {
-	width: 100%;
-	margin: 0 16px 16px 16px;
-	list-style: none;
-	text-align: left;
-	display: inline-block;
-	list-style-position: inside;
+    width: 100%;
+    margin: 0 16px 16px 16px;
+    list-style: none;
+    text-align: left;
+    display: inline-block;
+    list-style-position: inside;
 }
+
 .side-menu > ul > li > a::before {
-	font-size: 8px;
-	color: #89293D;
-	content: '\25B6';
-	padding: 8px;
+    font-size: 8px;
+    color: #89293D;
+    content: '\25B6';
+    padding: 8px;
 }
+
 .side-menu > ul > li {
-	width: 100%;
+    width: 100%;
 }
+
 .side-menu > ul > li > a {
-	display: inline-block;
-	font-size: 16px;
-	padding: 8px 16px;
-	font-weight: normal;
-	width: 100%;
+    display: inline-block;
+    font-size: 16px;
+    padding: 8px 16px;
+    font-weight: normal;
+    width: 100%;
 }
+
 .side-menu > ul > li:hover {
-	background: rgba(0,0 ,0,0.1);
+    background: rgba(0, 0, 0, 0.1);
 }
-.indent li{
-	margin-left: 25px;
-	list-style: none;
+
+.indent li {
+    margin-left: 25px;
+    list-style: none;
 }
+
 /*
 	buttons
 */
 .button.green {
-	margin: auto;
-	display: block;
-	color: #FFFCED;
-	padding: 1rem 2rem;
-	background: #B0BF7F;
+    margin: auto;
+    display: block;
+    color: #FFFCED;
+    padding: 1rem 2rem;
+    background: #B0BF7F;
 }
+
 .button.green:hover {
-	color: #fff;
-	opacity: 0.9;
-	border-radius: 3px;
-	background: #B0BF7F;
+    color: #fff;
+    opacity: 0.9;
+    border-radius: 3px;
+    background: #B0BF7F;
 }
+
 .button.white {
-	background: none;
-	color: #FFFCED;
-	border: 1px solid #FFFCED;
+    background: none;
+    color: #FFFCED;
+    border: 1px solid #FFFCED;
 }
+
 .button.white:hover {
-	background: none;
-	border: 2px solid #FFFCED;
-	color: #fff;
+    background: none;
+    border: 2px solid #FFFCED;
+    color: #fff;
 }
+
 /*
 	testimonial slide
 */
 .testimonial .slide-text {
-	position: relative;
-	text-align: center;
-	padding-top: 15px;
-	color: #FFFCED;
+    position: relative;
+    text-align: center;
+    padding-top: 15px;
+    color: #FFFCED;
 }
+
 .testimonial .slide-text h5 {
-	font-size: 1rem;
+    font-size: 1rem;
 }
+
 .bg-image {
-	width: 100%;
-	background: url('http://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:578da0,c_scale,e_tint,o_36,w_1920/v1471394449/rose-house/DSC00077.jpg') no-repeat;
+    width: 100%;
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:578da0,c_scale,e_tint,o_36,w_1920/v1471394449/rose-house/DSC00077.jpg") no-repeat;
 }
+
 .slick-dots li button::before {
-	color: white;
+    color: white;
 }
+
 .slick-dots li.slick-active button:before {
-	color: white;
+    color: white;
 }
+
 .verify-insurance {
-	padding: 25px 0 25px 0;
-	text-align: center;
+    padding: 25px 0 25px 0;
+    text-align: center;
 }
+
 .insurance-logos {
-	padding: 25px;
+    padding: 25px;
 }
+
+/*
+	TEAM PAGE
+*/
+.profile-circle.marcie {
+    border-radius: 50%;
+    border: solid 5px #89293D;
+    height: 75px;
+    width: 75px;
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687642/rose-house/profile-picture/Marcie_Chambers_Ph.D.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-circle.arshad {
+    border-radius: 50%;
+    border: solid 5px #89293D;
+    height: 75px;
+    width: 75px;
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687598/rose-house/profile-picture/Dr.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-circle.ann {
+    border-radius: 50%;
+    border: solid 5px #89293D;
+    height: 75px;
+    width: 75px;
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687600/rose-house/profile-picture/Ann_Matino_Executive_Director.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-circle.valerie {
+    border-radius: 50%;
+    border: solid 5px #89293D;
+    height: 75px;
+    width: 75px;
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687689/rose-house/profile-picture/Valerie_Andrews_Ph.D.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-circle.terri {
+    border-radius: 50%;
+    border: solid 5px #89293D;
+    height: 75px;
+    width: 75px;
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687679/rose-house/profile-picture/Terri_Kirwan_LPC_Primary_Therapist.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-circle.jennifer {
+    border-radius: 50%;
+    border: solid 5px #89293D;
+    height: 75px;
+    width: 75px;
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,w_300/v1473783008/rose-house/woman.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-circle.brenda {
+    border-radius: 50%;
+    border: solid 5px #89293D;
+    height: 75px;
+    width: 75px;
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,w_300/v1473783008/rose-house/woman.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-circle.kathy {
+    border-radius: 50%;
+    border: solid 5px #89293D;
+    height: 75px;
+    width: 75px;
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_faces,h_300,q_60,w_300/v1475687603/rose-house/profile-picture/Kathy_Pahler_Community_Outreach_Yoga_Instructor.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-circle.kristine {
+    border-radius: 50%;
+    border: solid 5px #89293D;
+    height: 75px;
+    width: 75px;
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687629/rose-house/profile-picture/Kristine_Rosen_Clinical_Utilization_Specialist.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-circle.rebecca {
+    border-radius: 50%;
+    border: solid 5px #89293D;
+    height: 75px;
+    width: 75px;
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687651/rose-house/profile-picture/Rebecca_Glasmann_Family_Referral_Coordinator.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-circle.lindsey {
+    border-radius: 50%;
+    border: solid 5px #89293D;
+    height: 75px;
+    width: 75px;
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687661/rose-house/profile-picture/Lindsey_Amott_Executive_Assistant.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-circle.suzie {
+    border-radius: 50%;
+    border: solid 5px #89293D;
+    height: 75px;
+    width: 75px;
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687674/rose-house/profile-picture/Suzie_Howe_Step_Down_House_Manager.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-circle.allison {
+    border-radius: 50%;
+    border: solid 5px #89293D;
+    height: 75px;
+    width: 75px;
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_faces,h_300,q_60,w_300/v1475687551/rose-house/profile-picture/Allison_Hein_House_Manager.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-circle.aubrey {
+    border-radius: 50%;
+    border: solid 5px #89293D;
+    height: 75px;
+    width: 75px;
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687614/rose-house/profile-picture/Aubrey_Snee_Psychiatric_Technician.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-circle.danielle {
+    border-radius: 50%;
+    border: solid 5px #89293D;
+    height: 75px;
+    width: 75px;
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687619/rose-house/profile-picture/Danielle_Jones_Psychiatric_Technician.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-circle.hannah {
+    border-radius: 50%;
+    border: solid 5px #89293D;
+    height: 75px;
+    width: 75px;
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687603/rose-house/profile-picture/Hannah_Kearney_Psychiatric_Technician.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-circle.megan {
+    border-radius: 50%;
+    border: solid 5px #89293D;
+    height: 75px;
+    width: 75px;
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687646/rose-house/profile-picture/Megan_Ramos_Psychiatric_Technician.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-circle.sandra {
+    border-radius: 50%;
+    border: solid 5px #89293D;
+    height: 75px;
+    width: 75px;
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687663/rose-house/profile-picture/Sandra_Schulz_Psychiatric_Technician.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-circle.tanisha {
+    border-radius: 50%;
+    border: solid 5px #89293D;
+    height: 75px;
+    width: 75px;
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687687/rose-house/profile-picture/Tanisha_Cordova_Psychiatric_Technician.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-circle.tj {
+    border-radius: 50%;
+    border: solid 5px #89293D;
+    height: 75px;
+    width: 75px;
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687682/rose-house/profile-picture/TJ_Ritner_Psychiatric_Technician.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 /*
 	footer
 */
 .footer {
-	background: url('http://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:c95468,c_fill,g_center,h_900,o_53,w_1920/v1469641634/rose-house/8173917606_17e737fc7f_o_dzhgzn.jpg') no-repeat fixed;
-	color: #fff;
-	padding: 25px;
-	background-size: cover;
-}
-.footer p{
-	margin-bottom: .5rem;
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:c95468,c_fill,g_center,h_900,o_53,w_1920/v1469641634/rose-house/8173917606_17e737fc7f_o_dzhgzn.jpg") no-repeat fixed;
+    color: #fff;
+    padding: 25px;
+    background-size: cover;
 }
 
-.footer h3{
-	color: #fff;
+.footer p {
+    margin-bottom: .5rem;
 }
+
+.footer h3 {
+    color: #fff;
+}
+
 .bottom-foot {
-	height: 75px;
-	width: 100%;
-	background-color: #E54C66;
-	padding: 25px;
+    height: 75px;
+    width: 100%;
+    background-color: #E54C66;
+    padding: 25px;
 }
-.bottom-foot p{
-	font-size: 12px;
-	color: #fff;
+
+.bottom-foot p {
+    font-size: 12px;
+    color: #fff;
 }
-.bottom-foot a{
-	font-size: 12px;
-	color: #fff;
+
+.bottom-foot a {
+    font-size: 12px;
+    color: #fff;
 }
+
 .contact-section {
-	padding-top: 25px;
+    padding-top: 25px;
 }
+
 /*
 	foundation custom
 */
 .thumbnail:hover, .thumbnail:focus {
-	box-shadow: none;
+    box-shadow: none;
 }
-.dropdown.menu > li.is-dropdown-submenu-parent > a::after{
-	border-color: #FFFCED transparent transparent;
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+    border-color: #FFFCED transparent transparent;
 }
+
 .is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a::after {
-	border-color: transparent transparent transparent #FFFCED
+    border-color: transparent transparent transparent #FFFCED;
 }
+
 /*
 	dropdowns
 */
 .dropdown.menu > li.opens-right > .is-dropdown-submenu {
-	top: 55px;
+    top: 55px;
 }
+
 .is-dropdown-submenu {
-	border: none;
+    border: none;
 }
 
 /* Small screens  */
 @media only screen and (max-width: 640px) {
-	.top > div:nth-child(2) {
-			top: 8px;
-			position: relative;
-	}
-	.top > div:nth-child(1) > a {
-		display: block;
-	}
-	.footer{
-		background: url('http://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:c95468,c_fill,g_center,h_900,o_53,w_1920/v1469641634/rose-house/8173917606_17e737fc7f_o_dzhgzn.jpg') no-repeat;
-	}
+    .top > div:nth-child(2) {
+        top: 8px;
+        position: relative;
+    }
+    .top > div:nth-child(1) > a {
+        display: block;
+    }
+    .footer {
+        background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:c95468,c_fill,g_center,h_900,o_53,w_1920/v1469641634/rose-house/8173917606_17e737fc7f_o_dzhgzn.jpg") no-repeat;
+    }
 }
 
 @media screen and (max-width: 900px) {
-	.program-icons {
-		background: #89293D;
-	}
+    .program-icons {
+        background: #89293D;
+    }
 }
 
 @media screen and (max-width: 940px) {
-	.logo {
-		display: none;
-	}
-	.top > div:nth-child(1) {
-		margin-left: 8px;
-	}
+    .logo {
+        display: none;
+    }
+    .top > div:nth-child(1) {
+        margin-left: 8px;
+    }
 }
 
 /* Medium screens */
-@media only screen and (max-width: 1024px) { }
-
 /* Large screens */
-@media only screen and (min-width: 1025px) { }
