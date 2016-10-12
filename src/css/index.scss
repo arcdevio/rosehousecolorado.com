@@ -171,9 +171,16 @@ nav {
 	float: right;
 	margin-right: 8px;
 }
+.contact-widget-side {
+	text-align: center;
+}
 .contact-widget-side > div {
-	position: relative;
+	width: 90%;
 	padding: 5px;
+	max-width: 200px;
+}
+.contact-widget-side h4 {
+	font-size: 1rem;
 }
 .slogan {
 	width: 100%;
@@ -377,6 +384,7 @@ nav {
 }
 .bg-image {
 	width: 100%;
+	padding: 8px;
 	background: url('http://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:578da0,c_scale,e_tint,o_36,w_1920/v1471394449/rose-house/DSC00077.jpg') no-repeat;
 }
 .slick-dots li button::before {
