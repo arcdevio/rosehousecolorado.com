@@ -524,9 +524,12 @@ nav {
 
 /* Small screens  */
 @media only screen and (max-width: 640px) {
+	.contact-widget-side {
+		display: none;
+	}
 	.top > div:nth-child(2) {
-			top: 8px;
-			position: relative;
+		top: 8px;
+		position: relative;
 	}
 	.top > div:nth-child(1) > a {
 		display: block;
