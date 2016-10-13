@@ -391,10 +391,17 @@ nav {
 }
 
 .side-menu > ul > li > a::before {
-    font-size: 8px;
-    color: #89293D;
-    content: '\25B6';
-    padding: 8px;
+	content: '';
+	color: #89293D;
+	width: 0;
+    	height: 0;
+    	margin: 5px;
+    	display: inline-block;
+    	vertical-align: middle;
+    	transition-delay: 300ms;
+    	border-left: 0.25em solid transparent;
+	border-right: 0.25em solid transparent;
+    	border-top: 0.5em solid currentColor;
 }
 
 .side-menu > ul > li {
