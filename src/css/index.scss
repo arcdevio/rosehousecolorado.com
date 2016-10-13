@@ -124,7 +124,7 @@ nav {
 .contact-form input[type="date"] {
 	text-align: center;
 }
-.contact-form textarea {
+.contact-form textarea, .insurance-form textarea {
 	max-width: 630px;
 }
 .contact-form input, .contact-form textarea, .contact-form input:focus, .contact-form textarea:focus {
@@ -411,7 +411,6 @@ nav {
 	background: $bgImage;
     background-size: $bgSize;
     background-position: $bgPosition;
-
 }
 
 .profile-circle.marcie {
