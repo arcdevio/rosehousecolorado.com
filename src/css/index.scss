@@ -328,6 +328,7 @@ nav {
 	list-style-position: inside;
 }
 .side-menu > ul > li > a::before {
+	content: '';
 	color: #89293D;
 	width: 0;
     	height: 0;
