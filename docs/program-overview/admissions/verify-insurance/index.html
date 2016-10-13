@@ -75,7 +75,8 @@
 
 	<header>
 		<div class="logo">
-			<img src="http://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,h_117/v1471372169/rose-house/rose_house_logo.png" alt="Rose House Logo" title="Rose House Logo">
+			<a href="/">
+			<img src="http://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,h_117/v1471372169/rose-house/rose_house_logo.png" alt="Rose House Logo" title="Rose House Logo"></a>
 		</div>
 		<div class="top">
 			<div>
@@ -123,13 +124,13 @@
 										<li><a href="/program-overview/admissions/residential-facility/outpatient/"> Outpatient (OP)</a></li>
 									</ul>
 								</li>
-								<li><a href="/program-overview/what-to-bring/">What to Bring</a></li>
+								<li><a href="/program-overview/admissions/what-to-bring/">What to Bring</a></li>
 							</ul>
 						</li>
 						<li><a href="/program-overview/mission/">Mission &amp; Story</a></li>
-						<li><a href="#!!">More Program Services</a>
+						<li><a href="#!!">Treatment Approach</a>
 							<ul>
-								<li><a href="/program-overview/more-program-services/">More Program Services</a></li>
+								<li><a href="/program-overview/treatment-approach/">Treatment Approach</a></li>
 								<li><a href="#!!">Evidence Based</a>
 									<ul>
 										<li><a href="/program-overview/more-program-services/evidence-based/">Evidence Based</a></li>
@@ -177,7 +178,7 @@
 						<li><a href="/dual-diagnosis/anxiety/">Anxiety</a></li>
 					</ul>
 				</li>
-				<li><a href="/blog/">Blog</a></li>
+				<!-- <li><a href="/blog/">Blog</a></li> -->
 				<li><a href="/contact/">Contact</a></li>
 			</ul>
 		</nav>
@@ -243,6 +244,14 @@
 
 			<fieldset class="fieldset">
 		        <legend><strong>Patient Info</strong></legend>
+				<div class="row">
+					<div class="medium-6 columns">
+						<p>Are you filling this out for somebody else?</p>
+					</div>
+					<div class="medium-6 columns">
+						<select><option>no</option><option>yes</option></select>
+					</div>
+				</div>
 		        <div class="row">
 		            <div class="medium-6 columns">
 						<input name="Patient_First_Name" type="text" placeholder="First Name" required>
@@ -280,6 +289,14 @@
 						<input name="Patient_Email" type="email" placeholder="Email" required>
 		            </div>
 		        </div>
+				<div class="row">
+					<div class="medium-6 columns">
+						<input name="Referral_Type" type="text" placeholder="How Did You Hear About Us?" value="">
+					</div>
+					<div class="medium-6 columns">
+						<input name="Patient_Issue" type="text" placeholder="What’s Going On?" value="">
+					</div>
+				</div>
 		    </fieldset>
 
 		    <fieldset class="fieldset">

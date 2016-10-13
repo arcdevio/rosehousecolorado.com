@@ -148,7 +148,7 @@ nav {
     text-align: center;
 }
 
-.contact-form textarea {
+.contact-form textarea, .insurance-form textarea {
     max-width: 630px;
 }
 
