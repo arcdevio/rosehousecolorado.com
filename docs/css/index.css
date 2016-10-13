@@ -440,6 +440,7 @@ nav {
     background: none;
     color: #FFFCED;
     border: 1px solid #FFFCED;
+    text-decoration: none;
 }
 
 .button.white:hover {
