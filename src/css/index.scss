@@ -48,6 +48,9 @@ ul.a {
 ul.b {
 	list-style: circle;
 }
+ul.c {
+	list-style: none;
+}
 /*
 	logo
 */
@@ -109,9 +112,9 @@ nav {
 	color: #FFFCED;
 	padding: 16px 32px !important;
 }
-.nav-list-sub > li:nth-child(2) {
-	font-weight: bold;
-}
+// .nav-list-sub > li:nth-child(2) {
+// 	font-weight: bold;
+// }
 /*
 	globals
 */
