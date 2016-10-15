@@ -33,7 +33,7 @@ $(document).ready(function(){
 			},
 			complete: function (error, success) {
 
-				if (error) {,
+				if (error) {
 					var errorMessage = '';
 
 					try { errorMessage = JSON.parse(error.response).error; }
@@ -74,7 +74,7 @@ $(document).ready(function(){
 			},
 			complete: function (error, success) {
 
-				if (error) {,
+				if (error) {
 					var errorMessage = '';
 
 					try { errorMessage = JSON.parse(error.response).error; }
