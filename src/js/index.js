@@ -70,7 +70,7 @@ $(document).ready(function(){
 			mimeType: 'json',
 			query: '.insurance-form',
 			prepare: function (data) {
-				data._cc = 'bburns@peaksrecovery.com,jburns@webcabdesign.com';
+				data._cc = 'bburns@peaksrecovery.com';
 			},
 			complete: function (error, success) {
 
