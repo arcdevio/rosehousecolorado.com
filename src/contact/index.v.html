@@ -23,24 +23,24 @@
 		</div>
 	</div>
 	<div class="small-12 medium-8 columns">
-		<form class="row contact-form">
+		<form class="row contact-form" method="POST" enctype="application/json" action="https://formspree.io/marketing@rosehousecolorado.com">
 			<h4>To learn more about our program, please fill out the form below.</h4>
 			<div class="row">
 				<div class="small-12 medium-6 columns">
-					<input class="columns" type="text" name="first" value="" placeholder="First Name">
+					<input class="columns" type="text" name="First_Name" placeholder="First Name">
 				</div>
 				<div class="small-12 medium-6 columns">
-					<input class="columns" type="text" name="last" value="" placeholder="Last Name">
+					<input class="columns" type="text" name="Last_Name" placeholder="Last Name">
 				</div>
 			</div>
 			<div class="row">
 				<div class="small-12 columns">
-					<input class="columns" type="tel" name="phone" value=""  placeholder="Phone">
+					<input class="columns" type="tel" name="Phone_Number" placeholder="Phone">
 				</div>
 			</div>
 			<div class="row">
 				<div class="small-12 columns">
-					<input class="columns" type="email" name="email" value="" placeholder="Email">
+					<input class="columns" type="email" name="Email_Address" placeholder="Email">
 				</div>
 			</div>
 			<div class="row">
@@ -50,5 +50,6 @@
 			</div>
 			<input class="button green" type="button" value="Submit">
 		</form>
+		<div class="form-response"></div>
 	</div>
 </div>
