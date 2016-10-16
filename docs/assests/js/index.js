@@ -29,8 +29,7 @@ $(document).ready(function(){
 			mimeType: 'json',
 			query: '.contact-form',
 			prepare: function (data) {
-				// data._cc = 'bburns@peaksrecovery.com';
-				data._cc = 'jburns@webcabdesign.com';
+				data._cc = 'bburns@peaksrecovery.com';
 			},
 			complete: function (error, success) {
 
