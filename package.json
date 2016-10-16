@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-	  "build": "rm -r docs/* && muleify pack -o docs",
+	"build": "rm -r dist/* && muleify pack -o dist && rm -r docs/* && muleify pack -o docs",
     "pack": "muleify pack .",
     "serve": "muleify serve ."
   },
