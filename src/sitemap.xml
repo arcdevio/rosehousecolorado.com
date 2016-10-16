@@ -2,34 +2,29 @@
 	<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 		xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
 		xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-	<url><loc>http:/rosehousecolorado.com/index.html</loc></url>
-
-	<url><loc>http:/rosehousecolorado.com/program-overview/admissions/index.html</loc></url>
-
-		<url><loc>http:/rosehousecolorado.com/program-overview/admissions/verify-insurance/index.html</loc></url>
-		<url><loc>http:/rosehousecolorado.com/program-overview/admissions/what-to-bring/index.html</loc></url>
-
-	<url><loc>http:/rosehousecolorado.com/program-overview/levels-care-offered/index.html</loc></url>
-	<url><loc>http:/rosehousecolorado.com/program-overview/mission/index.html</loc></url>
-	<url><loc>http:/rosehousecolorado.com/program-overview/treatment-approach/index.html</loc></url>
-		<url><loc>http:/rosehousecolorado.com/program-overview/treatment-approach/evidence-based/index.html</loc></url>
-		<url><loc>http:/rosehousecolorado.com/program-overview/treatment-approach/12-steps/index.html</loc></url>
-		<url><loc>http:/rosehousecolorado.com/program-overview/treatment-approach/exercise/index.html</loc></url>
-		<url><loc>http:/rosehousecolorado.com/program-overview/treatment-approach/gender-specific/index.html</loc></url>
-
-	<url><loc>http:/rosehousecolorado.com/program-overview/aftercare/index.html</loc></url>
-	<url><loc>http:/rosehousecolorado.com/program-overview/staff/index.html</loc></url>
-	<url><loc>http:/rosehousecolorado.com/program-overview/rose-house-photos/index.html</loc></url>
-
-	<url><loc>http:/rosehousecolorado.com/addictions-we-treat/heroin/index.html</loc></url>
-	<url><loc>http:/rosehousecolorado.com/addictions-we-treat/meth/index.html</loc></url>
-	<url><loc>http:/rosehousecolorado.com/addictions-we-treat/cocaine/index.html</loc></url>
-	<url><loc>http:/rosehousecolorado.com/addictions-we-treat/alcohol/index.html</loc></url>
-	<url><loc>http:/rosehousecolorado.com/addictions-we-treat/marijuana/index.html</loc></url>
-	<url><loc>http:/rosehousecolorado.com/mental-health/dual-diagnosis/index.html</loc></url>
-	<url><loc>http:/rosehousecolorado.com/mental-health/trauma/index.html</loc></url>
-	<url><loc>http:/rosehousecolorado.com/mental-health/bi-polar/index.html</loc></url>
-	<url><loc>http:/rosehousecolorado.com/mental-health/depression/index.html</loc></url>
-	<url><loc>http:/rosehousecolorado.com/mental-health/anxiety/index.html</loc></url>
-	<url><loc>http:/rosehousecolorado.com/contact/index.html</loc></url>
+	<url><loc>http://rosehousecolorado.com/index.html</loc></url>
+	<url><loc>http://rosehousecolorado.com/program-overview/admissions/index.html</loc></url>
+	<url><loc>http://rosehousecolorado.com/program-overview/admissions/verify-insurance/index.html</loc></url>
+	<url><loc>http://rosehousecolorado.com/program-overview/admissions/what-to-bring/index.html</loc></url>
+	<url><loc>http://rosehousecolorado.com/program-overview/levels-care-offered/index.html</loc></url>
+	<url><loc>http://rosehousecolorado.com/program-overview/mission/index.html</loc></url>
+	<url><loc>http://rosehousecolorado.com/program-overview/treatment-approach/index.html</loc></url>
+	<url><loc>http://rosehousecolorado.com/program-overview/treatment-approach/evidence-based/index.html</loc></url>
+	<url><loc>http://rosehousecolorado.com/program-overview/treatment-approach/12-steps/index.html</loc></url>
+	<url><loc>http://rosehousecolorado.com/program-overview/treatment-approach/exercise/index.html</loc></url>
+	<url><loc>http://rosehousecolorado.com/program-overview/treatment-approach/gender-specific/index.html</loc></url>
+	<url><loc>http://rosehousecolorado.com/program-overview/aftercare/index.html</loc></url>
+	<url><loc>http://rosehousecolorado.com/program-overview/staff/index.html</loc></url>
+	<url><loc>http://rosehousecolorado.com/program-overview/rose-house-photos/index.html</loc></url>
+	<url><loc>http://rosehousecolorado.com/addictions-we-treat/heroin/index.html</loc></url>
+	<url><loc>http://rosehousecolorado.com/addictions-we-treat/meth/index.html</loc></url>
+	<url><loc>http://rosehousecolorado.com/addictions-we-treat/cocaine/index.html</loc></url>
+	<url><loc>http://rosehousecolorado.com/addictions-we-treat/alcohol/index.html</loc></url>
+	<url><loc>http://rosehousecolorado.com/addictions-we-treat/marijuana/index.html</loc></url>
+	<url><loc>http://rosehousecolorado.com/mental-health/dual-diagnosis/index.html</loc></url>
+	<url><loc>http://rosehousecolorado.com/mental-health/trauma/index.html</loc></url>
+	<url><loc>http://rosehousecolorado.com/mental-health/bi-polar/index.html</loc></url>
+	<url><loc>http://rosehousecolorado.com/mental-health/depression/index.html</loc></url>
+	<url><loc>http://rosehousecolorado.com/mental-health/anxiety/index.html</loc></url>
+	<url><loc>http://rosehousecolorado.com/contact/index.html</loc></url>
 	</urlset>
