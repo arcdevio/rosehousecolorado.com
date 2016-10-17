@@ -696,6 +696,16 @@ nav {
     background-position: center;
 }
 
+.profile-circle.craig {
+    border-radius: 50%;
+    border: solid 5px #89293D;
+    height: 75px;
+    width: 75px;
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,fl_any_format.lossy,g_face,h_150,w_150/v1476468361/rose-house/profile-picture/Craig_Fiorni_Picture.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 /*
 	footer
 */
