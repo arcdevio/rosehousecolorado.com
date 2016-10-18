@@ -63,9 +63,8 @@ ul.c {
 	border-radius: 0 0 5px 5px;
 	box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
 }
-.logo > img {
-	margin-top: 20px;
-	max-width: 100%;
+.logo > a {
+	display: block;
 }
 /*
 	top
@@ -550,8 +549,30 @@ nav {
 	border: none;
 }
 
-/* Small screens  */
+
+@media screen and (max-width: 940px) {
+	.logo {
+		top: 31px;
+		right: 8px;
+		left: initial;
+		height: 80px;
+	}
+	.logo > a > img {
+    	height: 70px;
+	}
+	.top > div:nth-child(1) {
+		margin-left: 8px;
+	}
+}
+@media screen and (max-width: 900px) {
+	.program-icons {
+		background: #89293D;
+	}
+}
 @media only screen and (max-width: 640px) {
+	.logo {
+		top: 55px;
+	}
 	.contact-widget-side {
 		display: none;
 	}
@@ -562,28 +583,7 @@ nav {
 	.top > div:nth-child(1) > a {
 		display: block;
 	}
-	.footer{
+	.footer {
 		background: url('http://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:c95468,c_fill,g_center,h_900,o_53,w_1920/v1469641634/rose-house/8173917606_17e737fc7f_o_dzhgzn.jpg') no-repeat;
 	}
 }
-
-@media screen and (max-width: 900px) {
-	.program-icons {
-		background: #89293D;
-	}
-}
-
-@media screen and (max-width: 940px) {
-	.logo {
-		display: none;
-	}
-	.top > div:nth-child(1) {
-		margin-left: 8px;
-	}
-}
-
-/* Medium screens */
-@media only screen and (max-width: 1024px) { }
-
-/* Large screens */
-@media only screen and (min-width: 1025px) { }
