@@ -29,7 +29,7 @@ $(document).ready(function(){
 			mimeType: 'json',
 			query: '.contact-form',
 			prepare: function (data) {
-				data._cc = 'bburns@peaksrecovery.com';
+				data._cc = 'amatino@rosehousecolorado.com';
 			},
 			complete: function (error, success) {
 
@@ -70,7 +70,7 @@ $(document).ready(function(){
 			mimeType: 'json',
 			query: '.insurance-form',
 			prepare: function (data) {
-				data._cc = 'bburns@peaksrecovery.com';
+				data._cc = 'amatino@rosehousecolorado.com';
 			},
 			complete: function (error, success) {
 
