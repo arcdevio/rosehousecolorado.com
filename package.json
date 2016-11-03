@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/WebCab-Design/rose-house#readme",
   "dependencies": {
-    "astatine": "^1.0.7",
+    "astatine": "^1.0.9",
     "erbium": "^1.2.3"
   }
 }

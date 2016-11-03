@@ -29,8 +29,7 @@ $(document).ready(function(){
 			mimeType: 'json',
 			query: '.contact-form',
 			prepare: function (data) {
-				// data._cc = 'amatino@rosehousecolorado.com';
-				data._cc = 'jburns@webcabdesign.com,aelias@webcabdesign.com';
+				data._cc = 'amatino@rosehousecolorado.com';
 			},
 			complete: function (error, success) {
 
@@ -71,7 +70,7 @@ $(document).ready(function(){
 			mimeType: 'json',
 			query: '.insurance-form',
 			prepare: function (data) {
-				data._cc = 'amatino@rosehousecolorado.com';
+				data._cc = 'amatino@rosehousecolorado.com,lindseya@rosehousecolorado.com,krosen@rosehousecolorado.com';
 			},
 			complete: function (error, success) {
 
