@@ -35,24 +35,24 @@
 		</div>
 	</div>
 	<div class="small-12 medium-8 columns">
-		<form class="row contact-form" method="POST" enctype="application/json" action="https://formspree.io/mzblbrgm">
+		<form class="row contact-form">
 			<h4>To learn more about our program, please fill out the form below.</h4>
 			<div class="row">
 				<div class="small-12 medium-6 columns">
-					<input class="columns" type="text" name="First_Name" placeholder="First Name">
+					<input class="columns" type="text" name="First Name" placeholder="First Name">
 				</div>
 				<div class="small-12 medium-6 columns">
-					<input class="columns" type="text" name="Last_Name" placeholder="Last Name">
+					<input class="columns" type="text" name="Last Name" placeholder="Last Name">
 				</div>
 			</div>
 			<div class="row">
 				<div class="small-12 columns">
-					<input class="columns" type="tel" name="Phone_Number" placeholder="Phone">
+					<input class="columns" type="tel" name="Phone Number" placeholder="Phone">
 				</div>
 			</div>
 			<div class="row">
 				<div class="small-12 columns">
-					<input class="columns" type="email" name="Email_Address" placeholder="Email">
+					<input class="columns" type="email" name="Email Address" placeholder="Email">
 				</div>
 			</div>
 			<div class="row">
@@ -60,6 +60,8 @@
 					<textarea class="columns" name="message" placeholder="Message"></textarea>
 				</div>
 			</div>
+			<input type="hidden" name="Form Name" value="Contact">
+			<input type="hidden" name="*formname" value="Contact">
 			<input class="button green" type="submit" value="Submit">
 		</form>
 		<div class="form-response"></div>

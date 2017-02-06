@@ -50,8 +50,7 @@
 		<p>In order for us to provide you with information about your behavioral health benefits, the starred (*) fields must be completed.</p>
 		<p>If you are insured by United Health or Optum, a reference number is needed to verify benefits from these companies. Please call your provider, authorize the Rose House to verify those benefits, and they will provide a reference number to share with us. Please list that reference number in the comments section below.</p>
 
-		<form class="insurance-form form" method="POST" enctype="application/json" action="https://formspree.io/mzblbrgm">
-<!-- marketing@rosehousecolorado.com -->
+		<form class="insurance-form form">
 			<fieldset class="fieldset">
 		        <legend><strong>Contact Info</strong></legend>
 		        <div class="row">
@@ -71,42 +70,42 @@
 				<strong>Who should we contact after verification of benefits?</strong>
 				<div class="row">
 					<div class="medium-6 columns">
-						<input name="Contact_First_Name" type="text" placeholder="*First Name" required>
+						<input name="Contact First Name" type="text" placeholder="*First Name" required>
 					</div>
 					<div class="medium-6 columns">
-						<input name="Contact_Last_Name" type="text" placeholder="*Last Name" required>
+						<input name="Contact Last Name" type="text" placeholder="*Last Name" required>
 					</div>
 				</div>
 		        <div class="row">
 		            <div class="medium-12 columns">
-						<input name="Patient_Address" type="text" placeholder="Street">
+						<input name="Patient Address" type="text" placeholder="Street">
 		            </div>
 		        </div>
 		        <div class="row">
 		            <div class="medium-4 columns">
-						<input name="Patient_City" type="text" placeholder="City">
+						<input name="Patient City" type="text" placeholder="City">
 		            </div>
 		            <div class="medium-4 columns">
-						<input name="Patient_State" type="text" placeholder="State">
+						<input name="Patient State" type="text" placeholder="State">
 		            </div>
 		            <div class="medium-4 columns">
-						<input name="Patient_Zip" type="number" min="0" max="99999" placeholder="Zip">
+						<input name="Patient Zip" type="number" min="0" max="99999" placeholder="Zip">
 		            </div>
 		        </div>
 		        <div class="row">
 		            <div class="medium-6 columns">
-						<input name="Patient_Phone" type="tel" placeholder="Phone">
+						<input name="Patient Phone" type="tel" placeholder="Phone">
 		            </div>
 		            <div class="medium-6 columns">
-						<input name="Patient_Email" type="email" placeholder="*Email" required>
+						<input name="Patient Email" type="email" placeholder="*Email" required>
 		            </div>
 		        </div>
 				<div class="row">
 					<div class="medium-6 columns">
-						<input name="Referral_Type" type="text" placeholder="How Did You Hear About Us?" value="">
+						<input name="Referral Type" type="text" placeholder="How Did You Hear About Us?" value="">
 					</div>
 					<div class="medium-6 columns">
-						<input name="Patient_Issue" type="text" placeholder="What’s Going On?" value="">
+						<input name="Patient Issue" type="text" placeholder="What’s Going On?" value="">
 					</div>
 				</div>
 		    </fieldset>
@@ -117,15 +116,15 @@
 				<!-- Primary -->
 				<div class="row">
 					<div class="medium-6 columns">
-						<input name="Primary_First_Name" type="text" placeholder="*Primary First Name" required>
+						<input name="Primary First Name" type="text" placeholder="*Primary First Name" required>
 					</div>
 					<div class="medium-6 columns">
-						<input name="Primary_Last_Name" type="text" placeholder="*Primary Last Name" required>
+						<input name="Primary Last Name" type="text" placeholder="*Primary Last Name" required>
 					</div>
 				</div>
 				<div class="row">
 					<div class="small-12 columns">
-						<input name="Primary_Birth" type="date" placeholder="*Date of Birth" required>
+						<input name="Primary Birth" type="date" placeholder="*Date of Birth" required>
 					</div>
 				</div>
 				<!-- Primary -->
@@ -133,43 +132,45 @@
 				<!-- Secondary -->
 				<div class="row">
 		            <div class="medium-6 columns">
-						<input name="Secondary_First_Name" type="text" placeholder="*Secondary First Name" required>
+						<input name="Secondary First Name" type="text" placeholder="*Secondary First Name" required>
 		            </div>
 					<div class="medium-6 columns">
-						<input name="Secondary_Last_Name" type="text" placeholder="*Secondary Last Name" required>
+						<input name="Secondary Last Name" type="text" placeholder="*Secondary Last Name" required>
 					</div>
 				</div>
 				<div class="row">
 					<div class="small-12 columns">
-						<label for="Secondary_Birth">*DOB</label>
-						<input name="Secondary_Birth" type="date" placeholder="*Date of Birth" required>
+						<label for="Secondary Birth">*DOB</label>
+						<input name="Secondary Birth" type="date" placeholder="*Date of Birth" required>
 					</div>
 				</div>
 				<!-- Secondary -->
 
 				<div class="row">
 					<div class="medium-6 columns">
-						<input name="Primary_Provider" type="text" placeholder="*Insurance Provider" required>
+						<input name="Primary Provider" type="text" placeholder="*Insurance Provider" required>
 					</div>
 					<div class="medium-6 columns">
-						<input name="Primary_Insurance_Group" type="text" placeholder="*Insurance Group" required>
+						<input name="Primary Insurance Group" type="text" placeholder="*Insurance Group" required>
 					</div>
 				</div>
 				<div class="row">
 					<div class="medium-6 columns">
-						<input name="Primary_Group_Id" type="text" placeholder="*Insurance Group ID" required>
+						<input name="Primary Group Id" type="text" placeholder="*Insurance Group ID" required>
 					</div>
 		            <div class="medium-6 columns">
-	                    <input name="Primary_Phone" type="tel" placeholder="*Insurance Phone Number" required>
+	                    <input name="Primary Phone" type="tel" placeholder="*Insurance Phone Number" required>
 		            </div>
 		        </div>
 		        <div class="row">
 		            <div class="medium-12 columns">
-	                    <textarea name="Primary_Comments" type="text" placeholder="Comments"></textarea>
+	                    <textarea name="Primary Comments" type="text" placeholder="Comments"></textarea>
 		            </div>
 		        </div>
 		    </fieldset>
 
+			<input type="hidden" name="Form Name" value="Insurance">
+			<input type="hidden" name="*formname" value="Insurance">
 		    <input class="button green" type="submit" value="Submit">
 
 		</form>

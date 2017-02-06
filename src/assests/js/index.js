@@ -30,8 +30,8 @@ $(document).ready(function(){
 			method: 'post',
 			responseType: 'json',
 			action: 'https://www.enformed.io/zpn17s0',
-			prepare: function (data) {
-				data._cc = 'amatino@rosehousecolorado.com';
+			prepare: function (data, resolve) {
+				data['*default_email'] = 'amatino@rosehousecolorado.com';
 				resolve(data);
 			},
 			complete: function (error, success) {
@@ -74,8 +74,8 @@ $(document).ready(function(){
 			method: 'post',
 			responseType: 'json',
 			action: 'https://www.enformed.io/zpn17s0',
-			prepare: function (data) {
-				data._cc = 'amatino@rosehousecolorado.com,lindseya@rosehousecolorado.com,krosen@rosehousecolorado.com';
+			prepare: function (data, resolve) {
+				data['*default_email'] = 'amatino@rosehousecolorado.com,lindseya@rosehousecolorado.com,krosen@rosehousecolorado.com';
 				resolve(data);
 			},
 			complete: function (error, success) {
