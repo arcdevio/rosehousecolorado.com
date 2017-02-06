@@ -37,17 +37,12 @@ $(document).ready(function(){
 			complete: function (error, success) {
 
 				if (error) {
-					var errorMessage = '';
-
-					try { errorMessage = JSON.parse(error.response).error; }
-					catch (e) { console.log(error); }
-
 					response.style.color = '#89293D';
-					response.innerText = 'Error ' + errorMessage;
+					response.innerText = 'Error Please See Console';
 				} else {
 					form.style.display = 'none';
 					response.style.color = '#B0BF7F';
-					response.innerText = 'Contact Information Was Sent';
+					response.innerText = 'Contact Information Is Sent';
 				}
 
 			}
@@ -75,23 +70,19 @@ $(document).ready(function(){
 			responseType: 'json',
 			action: 'https://www.enformed.io/zpn17s0',
 			prepare: function (data, resolve) {
-				data['*default_email'] = 'amatino@rosehousecolorado.com,lindseya@rosehousecolorado.com,krosen@rosehousecolorado.com';
+				data['*default_email'] = 'amatino@rosehousecolorado.com';
+				data['*cc'] = 'lindseya@rosehousecolorado.com,krosen@rosehousecolorado.com';
 				resolve(data);
 			},
 			complete: function (error, success) {
 
 				if (error) {
-					var errorMessage = '';
-
-					try { errorMessage = JSON.parse(error.response).error; }
-					catch (e) { console.log(error); }
-
 					response.style.color = '#89293D';
-					response.innerText = 'Error ' + errorMessage;
+					response.innerText = 'Error Pease see Console';
 				} else {
 					form.style.display = 'none';
 					response.style.color = '#B0BF7F';
-					response.innerText = 'Verification Information Was Sent';
+					response.innerText = 'Verification Information Is Sent';
 				}
 
 			}
