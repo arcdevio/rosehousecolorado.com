@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rm -r dist/* && muleify pack -o dist && rm -r docs/* && muleify pack -o docs",
-    "pack": "muleify pack .",
-    "serve": "muleify serve ."
+    "build": "rm -r dist/* && muleify pack src dist && rm -r docs/* && muleify pack src docs"
   },
   "repository": {
     "type": "git",
@@ -19,7 +17,7 @@
   },
   "homepage": "https://github.com/WebCab-Design/rose-house#readme",
   "dependencies": {
-    "astatine": "^1.0.9",
-    "erbium": "^1.2.3"
+    "astatine": "^1.2.0",
+    "erbium": "^1.4.5"
   }
 }

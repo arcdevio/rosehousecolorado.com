@@ -26,10 +26,13 @@ $(document).ready(function(){
 		At.setup.spinner.thickness = '30px';
 
 		At.submit({
-			mimeType: 'json',
-			query: '.contact-form',
+			query: form,
+			method: 'post',
+			responseType: 'json',
+			action: 'https://www.enformed.io/zpn17s0',
 			prepare: function (data) {
 				data._cc = 'amatino@rosehousecolorado.com';
+				resolve(data);
 			},
 			complete: function (error, success) {
 
@@ -67,10 +70,13 @@ $(document).ready(function(){
 		At.setup.spinner.thickness = '30px';
 
 		At.submit({
-			mimeType: 'json',
-			query: '.insurance-form',
+			query: form,
+			method: 'post',
+			responseType: 'json',
+			action: 'https://www.enformed.io/zpn17s0',
 			prepare: function (data) {
 				data._cc = 'amatino@rosehousecolorado.com,lindseya@rosehousecolorado.com,krosen@rosehousecolorado.com';
+				resolve(data);
 			},
 			complete: function (error, success) {
 
