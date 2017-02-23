@@ -71,7 +71,7 @@ $(document).ready(function(){
 			action: 'https://www.enformed.io/zpn17s0',
 			prepare: function (data, resolve) {
 				data['*default_email'] = 'amatino@rosehousecolorado.com';
-				data['*cc'] = 'lindseya@rosehousecolorado.com,krosen@rosehousecolorado.com';
+				data['*cc'] = 'lindseya@rosehousecolorado.com,krosen@rosehousecolorado.com,mchambers101@gmail.com';
 				resolve(data);
 			},
 			complete: function (error, success) {
