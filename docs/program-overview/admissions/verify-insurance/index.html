@@ -221,22 +221,35 @@
 		<p>If you are insured by United Health or Optum, a reference number is needed to verify benefits from these companies. Please call your provider, authorize the Rose House to verify those benefits, and they will provide a reference number to share with us. Please list that reference number in the comments section below.</p>
 
 		<form class="insurance-form form">
+		<fieldset class="fieldset">
+			<legend><h3>Verify Insurance Form</h3></legend>
 			<fieldset class="fieldset">
 		        <legend><strong>Contact Info</strong></legend>
 		        <div class="row">
 		            <div class="medium-6 columns">
-						<input name="Contact First Name" type="text" placeholder="*Contact First Name" required>
+						<input name="Contact first name" type="text" placeholder="*Your first name" required>
 		            </div>
 		            <div class="medium-6 columns">
-	                    <input name="Contact Last Name" type="text" placeholder="*Contact Last Name" required>
+	                    <input name="Contact last name" type="text" placeholder="*Your last name" required>
 		            </div>
 		        </div>
 		        <div class="row">
-							<div class="medium-6 columns">
-					<input name="Contact Phone" type="tel" placeholder="Phone">
-							</div>
+					<div class="medium-6 columns">
+						<input name="Contact phone number" type="tel" placeholder="*Your phone number" required>
+					</div>
+					<div class="medium-6 columns">
+						<input name="Contact email" type="email" placeholder="Your email">
+					</div>
 		        </div>
 				<div class="row">
+					<div class="small-12 columns">
+						<input name="Referral Type" type="text" placeholder="How Did You Hear About The Rose House?" value="">
+					</div>
+				</div>
+			</fieldset>
+		 	<fieldset class="fieldset">
+				<legend><strong>Client Info</strong></legend>
+				<div name="client-info" class="row">
 					<div class="medium-6 columns">
 						<input name="Client First Name" type="text" placeholder="*Client First Name" required>
 					</div>
@@ -244,79 +257,44 @@
 						<input name="Client Last Name" type="text" placeholder="*Client Last Name" required>
 					</div>
 				</div>
-		        <div class="row">
-		            <div class="medium-12 columns">
-						<input name="Client Address" type="text" placeholder="Street">
-		            </div>
-		        </div>
-		        <div class="row">
-		            <div class="medium-4 columns">
-						<input name="Client City" type="text" placeholder="City">
-		            </div>
-		            <div class="medium-4 columns">
-						<input name="Client State" type="text" placeholder="State">
-		            </div>
-		            <div class="medium-4 columns">
-						<input name="Client Zip" type="number" min="0" max="99999" placeholder="Zip">
-		            </div>
-		        </div>
-		        <div class="row">
-		            <div class="medium-6 columns">
-						<input name="Patient Email" type="email" placeholder="*Email" required>
-		            </div>
+				<div class="row">
+					<div class="small-12 columns">
+						<label for="Client DOB">*Client DOB</label>
+						<input name="Client DOB" type="date" placeholder="*Client DOB" required>
+					</div>
 		        </div>
 				<div class="row">
-					<div class="medium-6 columns">
-						<input name="Referral Type" type="text" placeholder="How Did You Hear About The Rose House?" value="">
-					</div>
-					<div class="medium-6 columns">
-						<input name="Patient Issue" type="text" placeholder="Client Issue(s) of Concern:" value="">
+					<div class="small-12 columns">
+						<input name="Client Issues" type="text" placeholder="Client Issue(s) of Concern:" value="">
 					</div>
 				</div>
+
 		    </fieldset>
 
 		    <fieldset class="fieldset">
 		        <legend><strong>Insurance Info</strong></legend>
 
-				<!-- Primary -->
 				<div class="row">
 					<div class="medium-6 columns">
-						<input name="Primary First Name" type="text" placeholder="*Primary First Name" required>
+						<input name="Subscriber First Name" type="text" placeholder="*Subscriber First Name" required>
 					</div>
 					<div class="medium-6 columns">
-						<input name="Primary Last Name" type="text" placeholder="*Primary Last Name" required>
+						<input name="Subscriber Last Name" type="text" placeholder="*Subscriber Last Name" required>
 					</div>
 				</div>
 				<div class="row">
 					<div class="small-12 columns">
-						<input name="Primary Birth" type="date" placeholder="*Date of Birth" required>
+						<label for="Subscriber DOB">*Subscriber DOB</label>
+						<input name="Subscriber DOB" type="date" placeholder="*Subscriber DOB" required>
 					</div>
-				</div>
-				<!-- Primary -->
-
-				<!-- Secondary -->
-				<div class="row">
-		            <div class="medium-6 columns">
-						<input name="Secondary First Name" type="text" placeholder="*Secondary First Name" required>
-		            </div>
-					<div class="medium-6 columns">
-						<input name="Secondary Last Name" type="text" placeholder="*Secondary Last Name" required>
-					</div>
-				</div>
-				<div class="row">
-					<div class="small-12 columns">
-						<label for="Secondary Birth">*DOB</label>
-						<input name="Secondary Birth" type="date" placeholder="*Date of Birth" required>
-					</div>
-				</div>
-				<!-- Secondary -->
+		        </div>
 
 				<div class="row">
 					<div class="medium-6 columns">
 						<input name="Insurance Company Name" type="text" placeholder="*Insurance Company Name" required>
 					</div>
 					<div class="medium-6 columns">
-						<input name="Insurance Member ID" type="text" placeholder="*Insurance Member ID #" required>
+						<input name="Client Member ID" type="text" placeholder="*Client Member ID #" required>
 					</div>
 				</div>
 				<div class="row">
@@ -324,7 +302,13 @@
 						<input name="Insurance Group Id" type="text" placeholder="*Insurance Group ID #" required>
 					</div>
 		            <div class="medium-6 columns">
-	                    <input name="Insurance Company Phone" type="tel" placeholder="*Insurance Company Phone" required>
+	                    <input name="Insurance Company Phone" type="tel" placeholder="? *Insurance Company Phone" required>
+		            </div>
+		        </div>
+
+				<div class="row">
+		            <div class="medium-12 columns">
+	                    <textarea name="Secondary insurance" type="text" placeholder="Secondary Insurance (if applicable)"></textarea>
 		            </div>
 		        </div>
 		        <div class="row">
@@ -333,6 +317,7 @@
 		            </div>
 		        </div>
 		    </fieldset>
+		</fieldset>
 
 			<input type="hidden" name="Form Name" value="Insurance">
 			<input type="hidden" name="*formname" value="Insurance">
@@ -341,7 +326,7 @@
 		</form>
 
 		<div class="form-response"></div>
-
+		<p>(?) On your insurance card it may say "for providers call" or "for behavioral health call".</p>
 	</div>
 </div>
 
