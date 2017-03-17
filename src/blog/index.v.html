@@ -1,5 +1,12 @@
-<!-- { "title": "Blog | The Rose House" } -->
+<!-- {
+	"title": "Blog | The Rose House",
+	"metaDescription": "The Rose House blog, check back often for articles related to womens drug treatment in Colorado.",
+	"metaKeywords": "blog, drug, women, addiction, treatment, rose house, colorado"
+} -->
 
+<style>
+
+</style>
 <div class="head-img">
 	<img src="http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,h_400,w_1920/v1473772808/rose-house/AdobeStock_116669310.jpg" alt="women releasing doves sunset" />
 </div>
@@ -7,23 +14,46 @@
 <div class="row content">
 	<div class="small-12 columns">
 		<h1>Blog</h1>
-		<h3>Blog And Articles</h3>
+		<h3>Blog posts and Articles</h3>
 		<hr>
 	</div>
-
-	<div class="small-12 medium-4 large-3 columns">
-		<nav class="side-menu">
-			<ul>
-				<li>Test</li>
-			</ul>
-		</nav>
-	</div>
-
-	<div class="small-12 medium-8 large-9 columns">
-
-		<div class="post">
-			
+	<div s-controller="articles" class="small-12 columns">
+		<div s-each-article="articles" class="articleles">
+			<div>
+				<img s-src="article.thumbnail">
+				<h3 s-text="article.title"></h3>
+				<p s-html="article.article"></p>
+			</div>
 		</div>
-
 	</div>
 </div>
+
+<script>
+	var articles = {
+		name: 'articles',
+		model: {
+			articles: [
+				{
+					title: "Blah",
+					article: "<p>At The Rose House in Boulder, Colorado, Dr. Marcie Chambers has been a longtime innovator in gender specific treatment for women.  She recently came across an article in The Washington Post, '<a href=\"https://www.washingtonpost.com/national/health-science/are-women-increasingly-at-risk-of-addiction/2017/02/24/dfa5b98c-d2ba-11e6-9cb0-54ab630851e8_story.html?tid=ss_mail&utm_term=.d4cf2ac083a7\" target=\"_blank\">Are women increasingly at risk of addiction?</a>' There is ample research that suggests that women are effected by alcohol and addiction in very specific ways.  In addition, the changing culture has influenced how women use alcohol socially and to handle stress.</p>",
+					thumbnail: "https://img.washingtonpost.com/rf/image_1484w/2010-2019/WashingtonPost/2017/02/23/Health-Environment-Science/Images/womenaddiction_Perre_Mornet.jpg?uuid=kKl33vnxEea_AdR_jPm2Qw",
+					thumbAlt: "",
+					image: "https://img.washingtonpost.com/rf/image_1484w/2010-2019/WashingtonPost/2017/02/23/Health-Environment-Science/Images/womenaddiction_Perre_Mornet.jpg?uuid=kKl33vnxEea_AdR_jPm2Qw",
+					imgAlt: "",
+					author: "Me"
+				}
+			]
+		},
+		modifiers: {
+			characterLimit: function (){
+				console.log(arguments);
+				console.log(this);
+				return this.slice(0 , 50);
+			}
+		}
+	};
+
+	Swathe.controller(articles, function(){
+		console.log(this);
+	});
+</script>
