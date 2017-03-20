@@ -19,6 +19,7 @@
   "dependencies": {
     "astatine": "^1.2.0",
     "erbium": "^1.4.5",
-    "rutta": "^1.0.3"
+    "rutta": "^1.0.3",
+    "swathe": "^2.0.2"
   }
 }
