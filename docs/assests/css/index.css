@@ -840,6 +840,16 @@ nav {
     border: none;
 }
 
+.articleles > div {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.articleles > div:nth-last-of-type(1) {
+    border-bottom: none;
+}
+
 @media screen and (max-width: 940px) {
     .logo {
         top: 31px;
