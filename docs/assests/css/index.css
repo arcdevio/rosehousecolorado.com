@@ -775,6 +775,26 @@ nav {
     background-position: center;
 }
 
+.profile-circle.jenae {
+    border-radius: 50%;
+    border: solid 5px #89293D;
+    height: 75px;
+    width: 75px;
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,fl_any_format.lossy,h_500,w_333/v1492016587/rose-house/profile-picture/Jenae-McCall-Rose-House.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-circle.elaine {
+    border-radius: 50%;
+    border: solid 5px #89293D;
+    height: 75px;
+    width: 75px;
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,fl_any_format.lossy,h_500,w_333/v1492016584/rose-house/profile-picture/Elaine-Harris-Rose-House.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 /*
 	footer
 */
