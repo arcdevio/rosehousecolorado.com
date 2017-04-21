@@ -700,7 +700,7 @@ nav {
     border: solid 5px #89293D;
     height: 75px;
     width: 75px;
-    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687614/rose-house/profile-picture/Aubrey_Snee_Psychiatric_Technician.jpg");
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492817035/rose-house/profile-picture/AubreySnee.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -720,7 +720,7 @@ nav {
     border: solid 5px #89293D;
     height: 75px;
     width: 75px;
-    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687603/rose-house/profile-picture/Hannah_Kearney_Psychiatric_Technician.jpg");
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492816332/rose-house/profile-picture/HannahKearney.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -730,7 +730,7 @@ nav {
     border: solid 5px #89293D;
     height: 75px;
     width: 75px;
-    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687646/rose-house/profile-picture/Megan_Ramos_Psychiatric_Technician.jpg");
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492816333/rose-house/profile-picture/MeganRamos.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -760,7 +760,7 @@ nav {
     border: solid 5px #89293D;
     height: 75px;
     width: 75px;
-    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687682/rose-house/profile-picture/TJ_Ritner_Psychiatric_Technician.jpg");
+    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,h_900,w_600/v1492817039/rose-house/profile-picture/TJRitner.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -790,7 +790,17 @@ nav {
     border: solid 5px #89293D;
     height: 75px;
     width: 75px;
-    background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,fl_any_format.lossy,h_500,w_333/v1492016584/rose-house/profile-picture/Elaine-Harris-Rose-House.jpg");
+    background: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492817302/rose-house/profile-picture/EllaineHarris.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-circle.sarah {
+    border-radius: 50%;
+    border: solid 5px #89293D;
+    height: 75px;
+    width: 75px;
+    background: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492816334/rose-house/profile-picture/Sarah_Schumacher.jpg");
     background-size: cover;
     background-position: center;
 }

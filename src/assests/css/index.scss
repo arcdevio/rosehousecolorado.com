@@ -531,16 +531,16 @@ nav {
 	@include profile-circles (url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_faces,h_300,q_60,w_300/v1475687551/rose-house/profile-picture/Allison_Hein_House_Manager.png"));
 }
 .profile-circle.aubrey {
-	@include profile-circles (url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687614/rose-house/profile-picture/Aubrey_Snee_Psychiatric_Technician.jpg"));
+	@include profile-circles (url("http://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492817035/rose-house/profile-picture/AubreySnee.jpg"));
 }
 .profile-circle.danielle {
 	@include profile-circles (url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687619/rose-house/profile-picture/Danielle_Jones_Psychiatric_Technician.jpg"));
 }
 .profile-circle.hannah {
-	@include profile-circles (url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687603/rose-house/profile-picture/Hannah_Kearney_Psychiatric_Technician.jpg"));
+	@include profile-circles (url("http://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492816332/rose-house/profile-picture/HannahKearney.jpg"));
 }
 .profile-circle.megan {
-	@include profile-circles (url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687646/rose-house/profile-picture/Megan_Ramos_Psychiatric_Technician.jpg"));
+	@include profile-circles (url("http://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492816333/rose-house/profile-picture/MeganRamos.jpg"));
 }
 .profile-circle.sandra {
 	@include profile-circles (url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687663/rose-house/profile-picture/Sandra_Schulz_Psychiatric_Technician.jpg"));
@@ -549,7 +549,7 @@ nav {
 	@include profile-circles (url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687687/rose-house/profile-picture/Tanisha_Cordova_Psychiatric_Technician.jpg"));
 }
 .profile-circle.tj {
-	@include profile-circles (url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687682/rose-house/profile-picture/TJ_Ritner_Psychiatric_Technician.jpg"));
+	@include profile-circles (url("http://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,h_900,w_600/v1492817039/rose-house/profile-picture/TJRitner.jpg"));
 }
 .profile-circle.craig {
 	@include profile-circles (url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,fl_any_format.lossy,g_face,h_150,w_150/v1476468361/rose-house/profile-picture/Craig_Fiorni_Picture.jpg"));
@@ -558,7 +558,10 @@ nav {
 	@include profile-circles (url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,fl_any_format.lossy,h_500,w_333/v1492016587/rose-house/profile-picture/Jenae-McCall-Rose-House.jpg"));
 }
 .profile-circle.elaine {
-	@include profile-circles (url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,fl_any_format.lossy,h_500,w_333/v1492016584/rose-house/profile-picture/Elaine-Harris-Rose-House.jpg"));
+	@include profile-circles (url("https://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492817302/rose-house/profile-picture/EllaineHarris.jpg"));
+}
+.profile-circle.sarah {
+	@include profile-circles (url("https://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492816334/rose-house/profile-picture/Sarah_Schumacher.jpg"));
 }
 /*
 	footer
