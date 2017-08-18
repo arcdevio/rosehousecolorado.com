@@ -12,11 +12,35 @@ $(document).ready(function(){
 	})
 });
 
+(function() {
+	var contactWidget = document.querySelector('.contact-widget');
+	var contactWidgetHeight = contactWidget.getBoundingClientRect().height;
+	var contactWidgetParent = contactWidget.parentNode;
+	var contactWidgetParentTop;
+	var contactWidgetBottom;
+	window.addEventListener('scroll', function () {
+		window.requestAnimationFrame(function () {
+			contactWidgetParentTop = contactWidgetParent.getBoundingClientRect().top;
+			contactWidgetBottom = (contactWidgetParentTop + contactWidgetHeight);
+			if (contactWidgetParentTop <= 0) {
+					contactWidget.style.top = '0';
+					contactWidget.style.right = '0';
+					contactWidget.style.zIndex = '1';
+					contactWidget.style.position = 'fixed';
+			} else if (contactWidgetBottom >= 0) {
+				contactWidget.style.top = 'initial';
+				contactWidget.style.right = 'initial';
+				contactWidget.style.zIndex = 'initial';
+				contactWidget.style.position = 'initial';
+			}
+		});
+	});
+}());
+
 /*
 	contact-form
 */
 (function() {
-	'use strict';
 
 	var response = document.querySelector('.form-response');
 	var form = document.querySelector('.contact-form');
@@ -56,7 +80,6 @@ $(document).ready(function(){
 	insurnace-form
 */
 (function() {
-	'use strict';
 
 	var response = document.querySelector('.form-response');
 	var form = document.querySelector('.insurance-form');
