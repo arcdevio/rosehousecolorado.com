@@ -465,7 +465,7 @@ nav {
 .bg-image {
   width: 100%;
   padding: 8px;
-  background: url('http://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:578da0,c_scale,fl_any_format.lossy,e_tint,o_36,w_1920/v1471394449/rose-house/DSC00077.jpg') no-repeat;
+  background: url('https://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:578da0,f_auto,c_scale,fl_any_format.lossy,e_tint,o_36,w_1920/v1471394449/rose-house/DSC00077.jpg') no-repeat;
 }
 .slick-dots li button::before {
   color: white;
@@ -652,6 +652,15 @@ nav {
   width: 75px;
   border-radius: 50%;
   background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687687/rose-house/profile-picture/Tanisha_Cordova_Psychiatric_Technician.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.cailin {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,fl_any_format.lossy,w_600/v1512584237/rose-house/profile-picture/20170620_165047.jpg");
   background-size: cover;
   border: solid 5px #89293D;
   background-position: center;
