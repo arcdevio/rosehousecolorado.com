@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-	"serve": "muleify serve -w src dist",
-    "build": "rm -r dist/* && muleify pack src dist && rm -r docs/* && muleify pack src docs"
+	"s": "muleify serve -w src dist",
+    "b": "rm -r docs/* && muleify pack src docs"
   },
   "repository": {
     "type": "git",
