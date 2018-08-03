@@ -531,7 +531,7 @@ nav {
   height: 75px;
   width: 75px;
   border-radius: 50%;
-  background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,f_auto,fl_any_format.lossy,g_face,h_900,w_600/v1504631213/rose-house/profile-picture/20170904_102954.jpg");
+  background: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,f_auto,fl_any_format.lossy,g_face,h_900,w_600/v1504631213/rose-house/profile-picture/20170904_102954.jpg");
   background-size: cover;
   border: solid 5px #89293D;
   background-position: center;
@@ -712,6 +712,33 @@ nav {
   width: 75px;
   border-radius: 50%;
   background: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492816334/rose-house/profile-picture/Sarah_Schumacher.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.barbara {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,h_900,w_600/v1533316642/rose-house/Barbara_Flood_pic.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.alex {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1533316916/rose-house/IMG_3601.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.christy {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1533317668/rose-house/IMG_3046.jpg");
   background-size: cover;
   border: solid 5px #89293D;
   background-position: center;
