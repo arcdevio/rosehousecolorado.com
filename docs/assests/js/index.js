@@ -55,7 +55,7 @@ $(document).ready(function(){
 			responseType: 'json',
 			action: 'https://www.enformed.io/zpn17s0',
 			prepare: function (data, resolve) {
-				data['*default_email'] = 'amatino@rosehousecolorado.com';
+				data['*default_email'] = 'ahill@rosehousecolorado.com';
 				data['*cc'] = 'mchambers101@gmail.com,cconger@rosehousecolorado.com';
 				resolve(data);
 			},
@@ -94,8 +94,8 @@ $(document).ready(function(){
 			responseType: 'json',
 			action: 'https://www.enformed.io/zpn17s0',
 			prepare: function (data, resolve) {
-				data['*default_email'] = 'amatino@rosehousecolorado.com';
-				data['*cc'] = 'krosen@rosehousecolorado.com,mchambers101@gmail.com,cconger@rosehousecolorado.com';
+				data['*default_email'] = 'ahill@rosehousecolorado.com';
+				data['*cc'] = 'mchambers101@gmail.com,cconger@rosehousecolorado.com';
 				resolve(data);
 			},
 			complete: function (error, success) {
