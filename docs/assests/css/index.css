@@ -531,7 +531,7 @@ nav {
   height: 75px;
   width: 75px;
   border-radius: 50%;
-  background: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,f_auto,fl_any_format.lossy,g_face,h_900,w_600/v1504631213/rose-house/profile-picture/20170904_102954.jpg");
+  background: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1542239844/rose-house/profile-picture/Larry_Algiene_photo.jpg");
   background-size: cover;
   border: solid 5px #89293D;
   background-position: center;
@@ -729,7 +729,7 @@ nav {
   height: 75px;
   width: 75px;
   border-radius: 50%;
-  background: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1533316916/rose-house/IMG_3601.jpg");
+  background: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1542240724/rose-house/profile-picture/Alex_Griffin_photo.jpg");
   background-size: cover;
   border: solid 5px #89293D;
   background-position: center;
@@ -739,6 +739,24 @@ nav {
   width: 75px;
   border-radius: 50%;
   background: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1533317668/rose-house/IMG_3046.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.melissa {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1542239953/rose-house/profile-picture/Melissa_photo.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.sandra {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1542240179/rose-house/profile-picture/Sandra_Radney_photo.jpg");
   background-size: cover;
   border: solid 5px #89293D;
   background-position: center;
