@@ -1,16 +1,27 @@
-$(document).foundation();
+// $(document).foundation();
+//
+// $(document).ready(function(){
+// 	$('.sliderA').slick({
+// 		dots: true,
+// 		slidesToShow: 1,
+// 		speed: 1000,
+// 		adaptiveHeight: true,
+// 		autoplay: true,
+// 		autoplaySpeed: 5000,
+// 		arrows: false
+// 	})
+// });
+// Testimonial Slider
 
-$(document).ready(function(){
-	$('.sliderA').slick({
-		dots: true,
-		slidesToShow: 1,
-		speed: 1000,
-		adaptiveHeight: true,
-		autoplay: true,
-		autoplaySpeed: 5000,
-		arrows: false
-	})
-});
+var slider = document.querySelector('.testimonial');
+var sliderChildren = slider.children;
+setTimeout(function () {
+	for (var i = 0; i < sliderChildren.length; i++) {
+		sliderChildren[i].classList.add('active');
+	}
+}, 3000);
+
+
 
 (function() {
 	var contactWidget = document.querySelector('.contact-widget');
