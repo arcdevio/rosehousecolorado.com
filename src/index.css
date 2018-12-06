@@ -37,9 +37,16 @@ ul.b {
 ul.c {
 	list-style: none;
 }
-/*
-	logo
-*/
+.center {
+	color: #FFFCED;
+	text-align: center;
+	line-height: .9rem;
+}
+.icon {
+	display: inline;
+	font-size: 1.3rem;
+	padding: 10px;
+}
 .logo {
 	left: 8px;
 	z-index: 100;
@@ -159,9 +166,6 @@ nav {
 	float: right;
 	margin-right: 8px;
 }
-.contact-widget-side {
-	// text-align: center;
-}
 .contact-widget-side > div {
 	width: 90%;
 	padding: 5px;
@@ -185,52 +189,33 @@ nav {
 	background-color: rgba(0, 0, 0, 0.5);
 }
 /*
-	social
+	media
 */
 .facebook {
 	color: #3b5998;
 }
-
-.pinterest {
+.instagram {
 	color: #C92228;
 }
-
-.google {
+.youtube {
 	color: #dd4b39;
 }
-.icon {
-	display: inline;
-	font-size: 1.3rem;
-	padding: 10px;
-}
-.icon.facebook {
-	background-color: #fff;
-	  -webkit-transition: background-color 0.25s ease-out;
-	  -moz-transition: background-color 0.25s ease-out;
-	  -o-transition: background-color 0.25s ease-out;
-	  transition: background-color 0.25s ease-out;
-}
-.icon.insta {
-	background-color: #fff;
-	transition: background-color 300ms ease;
-}
-.icon.google {
-	background-color: #fff;
-	transition: background-color 300ms ease;
-}
-.icon.facebook:hover {
+.facebook:hover {
 	background-color: #3b5998;
-	color: #fff;
 }
-.icon.insta:hover {
+.instagram:hover {
 	background-color: #a10bac;
-	color: #fff;
 }
-.icon.google:hover {
+.youtube:hover {
 	background-color: #dd4b39;
+}
+.facebook, .instagram, .youtube {
+	background-color: #fff;
+	transition: background-color 300ms ease;
+}
+.facebook:hover, .instagram:hover, .youtube:hover {
 	color: #fff;
 }
-/*---*/
 .contact-slogan{
 	padding-bottom: 25px;
 }
@@ -242,11 +227,6 @@ nav {
 }
 .contact-bar input{
 	color: #FEFDEC;
-}
-.center {
-	text-align: center;
-	line-height: .9rem;
-	color: #FFFCED;
 }
 .fa-comments{
 	color: #FEFDEC;
@@ -398,10 +378,10 @@ nav {
 	footer
 */
 .footer {
-	background: url('http://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:c95468,c_fill,g_center,h_900,o_53,w_1920/v1469641634/rose-house/8173917606_17e737fc7f_o_dzhgzn.jpg') no-repeat fixed;
 	color: #fff;
 	padding: 25px;
 	background-size: cover;
+	background: url('http://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:c95468,c_fill,g_center,h_900,o_53,w_1920/v1469641634/rose-house/8173917606_17e737fc7f_o_dzhgzn.jpg') no-repeat fixed;
 }
 .footer p{
 	margin-bottom: .5rem;
