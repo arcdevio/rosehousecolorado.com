@@ -12,28 +12,29 @@
 // 	})
 // });
 // Testimonial Slider
-
 var slider = document.querySelector('.testimonial');
-var sliderChildren = slider.children;
+if (slider) {
+	var sliderChildren = slider.children;
 
-var index = 0;
-setInterval(function () {
+	var index = 1;
+	setInterval(function () {
 
-	if (index > sliderChildren.length - 1) {
-		sliderChildren[index - 1].classList.toggle('active');
+		if (index > sliderChildren.length - 1) {
+			sliderChildren[index - 1].classList.toggle('active');
 
-		index = 0;
-	}
+			index = 0;
+		}
 
-	if (index > 0) {
-		sliderChildren[index - 1].classList.toggle('active');
-	}
+		if (index > 0) {
+			sliderChildren[index - 1].classList.toggle('active');
+		}
 
-	sliderChildren[index].classList.toggle('active');
+		sliderChildren[index].classList.toggle('active');
 
-	index++
+		index++
 
-}, 3000);
+	}, 3000);
+}
 
 
 (function() {
