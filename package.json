@@ -5,7 +5,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"s": "muleify -sw src dist",
+		"s": "muleify -sw src dev",
 		"b": "rm -r docs/* && muleify -p src docs"
 	},
 	"repository": {
