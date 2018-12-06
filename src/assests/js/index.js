@@ -14,11 +14,26 @@
 // Testimonial Slider
 
 var slider = document.querySelector('.testimonial');
-// var sliderChildren = slider.children;
-// function () {
-// 	setTimeout()
-// }, 3000);
+var sliderChildren = slider.children;
 
+var index = 0;
+setInterval(function () {
+
+	if (index > sliderChildren.length - 1) {
+		sliderChildren[index - 1].classList.toggle('active');
+
+		index = 0;
+	}
+
+	if (index > 0) {
+		sliderChildren[index - 1].classList.toggle('active');
+	}
+
+	sliderChildren[index].classList.toggle('active');
+
+	index++
+
+}, 3000);
 
 
 (function() {
