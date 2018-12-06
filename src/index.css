@@ -23,13 +23,16 @@
 body > * {
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
 }
 body {
 	margin: 0;
 	padding: 0;
 	max-width: 100%;
 	overflow-x: hidden;
+}
+p, li, a {
+	line-height: 1.8rem;
+	font-weight: lighter;
 }
 h1, h2 {
 	color: #89293D;
@@ -156,7 +159,7 @@ nav {
 	color: #8a8a8a;
 }
 .contact-widget {
-	color: #fff;
+	color: whitesmoke;
 	line-height: 10px;
 	text-align: center;
 	display: inline-block;
@@ -172,7 +175,7 @@ nav {
 }
 .contact-widget h4 {
 	line-height: 12px;
-	color: #FFFCED;
+	color: whitesmoke;
 }
 .contact-widget-home > div {
 	float: right;
@@ -364,7 +367,7 @@ nav {
 */
 .button.green {
 	margin: auto;
-	color: #FFFCED;
+	color:whitesmoke;
 	padding: 1rem 2rem;
 	background: #B0BF7F;
 }
@@ -376,21 +379,21 @@ nav {
 }
 .button.white {
 	background: none;
-	color: #FFFCED;
-	border: 1px solid #FFFCED;
+	color:whitesmoke;
+	border: 1px solid whitesmoke;
 	text-decoration: none;
 }
 .button.white:hover {
 	background: none;
-	border: 2px solid #FFFCED;
-	color: #fff;
+	border: 2px solidwhitesmoke;
+	color: whitesmoke;
 }
 /*
 	testimonial slide
 */
 .testimonial {
 	text-align: center;
-	color: #FFFCED;
+	color: whitesmoke;
 	height: 300px;
 	padding: 1.4rem;
 	width: 100%;
@@ -402,7 +405,7 @@ nav {
 	left: 50%;
 	opacity: 0;
 	padding: 1.3rem;
-	width: 70%;
+	width: 80%;
 }
 .testimonial > div.active {
 	-webkit-transition: 0.90s ease-out;
@@ -425,7 +428,7 @@ nav {
 */
 .footer {
 	background: url('http://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:c95468,c_fill,g_center,h_900,o_53,w_1920/v1469641634/rose-house/8173917606_17e737fc7f_o_dzhgzn.jpg') no-repeat fixed;
-	color: #fff;
+	color: whitesmoke;
 	padding: 25px;
 	background-size: cover;
 }
@@ -434,22 +437,19 @@ nav {
 }
 
 .footer h3{
-	color: #fff;
+	color: whitesmoke;
 }
 .bottom-foot {
-	// height: 75px;
 	width: 100%;
-	background-color: #E54C66;
+	background-color: #89293D;
 	padding: 25px;
 	text-align: center;
 }
-.bottom-foot p{
-	// font-size: 12px;
-	color: #fff;
+.bottom-foot {
+	color: whitesmoke;
 }
-.bottom-foot a{
-	// font-size: 12px;
-	color: #fff;
+.bottom-foot a {
+	color: whitesmoke;
 }
 .contact-section {
 	padding-top: 25px;
@@ -627,5 +627,11 @@ nav {
 	}
 	.hide-sm {
 		display: none;
+	}
+	.testimonial {
+		height: 400px;
+	}
+	.testimonial > div {
+		width: 100%;
 	}
 }
