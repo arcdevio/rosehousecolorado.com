@@ -1,7 +1,7 @@
 
 export default {
 	path: './',
-	title: 'Blog | Rose House Colorado',
+	title: 'Blog | The Rose House Colorado',
 	component: {
 		name: 'r-index',
 		model: {
