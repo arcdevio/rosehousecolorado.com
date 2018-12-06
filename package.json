@@ -6,7 +6,8 @@
 	"main": "index.js",
 	"scripts": {
 		"s": "muleify -sw src dev",
-		"b": "rm -r docs/* && muleify -p src docs"
+		"b": "rm -r docs/* && muleify -p src docs",
+		"co": "cp node_modules/oxe/dst/oxe.min.js src/assets/."
 	},
 	"repository": {
 		"type": "git",
