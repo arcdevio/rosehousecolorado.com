@@ -1,25 +1,25 @@
 {
-  "name": "rose-house",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-	"s": "muleify -sw src dist",
-    "b": "rm -r docs/* && muleify -p src docs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/WebCab-Design/rose-house.git"
-  },
-  "author": "",
-  "license": "SEE LICENSE IN LICENSE",
-  "bugs": {
-    "url": "https://github.com/WebCab-Design/rose-house/issues"
-  },
-  "homepage": "https://github.com/WebCab-Design/rose-house#readme",
-  "dependencies": {
-    "astatine": "^1.2.0",
-    "erbium": "^1.4.6",
-    "swathe": "^2.0.2"
-  }
+	"private": true,
+	"name": "rosehousecolorado.com",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"s": "muleify -sw src dist",
+		"b": "rm -r docs/* && muleify -p src docs"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/arcdevio/peaksrecovery.com.git"
+	},
+	"author": "Arc IO",
+	"license": "SEE LICENSE IN LICENSE",
+	"bugs": {
+		"url": "https://github.com/arcdevio/peaksrecovery.com/issues"
+	},
+	"homepage": "https://github.com/arcdevio/peaksrecovery.com#readme",
+	"dependencies": {
+		"erbium": "^1.4.6",
+		"astatine": "^1.2.0"
+	}
 }
