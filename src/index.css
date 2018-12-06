@@ -20,27 +20,25 @@
 #rose-rose {
 	color: #89293D;
 }
+body > * {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+body {
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	overflow-x: hidden;
+}
 h1, h2 {
 	color: #89293D;
-	font-family: "trajan-sans-pro";
-}
-h3 {
-	font-family: "trajan-sans-pro";
-}
-p, li, em, u {
-	font-family: "ingra";
 }
 a {
 	color: #89293D;
-	font-family: "ingra";
 }
 a:hover {
 	color: #E54C66;
-	font-family: "ingra";
-}
-body {
-	margin-right:0;
-	padding-right:0;
 }
 ul > ul {
 	list-style: circle;
@@ -192,9 +190,9 @@ nav {
 	max-width: 630px;
 }
 .contact-form input, .contact-form textarea, .contact-form input:focus, .contact-form textarea:focus {
+	border: none;
 	border-radius: 0;
 	box-shadow: none;
-	border: none;
 	border-bottom: 1px solid #cacaca;
 }
 .contact-form input:focus, .contact-form textarea:focus {
@@ -288,17 +286,11 @@ nav {
 }
 .icon.insta {
 	background-color: #fff;
-	  -webkit-transition: background-color 0.25s ease-out;
-	  -moz-transition: background-color 0.25s ease-out;
-	  -o-transition: background-color 0.25s ease-out;
-	  transition: background-color 0.25s ease-out;
+	transition: background-color 300ms ease;
 }
 .icon.google {
 	background-color: #fff;
-	  -webkit-transition: background-color 0.25s ease-out;
-	  -moz-transition: background-color 0.25s ease-out;
-	  -o-transition: background-color 0.25s ease-out;
-	  transition: background-color 0.25s ease-out;
+	transition: background-color 300ms ease;
 }
 .icon.facebook:hover {
 	background-color: #3b5998;
@@ -386,24 +378,24 @@ nav {
 }
 .side-menu > ul {
 	width: 100%;
-	margin: 0 16px 16px 16px;
-	list-style: none;
 	text-align: left;
+	list-style: none;
 	display: inline-block;
+	margin: 0 16px 16px 16px;
 	list-style-position: inside;
 }
 .side-menu > ul > li > a::before {
 	content: '';
-	color: #89293D;
 	width: 0;
-    	height: 0;
-    	margin: 5px;
-    	display: inline-block;
-    	vertical-align: middle;
-    	transition-delay: 300ms;
-    	border-left: 0.25em solid transparent;
+	height: 0;
+	margin: 5px;
+	color: #89293D;
+	display: inline-block;
+	vertical-align: middle;
+	transition-delay: 300ms;
+	border-top: 0.5em solid currentColor;
+	border-left: 0.25em solid transparent;
 	border-right: 0.25em solid transparent;
-    	border-top: 0.5em solid currentColor;
 }
 .side-menu > ul > li {
 	width: 100%;
@@ -427,7 +419,6 @@ nav {
 */
 .button.green {
 	margin: auto;
-	// display: block;
 	color: #FFFCED;
 	padding: 1rem 2rem;
 	background: #B0BF7F;
@@ -468,13 +459,6 @@ nav {
 .testimonial > div.active {
 	opacity: 1;
 }
-
-// .slick-dots li button::before {
-// 	color: white;
-// }
-// .slick-dots li.slick-active button:before {
-// 	color: white;
-// }
 .verify-insurance {
 	padding: 25px 0 25px 0;
 	text-align: center;
@@ -484,109 +468,6 @@ nav {
 	max-width: 45rem;
 	margin: auto;
 }
-/*
-	TEAM PAGE
-*/
-.profile-circles(@url) {
-    height: 75px;
-    width: 75px;
-	border-radius: 50%;
-	background: url(@url);
-    background-size: cover;
-	border: solid 5px #89293D;
-    background-position: center;
-}
-.profile-circle.marcie {
-	.profile-circles("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687642/rose-house/profile-picture/Marcie_Chambers_Ph.D.jpg");
-}
-.profile-circle.arshad {
-	.profile-circles("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687598/rose-house/profile-picture/Dr.jpg");
-}
-.profile-circle.ann {
-	.profile-circles("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687600/rose-house/profile-picture/Ann_Matino_Executive_Director.jpg");
-}
-.profile-circle.valerie {
-	.profile-circles("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687689/rose-house/profile-picture/Valerie_Andrews_Ph.D.jpg");
-}
-.profile-circle.larry {
-	.profile-circles("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1542239844/rose-house/profile-picture/Larry_Algiene_photo.jpg");
-}
-.profile-circle.jennifer {
-	.profile-circles("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,w_300/v1473783008/rose-house/woman.png");
-}
-.profile-circle.brenda {
-	.profile-circles("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,w_300/v1473783008/rose-house/woman.png");
-}
-.profile-circle.kathy {
-	.profile-circles("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_faces,h_300,q_60,w_300/v1475687603/rose-house/profile-picture/Kathy_Pahler_Community_Outreach_Yoga_Instructor.jpg");
-}
-.profile-circle.kristine {
-	.profile-circles("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687629/rose-house/profile-picture/Kristine_Rosen_Clinical_Utilization_Specialist.jpg");
-}
-.profile-circle.rebecca {
-	.profile-circles("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687651/rose-house/profile-picture/Rebecca_Glasmann_Family_Referral_Coordinator.jpg");
-}
-.profile-circle.lindsey {
-	.profile-circles("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687661/rose-house/profile-picture/Lindsey_Amott_Executive_Assistant.jpg");
-}
-.profile-circle.patty {
-	.profile-circles("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,fl_lossy,g_face,h_450,w_300/v1528495301/rose-house/profile-picture/Patty_S_photo_professional.jpg");
-}
-.profile-circle.allison {
-	.profile-circles("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_faces,h_300,q_60,w_300/v1475687551/rose-house/profile-picture/Allison_Hein_House_Manager.png");
-}
-.profile-circle.aubrey {
-	.profile-circles("http://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492817035/rose-house/profile-picture/AubreySnee.jpg");
-}
-.profile-circle.danielle {
-	.profile-circles("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687619/rose-house/profile-picture/Danielle_Jones_Psychiatric_Technician.jpg");
-}
-.profile-circle.hannah {
-	.profile-circles("http://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492816332/rose-house/profile-picture/HannahKearney.jpg");
-}
-.profile-circle.megan {
-	.profile-circles("http://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492816333/rose-house/profile-picture/MeganRamos.jpg");
-}
-.profile-circle.sandra {
-	.profile-circles("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687663/rose-house/profile-picture/Sandra_Schulz_Psychiatric_Technician.jpg");
-}
-.profile-circle.tanisha {
-	.profile-circles("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687687/rose-house/profile-picture/Tanisha_Cordova_Psychiatric_Technician.jpg");
-}
-.profile-circle.cailin {
-	.profile-circles("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,fl_any_format.lossy,w_600/v1512584237/rose-house/profile-picture/20170620_165047.jpg");
-}
-.profile-circle.tj {
-	.profile-circles("http://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,h_900,w_600/v1492817039/rose-house/profile-picture/TJRitner.jpg");
-}
-.profile-circle.craig {
-	.profile-circles("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,fl_any_format.lossy,g_face,h_150,w_150/v1476468361/rose-house/profile-picture/Craig_Fiorni_Picture.jpg");
-}
-.profile-circle.jenae {
-	.profile-circles("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,fl_any_format.lossy,h_500,w_333/v1492016587/rose-house/profile-picture/Jenae-McCall-Rose-House.jpg");
-}
-.profile-circle.elaine {
-	.profile-circles("https://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492817302/rose-house/profile-picture/EllaineHarris.jpg");
-}
-.profile-circle.sarah {
-	.profile-circles("https://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492816334/rose-house/profile-picture/Sarah_Schumacher.jpg");
-}
-.profile-circle.barbara {
-	.profile-circles("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,h_900,w_600/v1533316642/rose-house/Barbara_Flood_pic.jpg");
-}
-.profile-circle.alex {
-	.profile-circles("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1542240724/rose-house/profile-picture/Alex_Griffin_photo.jpg");
-}
-.profile-circle.christy {
-	.profile-circles("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1533317668/rose-house/IMG_3046.jpg");
-}
-.profile-circle.melissa {
-	.profile-circles("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1542239953/rose-house/profile-picture/Melissa_photo.jpg");
-}
-.profile-circle.sandra {
-	.profile-circles("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1542240179/rose-house/profile-picture/Sandra_Radney_photo.jpg");
-}
-
 /*
 	footer
 */
@@ -655,7 +536,107 @@ nav {
 .logos img {
 	margin: 0.5rem;
 }
-
+/*
+	team
+*/
+.profile-circles {
+    width: 75px;
+    height: 75px;
+	border-radius: 50%;
+    background-size: cover;
+	border: solid 5px #89293D;
+    background-position: center;
+}
+.profile-circle.marcie {
+	background-image: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687642/rose-house/profile-picture/Marcie_Chambers_Ph.D.jpg");
+}
+.profile-circle.arshad {
+	background-image: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687598/rose-house/profile-picture/Dr.jpg");
+}
+.profile-circle.ann {
+	background-image: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687600/rose-house/profile-picture/Ann_Matino_Executive_Director.jpg");
+}
+.profile-circle.valerie {
+	background-image: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687689/rose-house/profile-picture/Valerie_Andrews_Ph.D.jpg");
+}
+.profile-circle.larry {
+	background-image: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1542239844/rose-house/profile-picture/Larry_Algiene_photo.jpg");
+}
+.profile-circle.jennifer {
+	background-image: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,w_300/v1473783008/rose-house/woman.png");
+}
+.profile-circle.brenda {
+	background-image: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,w_300/v1473783008/rose-house/woman.png");
+}
+.profile-circle.kathy {
+	background-image: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_faces,h_300,q_60,w_300/v1475687603/rose-house/profile-picture/Kathy_Pahler_Community_Outreach_Yoga_Instructor.jpg");
+}
+.profile-circle.kristine {
+	background-image: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687629/rose-house/profile-picture/Kristine_Rosen_Clinical_Utilization_Specialist.jpg");
+}
+.profile-circle.rebecca {
+	background-image: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687651/rose-house/profile-picture/Rebecca_Glasmann_Family_Referral_Coordinator.jpg");
+}
+.profile-circle.lindsey {
+	background-image: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687661/rose-house/profile-picture/Lindsey_Amott_Executive_Assistant.jpg");
+}
+.profile-circle.patty {
+	background-image: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,fl_lossy,g_face,h_450,w_300/v1528495301/rose-house/profile-picture/Patty_S_photo_professional.jpg");
+}
+.profile-circle.allison {
+	background-image: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_faces,h_300,q_60,w_300/v1475687551/rose-house/profile-picture/Allison_Hein_House_Manager.png");
+}
+.profile-circle.aubrey {
+	background-image: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492817035/rose-house/profile-picture/AubreySnee.jpg");
+}
+.profile-circle.danielle {
+	background-image: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687619/rose-house/profile-picture/Danielle_Jones_Psychiatric_Technician.jpg");
+}
+.profile-circle.hannah {
+	background-image: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492816332/rose-house/profile-picture/HannahKearney.jpg");
+}
+.profile-circle.megan {
+	background-image: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492816333/rose-house/profile-picture/MeganRamos.jpg");
+}
+.profile-circle.sandra {
+	background-image: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687663/rose-house/profile-picture/Sandra_Schulz_Psychiatric_Technician.jpg");
+}
+.profile-circle.tanisha {
+	background-image: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687687/rose-house/profile-picture/Tanisha_Cordova_Psychiatric_Technician.jpg");
+}
+.profile-circle.cailin {
+	background-image: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,fl_any_format.lossy,w_600/v1512584237/rose-house/profile-picture/20170620_165047.jpg");
+}
+.profile-circle.tj {
+	background-image: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,h_900,w_600/v1492817039/rose-house/profile-picture/TJRitner.jpg");
+}
+.profile-circle.craig {
+	background-image: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,fl_any_format.lossy,g_face,h_150,w_150/v1476468361/rose-house/profile-picture/Craig_Fiorni_Picture.jpg");
+}
+.profile-circle.jenae {
+	background-image: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,fl_any_format.lossy,h_500,w_333/v1492016587/rose-house/profile-picture/Jenae-McCall-Rose-House.jpg");
+}
+.profile-circle.elaine {
+	background-image: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492817302/rose-house/profile-picture/EllaineHarris.jpg");
+}
+.profile-circle.sarah {
+	background-image: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492816334/rose-house/profile-picture/Sarah_Schumacher.jpg");
+}
+.profile-circle.barbara {
+	background-image: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,h_900,w_600/v1533316642/rose-house/Barbara_Flood_pic.jpg");
+}
+.profile-circle.alex {
+	background-image: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1542240724/rose-house/profile-picture/Alex_Griffin_photo.jpg");
+}
+.profile-circle.christy {
+	background-image: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1533317668/rose-house/IMG_3046.jpg");
+}
+.profile-circle.melissa {
+	background-image: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1542239953/rose-house/profile-picture/Melissa_photo.jpg");
+}
+.profile-circle.sandra {
+	background-image: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1542240179/rose-house/profile-picture/Sandra_Radney_photo.jpg");
+}
 @media screen and (max-width: 940px) {
 	.logo {
 		top: 31px;
