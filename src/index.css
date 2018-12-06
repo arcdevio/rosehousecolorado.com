@@ -8,13 +8,16 @@
 body > * {
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
 }
 body {
 	margin: 0;
 	padding: 0;
 	max-width: 100%;
 	overflow-x: hidden;
+}
+p, li, a {
+	line-height: 1.8rem;
+	font-weight: lighter;
 }
 h1, h2 {
 	color: #89293D;
@@ -147,7 +150,7 @@ nav {
 	color: #8a8a8a;
 }
 .contact-widget {
-	color: #fff;
+	color: whitesmoke;
 	line-height: 10px;
 	text-align: center;
 	display: inline-block;
@@ -163,7 +166,7 @@ nav {
 }
 .contact-widget h4 {
 	line-height: 12px;
-	color: #FFFCED;
+	color: whitesmoke;
 }
 .contact-widget-home > div {
 	float: right;
@@ -317,7 +320,7 @@ nav {
 */
 .button.green {
 	margin: auto;
-	color: #FFFCED;
+	color:whitesmoke;
 	padding: 1rem 2rem;
 	background: #B0BF7F;
 }
@@ -329,32 +332,39 @@ nav {
 }
 .button.white {
 	background: none;
-	color: #FFFCED;
-	border: 1px solid #FFFCED;
+	color:whitesmoke;
+	border: 1px solid whitesmoke;
 	text-decoration: none;
 }
 .button.white:hover {
 	background: none;
-	border: 2px solid #FFFCED;
-	color: #fff;
+	border: 2px solidwhitesmoke;
+	color: whitesmoke;
 }
 /*
 	testimonial slide
 */
 .testimonial {
 	text-align: center;
-	color: #FFFCED;
+	color: whitesmoke;
 	height: 300px;
 	padding: 1.4rem;
+	width: 100%;
 	background: url('https://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:578da0,f_auto,c_scale,fl_any_format.lossy,e_tint,o_36,w_1920/v1471394449/rose-house/DSC00077.jpg') no-repeat;
 }
 .testimonial > div {
 	position: absolute;
-	left: 0;
+	transform: translate(-50%);
+	left: 50%;
 	opacity: 0;
 	padding: 1.3rem;
+	width: 80%;
 }
 .testimonial > div.active {
+	-webkit-transition: 0.90s ease-out;
+	-moz-transition: 0.90s ease-out;
+	-o-transition: 0.90s ease-out;
+	transition: 0.90s ease-out;
 	opacity: 1;
 }
 .verify-insurance {
@@ -370,7 +380,7 @@ nav {
 	footer
 */
 .top-footer {
-	color: #fff;
+	color: whitesmoke;
 	padding: 25px;
 	background-size: cover;
 	background: url('http://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:c95468,c_fill,g_center,h_900,o_53,w_1920/v1469641634/rose-house/8173917606_17e737fc7f_o_dzhgzn.jpg') no-repeat fixed;
@@ -379,7 +389,7 @@ nav {
 	margin-bottom: 0.6rem;
 }
 .top-footer h3 {
-	color: #fff;
+	color: whitesmoke;
 }
 .bottom-foot {
 	width: 100%;
@@ -388,10 +398,10 @@ nav {
 	background-color: #E54C66;
 }
 .bottom-foot p {
-	color: #fff;
+	color: whitesmoke;
 }
 .bottom-foot a {
-	color: #fff;
+	color: whitesmoke;
 }
 .contact-section {
 	padding-top: 30px;
@@ -567,5 +577,11 @@ nav {
 	}
 	.hide-sm {
 		display: none;
+	}
+	.testimonial {
+		height: 400px;
+	}
+	.testimonial > div {
+		width: 100%;
 	}
 }
