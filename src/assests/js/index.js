@@ -14,10 +14,10 @@
 // Testimonial Slider
 
 var slider = document.querySelector('.testimonial');
-var sliderChildren = slider.children;
-function () {
-	setTimeout()
-}, 3000);
+// var sliderChildren = slider.children;
+// function () {
+// 	setTimeout()
+// }, 3000);
 
 
 
