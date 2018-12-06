@@ -1,6 +1,6 @@
 
 export default {
-	url: './',
+	path: './',
 	title: 'Blog | Rose House Colorado',
 	component: {
 		name: 'r-index',
