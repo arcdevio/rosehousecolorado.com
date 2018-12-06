@@ -1,0 +1,856 @@
+/*
+	rose-blue: 578DA0
+	rose-green: B0BF7F
+	rose-white: FFFCED
+	rose-pink: E54C66
+	rose-rose: 89293D
+*/
+#rose-blue {
+  color: #578DA0;
+}
+#rose-green {
+  color: #B0BF7F;
+}
+#rose-white {
+  color: #FFFCED;
+}
+#rose-pink {
+  color: #E54C66;
+}
+#rose-rose {
+  color: #89293D;
+}
+h1,
+h2 {
+  color: #89293D;
+  font-family: "trajan-sans-pro";
+}
+h3 {
+  font-family: "trajan-sans-pro";
+}
+p,
+li,
+em,
+u {
+  font-family: "ingra";
+}
+a {
+  color: #89293D;
+  font-family: "ingra";
+}
+a:hover {
+  color: #E54C66;
+  font-family: "ingra";
+}
+body {
+  margin-right: 0;
+  padding-right: 0;
+}
+ul > ul {
+  list-style: circle;
+}
+ul.a {
+  list-style: square;
+}
+ul.b {
+  list-style: circle;
+}
+ul.c {
+  list-style: none;
+}
+/*
+	logo
+*/
+.logo {
+  left: 8px;
+  z-index: 100;
+  height: 150px;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+}
+.logo > a {
+  display: block;
+}
+/*
+	top
+*/
+.top {
+  width: 100%;
+  display: block;
+  min-height: 32px;
+  padding-top: 8px;
+}
+.top > div:nth-child(1) {
+  margin-left: 232px;
+  display: inline-block;
+}
+.top > div:nth-child(2) {
+  float: right;
+  display: inline-block;
+  margin-right: 25px;
+}
+/*
+	nav
+*/
+nav {
+  box-sizing: initial;
+}
+.nav-bar {
+  z-index: 1;
+  color: #FFF;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+}
+.nav-tool {
+  background: #E54C66;
+}
+.nav-list-main {
+  background: #E54C66;
+  text-align: right !important;
+}
+.nav-list-sub {
+  z-index: 1;
+  background: #E54C66;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+}
+.nav-bar li > a {
+  color: #FFFCED;
+  padding: 16px 32px !important;
+}
+/*
+	globals
+*/
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+.jumbo {
+  width: 100%;
+}
+.slick-dots {
+  bottom: -25px;
+  list-style: none;
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+.slick-dots li button {
+  border: 0;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.1);
+  display: block;
+  height: 10px;
+  width: 10px;
+  outline: none;
+  line-height: 0px;
+  font-size: 0px;
+  color: transparent;
+  padding: 5px;
+  cursor: pointer;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+  outline: none;
+  background: rgba(0, 0, 0, 0.4);
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+  opacity: 1;
+}
+.slick-dots li button:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "" "";
+  width: 20px;
+  height: 20px;
+  font-family: "slick";
+  font-size: 6px;
+  line-height: 20px;
+  text-align: center;
+  color: black;
+  opacity: 0.25;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+  color: black;
+  opacity: 0.75;
+}
+.contact-form input[type="date"] {
+  text-align: center;
+}
+.contact-form textarea,
+.insurance-form textarea {
+  max-width: 630px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid #cacaca;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-bottom: 2px solid #8a8a8a;
+}
+.contact-form input:focus::-webkit-input-placeholder,
+.contact-form textarea:focus::-webkit-input-placeholder {
+  color: #8a8a8a;
+}
+.contact-form input:focus:-moz-placeholder,
+.contact-form textarea:focus:-moz-placeholder {
+  color: #8a8a8a;
+}
+.contact-form input:focus::-moz-placeholder,
+.contact-form textarea:focus::-moz-placeholder {
+  color: #8a8a8a;
+}
+.contact-form input:focus:-ms-input-placeholder,
+.contact-form textarea:focus:-ms-input-placeholder {
+  color: #8a8a8a;
+}
+.contact-widget {
+  color: #fff;
+  line-height: 10px;
+  text-align: center;
+  display: inline-block;
+  background-color: #89293D;
+  padding: 10px 20px 5px 20px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+}
+.contact-widget p {
+  line-height: 10px;
+  margin-top: 12px;
+  color: #D6768A;
+}
+.contact-widget h4 {
+  line-height: 12px;
+  color: #FFFCED;
+}
+.contact-widget-home > div {
+  float: right;
+  margin-right: 8px;
+}
+.contact-widget-side > div {
+  width: 90%;
+  padding: 5px;
+  max-width: 200px;
+}
+.contact-widget-side h4 {
+  font-size: 1rem;
+}
+.slogan {
+  width: 100%;
+  bottom: 0px;
+  position: absolute;
+  text-align: center;
+}
+.slogan > div {
+  max-width: 600px;
+  margin: auto;
+  color: #FFFCED;
+  display: inline-block;
+  padding: 10px 10px 0 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/*
+	social
+*/
+.facebook {
+  color: #3b5998;
+}
+.pinterest {
+  color: #C92228;
+}
+.google {
+  color: #dd4b39;
+}
+.icon {
+  display: inline;
+  font-size: 1.3rem;
+  padding: 10px;
+}
+.icon.facebook {
+  background-color: #fff;
+  -webkit-transition: background-color 0.25s ease-out;
+  -moz-transition: background-color 0.25s ease-out;
+  -o-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+}
+.icon.insta {
+  background-color: #fff;
+  -webkit-transition: background-color 0.25s ease-out;
+  -moz-transition: background-color 0.25s ease-out;
+  -o-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+}
+.icon.google {
+  background-color: #fff;
+  -webkit-transition: background-color 0.25s ease-out;
+  -moz-transition: background-color 0.25s ease-out;
+  -o-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+}
+.icon.facebook:hover {
+  background-color: #3b5998;
+  color: #fff;
+}
+.icon.insta:hover {
+  background-color: #a10bac;
+  color: #fff;
+}
+.icon.google:hover {
+  background-color: #dd4b39;
+  color: #fff;
+}
+/*---*/
+.contact-slogan {
+  padding-bottom: 25px;
+}
+.contact-bar {
+  position: relative;
+  padding-top: 10px;
+  background-color: #E54C66;
+}
+.contact-bar input {
+  color: #FEFDEC;
+}
+.center {
+  text-align: center;
+  line-height: 0.9rem;
+  color: #FFFCED;
+}
+.fa-comments {
+  color: #FEFDEC;
+}
+.program-icons {
+  width: 100%;
+  padding: 25px;
+  background-repeat: no-repeat;
+  background-image: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,fl_any_format.lossy,h_500/v1469643887/rose-house/RoseProgramBG_xdwe0e.png");
+}
+.mobile-program-icons {
+  text-align: center;
+  margin-top: 1rem;
+}
+.callout.secondary {
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #89293D;
+}
+.call-outs > li {
+  background: rgba(176, 191, 127, 0.3);
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+.remove-RL-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+.box {
+  width: 100%;
+  padding: 10px;
+  color: #FEFDEC;
+  text-align: center;
+  display: inline-block;
+}
+.section-head {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+/*
+	content
+*/
+.content {
+  padding: 32px;
+}
+/*
+	side menu
+*/
+.side-menu {
+  margin: auto;
+  text-align: center;
+}
+.side-menu > ul {
+  width: 100%;
+  margin: 0 16px 16px 16px;
+  list-style: none;
+  text-align: left;
+  display: inline-block;
+  list-style-position: inside;
+}
+.side-menu > ul > li > a::before {
+  content: '';
+  color: #89293D;
+  width: 0;
+  height: 0;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition-delay: 300ms;
+  border-left: 0.25em solid transparent;
+  border-right: 0.25em solid transparent;
+  border-top: 0.5em solid currentColor;
+}
+.side-menu > ul > li {
+  width: 100%;
+}
+.side-menu > ul > li > a {
+  display: inline-block;
+  font-size: 16px;
+  padding: 8px 16px;
+  font-weight: normal;
+  width: 100%;
+}
+.side-menu > ul > li:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+.indent li {
+  margin-left: 25px;
+  list-style: none;
+}
+/*
+	buttons
+*/
+.button.green {
+  margin: auto;
+  color: #FFFCED;
+  padding: 1rem 2rem;
+  background: #B0BF7F;
+}
+.button.green:hover {
+  color: #fff;
+  opacity: 0.9;
+  border-radius: 3px;
+  background: #B0BF7F;
+}
+.button.white {
+  background: none;
+  color: #FFFCED;
+  border: 1px solid #FFFCED;
+  text-decoration: none;
+}
+.button.white:hover {
+  background: none;
+  border: 2px solid #FFFCED;
+  color: #fff;
+}
+/*
+	testimonial slide
+*/
+.testimonial {
+  text-align: center;
+  color: #FFFCED;
+  display: inline-block;
+  padding: 1.4rem;
+  background: url('https://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:578da0,f_auto,c_scale,fl_any_format.lossy,e_tint,o_36,w_1920/v1471394449/rose-house/DSC00077.jpg') no-repeat;
+}
+.testimonial .slide-text h5 {
+  font-size: 1rem;
+}
+.verify-insurance {
+  padding: 25px 0 25px 0;
+  text-align: center;
+}
+.insurance-logos {
+  padding: 25px;
+  max-width: 45rem;
+  margin: auto;
+}
+/*
+	TEAM PAGE
+*/
+.profile-circle.marcie {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687642/rose-house/profile-picture/Marcie_Chambers_Ph.D.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.arshad {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687598/rose-house/profile-picture/Dr.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.ann {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687600/rose-house/profile-picture/Ann_Matino_Executive_Director.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.valerie {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687689/rose-house/profile-picture/Valerie_Andrews_Ph.D.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.larry {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1542239844/rose-house/profile-picture/Larry_Algiene_photo.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.jennifer {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,w_300/v1473783008/rose-house/woman.png");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.brenda {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,w_300/v1473783008/rose-house/woman.png");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.kathy {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_faces,h_300,q_60,w_300/v1475687603/rose-house/profile-picture/Kathy_Pahler_Community_Outreach_Yoga_Instructor.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.kristine {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687629/rose-house/profile-picture/Kristine_Rosen_Clinical_Utilization_Specialist.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.rebecca {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687651/rose-house/profile-picture/Rebecca_Glasmann_Family_Referral_Coordinator.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.lindsey {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687661/rose-house/profile-picture/Lindsey_Amott_Executive_Assistant.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.patty {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,fl_lossy,g_face,h_450,w_300/v1528495301/rose-house/profile-picture/Patty_S_photo_professional.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.allison {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_faces,h_300,q_60,w_300/v1475687551/rose-house/profile-picture/Allison_Hein_House_Manager.png");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.aubrey {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492817035/rose-house/profile-picture/AubreySnee.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.danielle {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687619/rose-house/profile-picture/Danielle_Jones_Psychiatric_Technician.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.hannah {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492816332/rose-house/profile-picture/HannahKearney.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.megan {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492816333/rose-house/profile-picture/MeganRamos.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.sandra {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687663/rose-house/profile-picture/Sandra_Schulz_Psychiatric_Technician.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.tanisha {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_300,q_60,w_300/v1475687687/rose-house/profile-picture/Tanisha_Cordova_Psychiatric_Technician.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.cailin {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,fl_any_format.lossy,w_600/v1512584237/rose-house/profile-picture/20170620_165047.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.tj {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,h_900,w_600/v1492817039/rose-house/profile-picture/TJRitner.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.craig {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,fl_any_format.lossy,g_face,h_150,w_150/v1476468361/rose-house/profile-picture/Craig_Fiorni_Picture.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.jenae {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,fl_any_format.lossy,h_500,w_333/v1492016587/rose-house/profile-picture/Jenae-McCall-Rose-House.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.elaine {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492817302/rose-house/profile-picture/EllaineHarris.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.sarah {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/a_auto_right,c_fill,fl_any_format.lossy,g_face,h_900,w_600/v1492816334/rose-house/profile-picture/Sarah_Schumacher.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.barbara {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,h_900,w_600/v1533316642/rose-house/Barbara_Flood_pic.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.alex {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1542240724/rose-house/profile-picture/Alex_Griffin_photo.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.christy {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1533317668/rose-house/IMG_3046.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.melissa {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1542239953/rose-house/profile-picture/Melissa_photo.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+.profile-circle.sandra {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1542240179/rose-house/profile-picture/Sandra_Radney_photo.jpg");
+  background-size: cover;
+  border: solid 5px #89293D;
+  background-position: center;
+}
+/*
+	footer
+*/
+.footer {
+  background: url('http://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:c95468,c_fill,g_center,h_900,o_53,w_1920/v1469641634/rose-house/8173917606_17e737fc7f_o_dzhgzn.jpg') no-repeat fixed;
+  color: #fff;
+  padding: 25px;
+  background-size: cover;
+}
+.footer p {
+  margin-bottom: 0.5rem;
+}
+.footer h3 {
+  color: #fff;
+}
+.bottom-foot {
+  width: 100%;
+  background-color: #E54C66;
+  padding: 25px;
+  text-align: center;
+}
+.bottom-foot p {
+  color: #fff;
+}
+.bottom-foot a {
+  color: #fff;
+}
+.contact-section {
+  padding-top: 25px;
+}
+/*
+	foundation custom
+*/
+.thumbnail:hover,
+.thumbnail:focus {
+  box-shadow: none;
+}
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: #FFFCED transparent transparent;
+}
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a::after {
+  border-color: transparent transparent transparent #FFFCED;
+}
+/*
+	dropdowns
+*/
+.dropdown.menu > li.opens-right > .is-dropdown-submenu {
+  top: 55px;
+}
+.is-dropdown-submenu {
+  border: none;
+}
+.articleles > div {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.articleles > div:nth-last-of-type(1) {
+  border-bottom: none;
+}
+.logos img {
+  margin: 0.5rem;
+}
+@media screen and (max-width: 940px) {
+  .logo {
+    top: 31px;
+    right: 8px;
+    left: initial;
+    height: 80px;
+  }
+  .logo > a > img {
+    height: 70px;
+  }
+  .top > div:nth-child(1) {
+    margin-left: 8px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .program-icons {
+    background: #89293D;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .logo {
+    top: 55px;
+  }
+  .contact-widget-side {
+    display: none;
+  }
+  .top > div:nth-child(2) {
+    top: 8px;
+    position: relative;
+  }
+  .top > div:nth-child(1) > a {
+    display: block;
+  }
+  .footer {
+    background: url('http://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:c95468,c_fill,g_center,h_900,o_53,w_1920/v1469641634/rose-house/8173917606_17e737fc7f_o_dzhgzn.jpg') no-repeat;
+  }
+  .hide-sm {
+    display: none;
+  }
+}
