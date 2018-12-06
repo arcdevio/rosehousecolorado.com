@@ -17,7 +17,7 @@ export default {
 		},
 		template: `
 		<div class="small-12 columns">
-			<div o-each-article="articles" class="articleles">
+			<div o-each-article="articles" class="articles">
 				<div>
 					<h3 o-text="article.title"></h3>
 					<img o-src="article.thumbnail" class="thumbnail blog-thumb">

@@ -43,9 +43,12 @@ ul.c {
 	line-height: .9rem;
 }
 .icon {
+	padding: 9px;
 	display: inline;
 	font-size: 1.3rem;
-	padding: 10px;
+}
+.content {
+	padding: 30px;
 }
 .logo {
 	left: 8px;
@@ -74,8 +77,8 @@ ul.c {
 }
 .top > div:nth-child(2) {
 	float: right;
-	display: inline-block;
 	margin-right: 25px;
+	display: inline-block;
 }
 /*
 	nav
@@ -220,15 +223,11 @@ nav {
 	padding-bottom: 25px;
 }
 .contact-bar{
-	position: relative;
 	padding-top: 10px;
+	position: relative;
 	background-color: #E54C66;
-
 }
 .contact-bar input{
-	color: #FEFDEC;
-}
-.fa-comments{
 	color: #FEFDEC;
 }
 .program-icons {
@@ -252,7 +251,6 @@ nav {
 	margin: 0.5rem;
 	padding: 0.5rem;
 	border-radius: 8px;
-
 }
 .remove-RL-padding {
 	padding-left: 0;
@@ -268,12 +266,6 @@ nav {
 .section-head {
 	margin-top: 15px;
 	margin-bottom: 25px;
-}
-/*
-	content
-*/
-.content {
-	padding: 32px;
 }
 /*
 	side menu
@@ -377,36 +369,32 @@ nav {
 /*
 	footer
 */
-.footer {
+.top-footer {
 	color: #fff;
 	padding: 25px;
 	background-size: cover;
 	background: url('http://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:c95468,c_fill,g_center,h_900,o_53,w_1920/v1469641634/rose-house/8173917606_17e737fc7f_o_dzhgzn.jpg') no-repeat fixed;
 }
-.footer p{
-	margin-bottom: .5rem;
+.top-footer p {
+	margin-bottom: 0.6rem;
 }
-
-.footer h3{
+.top-footer h3 {
 	color: #fff;
 }
 .bottom-foot {
-	// height: 75px;
 	width: 100%;
-	background-color: #E54C66;
-	padding: 25px;
+	padding: 30px;
 	text-align: center;
+	background-color: #E54C66;
 }
-.bottom-foot p{
-	// font-size: 12px;
+.bottom-foot p {
 	color: #fff;
 }
-.bottom-foot a{
-	// font-size: 12px;
+.bottom-foot a {
 	color: #fff;
 }
 .contact-section {
-	padding-top: 25px;
+	padding-top: 30px;
 }
 /*
 	foundation custom
@@ -429,18 +417,16 @@ nav {
 .is-dropdown-submenu {
 	border: none;
 }
-// BLOG
-
-.articleles > div {
+/*
+	blog
+*/
+.articles > div {
 	padding: 1rem;
 	margin-bottom: 1rem;
 	border-bottom: 1px solid rgba(0,0,0,0.2);
 }
-.articleles > div:nth-last-of-type(1) {
+.articles > div:nth-last-of-type(1) {
 	border-bottom: none;
-}
-.logos img {
-	margin: 0.5rem;
 }
 /*
 	team
