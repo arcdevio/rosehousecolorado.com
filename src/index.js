@@ -2,20 +2,22 @@
 // testimonial
 (function() {
 	var slider = document.querySelector('.testimonial');
+
 	if (slider) {
-		var index = 1;
+		var index = 2;
+
 		setInterval(function () {
 
-			if (index > slider.children.length - 1) {
+			if (index === slider.children.length) {
 				slider.children[index - 1].classList.toggle('active');
-				index = 0;
+				index = 2;
+				slider.children[index].classList.toggle('active');
 			}
 
-			if (index > 0) {
+			if (index > 2) {
 				slider.children[index - 1].classList.toggle('active');
+				slider.children[index].classList.toggle('active');
 			}
-
-			slider.children[index].classList.toggle('active');
 
 			index++;
 		}, 3000);
