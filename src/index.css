@@ -8,6 +8,7 @@
 body > * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 body {
 	margin: 0;
@@ -45,12 +46,6 @@ ul.c {
 object {
 	pointer-events: none;
 }
-
-.center {
-	color: #FFFCED;
-	text-align: center;
-	line-height: .9rem;
-}
 .content {
 	padding: 30px;
 }
@@ -66,9 +61,6 @@ object {
 .logo > a {
 	display: block;
 }
-/*
-	media
-*/
 .media {
 	padding: 6px;
 	display: flex;
@@ -83,12 +75,6 @@ object {
 	height: 27px;
 	padding: 0 3px;
 	vertical-align: middle;
-}
-/*
-	nav
-*/
-nav {
-	box-sizing: initial;
 }
 .nav-bar {
 	z-index: 1;
@@ -111,16 +97,7 @@ nav {
 	color: #FFFCED;
 	padding: 16px 32px !important;
 }
-/*
-	globals
-*/
-.float-right {
-	float: right;
-}
-.float-left {
-	float: left;
-}
-.jumbo {
+.main-image {
 	width: 100%;
 }
 .contact-form input[type="date"] {
@@ -164,11 +141,9 @@ nav {
 }
 .contact-widget div {
 	color: #D6768A;
-	/* margin-top: 12px; */
 }
 .contact-widget div:nth-child(1) object{
 	height: 27px;
-	/* margin-top: 12px; */
 }
 .contact-widget-home {
 	float: right;
