@@ -20,7 +20,7 @@ h1, h2 {
 }
 p {
 	margin: 0;
-	line-height: 1;
+	line-height: 1.6;
 }
 a {
 	color: #89293D;
@@ -243,7 +243,7 @@ nav {
 	border-radius: 5px;
 	background-color: #89293D;
 }
-.call-outs > li{
+.call-outs > li {
 	background: rgba(176,191,127,0.3);
 	margin: 0.5rem;
 	padding: 0.5rem;
