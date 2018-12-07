@@ -1,48 +1,33 @@
-// $(document).foundation();
-//
-// $(document).ready(function(){
-// 	$('.sliderA').slick({
-// 		dots: true,
-// 		slidesToShow: 1,
-// 		speed: 1000,
-// 		adaptiveHeight: true,
-// 		autoplay: true,
-// 		autoplaySpeed: 5000,
-// 		arrows: false
-// 	})
-// });
-// Testimonial Slider
-var slider = document.querySelector('.testimonial');
-if (slider) {
-	var sliderChildren = slider.children;
 
-	var index = 1;
-	setInterval(function () {
+// testimonial
+(function() {
+	var slider = document.querySelector('.testimonial');
+	if (slider) {
+		var index = 1;
+		setInterval(function () {
 
-		if (index > sliderChildren.length - 1) {
-			sliderChildren[index - 1].classList.toggle('active');
+			if (index > slider.children.length - 1) {
+				slider.children[index - 1].classList.toggle('active');
+				index = 0;
+			}
 
-			index = 0;
-		}
+			if (index > 0) {
+				slider.children[index - 1].classList.toggle('active');
+			}
 
-		if (index > 0) {
-			sliderChildren[index - 1].classList.toggle('active');
-		}
+			slider.children[index].classList.toggle('active');
 
-		sliderChildren[index].classList.toggle('active');
-
-		index++
-
-	}, 3000);
-}
-
+			index++;
+		}, 3000);
+	}
+}());
 
 (function() {
 	var contactWidget = document.querySelector('.contact-widget');
 	var contactWidgetHeight = contactWidget.getBoundingClientRect().height;
 	var contactWidgetParent = contactWidget.parentNode;
-	var contactWidgetParentTop;
 	var contactWidgetBottom;
+	var contactWidgetParentTop;
 	window.addEventListener('scroll', function () {
 		window.requestAnimationFrame(function () {
 			contactWidgetParentTop = contactWidgetParent.getBoundingClientRect().top;
@@ -62,9 +47,7 @@ if (slider) {
 	});
 }());
 
-/*
-	contact-form
-*/
+// contact form
 (function() {
 
 	var response = document.querySelector('.form-response');
@@ -101,9 +84,7 @@ if (slider) {
 
 }());
 
-/*
-	insurnace-form
-*/
+// insurnace form
 (function() {
 
 	var response = document.querySelector('.form-response');
