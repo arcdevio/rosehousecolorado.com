@@ -42,6 +42,9 @@ ul.b {
 ul.c {
 	list-style: none;
 }
+object {
+	pointer-events: none;
+}
 .center {
 	color: #FFFCED;
 	text-align: center;
