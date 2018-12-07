@@ -67,22 +67,22 @@ object {
 	display: block;
 }
 /*
-	top
+	media
 */
-.top {
-	width: 100%;
-	display: block;
-	min-height: 32px;
-	padding-top: 8px;
+.media {
+	padding: 6px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
 }
-.top > div:nth-child(1) {
-	margin-left: 232px;
-	display: inline-block;
+.media > a {
+	margin: 0 3px;
+	transition: background-color 300ms ease;
 }
-.top > div:nth-child(2) {
-	float: right;
-	margin-right: 25px;
-	display: inline-block;
+.media > a > object {
+	height: 27px;
+	padding: 0 3px;
+	vertical-align: middle;
 }
 /*
 	nav
@@ -188,15 +188,6 @@ nav {
 	display: inline-block;
 	padding: 10px 10px 0 10px;
 	background-color: rgba(0, 0, 0, 0.5);
-}
-/*
-	media
-*/
-.media > a {
-	transition: background-color 300ms ease;
-}
-.media > a > object {
-	height: 27px;
 }
 .contact-slogan{
 	padding-bottom: 25px;
@@ -505,6 +496,9 @@ nav {
 	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
 }
 @media screen and (max-width: 940px) {
+	.media {
+		justify-content: flex-start;
+	}
 	.logo {
 		top: 31px;
 		right: 8px;
@@ -514,9 +508,6 @@ nav {
 	.logo > a > img {
     	height: 70px;
 	}
-	.top > div:nth-child(1) {
-		margin-left: 8px;
-	}
 }
 @media screen and (max-width: 900px) {
 	.program-icons {
@@ -524,25 +515,12 @@ nav {
 	}
 }
 @media screen and (max-width: 600px) {
-	.gallery > img {
-		width: 90%;
-		display: block;
-		margin: 4px auto;
-	}
 	.logo {
 		top: 55px;
 	}
 	.contact-widget-side {
 		display: none;
 	}
-	.top > div:nth-child(2) {
-		top: 8px;
-		position: relative;
-	}
-	.top > div:nth-child(1) > a {
-		display: block;
-	}
-
 	.hide-sm {
 		display: none;
 	}
@@ -551,5 +529,10 @@ nav {
 	}
 	.testimonial > div {
 		width: 100%;
+	}
+	.gallery > img {
+		width: 90%;
+		display: block;
+		margin: 4px auto;
 	}
 }
