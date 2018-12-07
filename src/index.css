@@ -45,6 +45,7 @@ ul.c {
 object {
 	pointer-events: none;
 }
+
 .center {
 	color: #FFFCED;
 	text-align: center;
@@ -164,16 +165,21 @@ nav {
 }
 .contact-widget h4 {
 	color: whitesmoke;
+	margin-bottom: 0;
 }
 .contact-widget div {
 	color: #D6768A;
-	margin-top: 12px;
+	/* margin-top: 12px; */
+}
+.contact-widget div:nth-child(1) object{
+	height: 27px;
+	/* margin-top: 12px; */
 }
 .contact-widget-home {
 	float: right;
 	margin-right: 1rem;
 }
-/* .contact-widget-side {} */
+
 .slogan {
 	width: 100%;
 	bottom: 0px;
