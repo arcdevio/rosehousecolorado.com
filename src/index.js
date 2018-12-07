@@ -39,13 +39,13 @@
 			contactWidgetBottom = (contactWidgetParentTop + contactWidgetHeight);
 
 			if (contactWidgetParentTop <= 0) {
-					contactWidget.style.top = '0';
-					contactWidget.style.right = '0';
+					// contactWidget.style.top = '0';
+					// contactWidget.style.right = '0';
 					contactWidget.style.zIndex = '1';
 					contactWidget.style.position = 'fixed';
 			} else if (contactWidgetBottom >= 0) {
 				contactWidget.style.top = 'initial';
-				contactWidget.style.right = 'initial';
+				// contactWidget.style.right = 'initial';
 				contactWidget.style.zIndex = 'initial';
 				contactWidget.style.position = 'initial';
 			}
