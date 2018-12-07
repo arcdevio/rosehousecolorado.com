@@ -345,36 +345,33 @@ nav {
 	testimonial slide
 */
 .testimonial {
-	text-align: center;
-	color: whitesmoke;
-	height: 300px;
-	padding: 1.4rem;
 	width: 100%;
+	height: 300px;
+	padding: 1.3rem;
+	color: whitesmoke;
+	text-align: center;
 	background: url('https://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:578da0,f_auto,c_scale,fl_any_format.lossy,e_tint,o_36,w_1920/v1471394449/rose-house/DSC00077.jpg') no-repeat;
 }
 .testimonial > div {
-	position: absolute;
-	transform: translate(-50%);
 	left: 50%;
 	opacity: 0;
-	padding: 1.3rem;
 	width: 80%;
+	padding: 1.3rem;
+	position: absolute;
+	transform: translate(-50%);
+	transition: opacity 900ms ease;
 }
 .testimonial > div.active {
-	-webkit-transition: 0.90s ease-out;
-	-moz-transition: 0.90s ease-out;
-	-o-transition: 0.90s ease-out;
-	transition: 0.90s ease-out;
 	opacity: 1;
 }
 .verify-insurance {
-	padding: 25px 0 25px 0;
 	text-align: center;
+	padding: 25px 0 25px 0;
 }
 .insurance-logos {
+	margin: auto;
 	padding: 25px;
 	max-width: 45rem;
-	margin: auto;
 }
 /*
 	footer
@@ -539,6 +536,13 @@ nav {
 .profile-circle.sandra {
 	background-image: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1542240179/rose-house/profile-picture/Sandra_Radney_photo.jpg");
 }
+.gallery > img {
+	width: 150px;
+	margin: 3px 1px;
+	display: inline-block;
+	border: solid 3px #fff;
+	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+}
 @media screen and (max-width: 940px) {
 	.logo {
 		top: 31px;
@@ -558,7 +562,12 @@ nav {
 		background: #89293D;
 	}
 }
-@media only screen and (max-width: 640px) {
+@media screen and (max-width: 600px) {
+	.gallery > img {
+		width: 90%;
+		display: block;
+		margin: 4px auto;
+	}
 	.logo {
 		top: 55px;
 	}
