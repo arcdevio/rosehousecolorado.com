@@ -15,15 +15,16 @@ body {
 	max-width: 100%;
 	overflow-x: hidden;
 }
-p, li, a {
-	line-height: 1.8rem;
-	font-weight: lighter;
-}
 h1, h2 {
 	color: #89293D;
 }
+p {
+	margin: 0;
+	line-height: 1;
+}
 a {
 	color: #89293D;
+	display: inline-block;
 }
 a:hover {
 	color: #E54C66;
@@ -150,35 +151,28 @@ nav {
 	color: #8a8a8a;
 }
 .contact-widget {
-	color: whitesmoke;
-	line-height: 10px;
 	text-align: center;
 	display: inline-block;
 	background-color: #89293D;
 	padding: 10px 20px 5px 20px;
 	border-radius: 0px 0px 10px 10px;
-	box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
-}
-.contact-widget p {
-	line-height: 10px;
-	margin-top: 12px;
-	color: #D6768A;
+	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
 }
 .contact-widget h4 {
-	line-height: 12px;
 	color: whitesmoke;
 }
-.contact-widget-home > div {
+.contact-widget div {
+	color: #D6768A;
+	margin-top: 12px;
+}
+.contact-widget-home {
 	float: right;
 	margin-right: 8px;
 }
-.contact-widget-side > div {
+.contact-widget-side div {
 	width: 90%;
 	padding: 5px;
 	max-width: 200px;
-}
-.contact-widget-side h4 {
-	font-size: 1rem;
 }
 .slogan {
 	width: 100%;
@@ -254,10 +248,6 @@ nav {
 	margin: 0.5rem;
 	padding: 0.5rem;
 	border-radius: 8px;
-}
-.remove-RL-padding {
-	padding-left: 0;
-	padding-right: 0;
 }
 .box {
 	width: 100%;
@@ -376,21 +366,18 @@ nav {
 /*
 	footer
 */
-.top-footer {
+.top-foot {
 	color: whitesmoke;
 	padding: 25px;
 	background-size: cover;
 	background: url('http://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:c95468,c_fill,g_center,h_900,o_53,w_1920/v1469641634/rose-house/8173917606_17e737fc7f_o_dzhgzn.jpg') no-repeat;
 }
-.top-footer p {
-	margin-bottom: 0.6rem;
-}
-.top-footer h3 {
+.top-foot h3 {
 	color: whitesmoke;
 }
 .bottom-foot {
 	width: 100%;
-	padding: 30px;
+	padding: 1rem;
 	text-align: center;
 	background-color: #89293D;
 }
@@ -581,7 +568,7 @@ nav {
 	.top > div:nth-child(1) > a {
 		display: block;
 	}
-	
+
 	.hide-sm {
 		display: none;
 	}
