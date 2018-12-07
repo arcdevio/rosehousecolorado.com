@@ -50,11 +50,6 @@ object {
 	text-align: center;
 	line-height: .9rem;
 }
-.icon {
-	padding: 9px;
-	display: inline;
-	font-size: 1.3rem;
-}
 .content {
 	padding: 30px;
 }
@@ -191,30 +186,11 @@ nav {
 /*
 	media
 */
-.facebook {
-	color: #3b5998;
-}
-.instagram {
-	color: #C92228;
-}
-.youtube {
-	color: #dd4b39;
-}
-.facebook:hover {
-	background-color: #3b5998;
-}
-.instagram:hover {
-	background-color: #a10bac;
-}
-.youtube:hover {
-	background-color: #dd4b39;
-}
-.facebook, .instagram, .youtube {
-	background-color: #fff;
+.media > a {
 	transition: background-color 300ms ease;
 }
-.facebook:hover, .instagram:hover, .youtube:hover {
-	color: #fff;
+.media > a > object {
+	height: 27px;
 }
 .contact-slogan{
 	padding-bottom: 25px;
