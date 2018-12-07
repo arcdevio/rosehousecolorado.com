@@ -25,6 +25,7 @@ p {
 a {
 	color: #89293D;
 	display: inline-block;
+	text-decoration: none;
 }
 a:hover {
 	color: #E54C66;
@@ -167,13 +168,9 @@ nav {
 }
 .contact-widget-home {
 	float: right;
-	margin-right: 8px;
+	margin-right: 1rem;
 }
-.contact-widget-side div {
-	width: 90%;
-	padding: 5px;
-	max-width: 200px;
-}
+/* .contact-widget-side {} */
 .slogan {
 	width: 100%;
 	bottom: 0px;
