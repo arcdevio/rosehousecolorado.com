@@ -536,6 +536,13 @@ nav {
 .profile-circle.sandra {
 	background-image: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1542240179/rose-house/profile-picture/Sandra_Radney_photo.jpg");
 }
+.gallery > img {
+	width: 150px;
+	margin: 3px 1px;
+	display: inline-block;
+	border: solid 3px #fff;
+	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+}
 @media screen and (max-width: 940px) {
 	.logo {
 		top: 31px;
@@ -555,7 +562,12 @@ nav {
 		background: #89293D;
 	}
 }
-@media only screen and (max-width: 640px) {
+@media screen and (max-width: 600px) {
+	.gallery > img {
+		width: 90%;
+		display: block;
+		margin: 4px auto;
+	}
 	.logo {
 		top: 55px;
 	}
