@@ -1,6 +1,6 @@
 /*
 	blue: 578DA0
-	green: B0BF7F
+	green: 859455
 	white: FFFCED
 	pink: E54C66
 	rose: 89293D
@@ -143,7 +143,7 @@ object {
 .contact-widget div {
 	color: #D6768A;
 }
-.contact-widget div:nth-child(1) object{
+.contact-widget svg {
 	height: 27px;
 }
 .contact-widget-home {
@@ -259,6 +259,7 @@ object {
 */
 .button {
 	color:whitesmoke;
+	font-weight: bold;
 	background-color: #E54C66;
 }
 .button:hover {
@@ -268,15 +269,16 @@ object {
 }
 .button.green {
 	margin: auto;
-	color:whitesmoke;
+	color: whitesmoke;
 	padding: 1rem 2rem;
-	background: #B0BF7F;
+	background: #859455;
+	/* font-weight: bold; */
 }
 .button.green:hover {
 	color: #fff;
 	opacity: 0.9;
 	border-radius: 3px;
-	background: #B0BF7F;
+	background: #859455;
 }
 .button.white {
 	background: none;
@@ -328,7 +330,7 @@ object {
 	color: whitesmoke;
 	padding: 25px;
 	background-size: cover;
-	background: url('http://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:c95468,c_fill,g_center,h_900,o_53,w_1920/v1469641634/rose-house/8173917606_17e737fc7f_o_dzhgzn.jpg') no-repeat;
+	background: url('https://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:c95468,f_auto,c_fill,g_center,h_900,o_53,w_1920/v1469641634/rose-house/8173917606_17e737fc7f_o_dzhgzn.jpg') no-repeat;
 }
 .top-foot h3 {
 	color: whitesmoke;
@@ -486,13 +488,16 @@ object {
 	}
 }
 @media screen and (max-width: 900px) {
+	.contact-widget-home {
+		float: initial;
+	}
 	.program-icons {
 		background: #89293D;
 	}
 }
 @media screen and (max-width: 600px) {
 	.logo {
-		top: 55px;
+		top: 39px;
 	}
 	/* .contact-widget-side {
 		display: none;
@@ -501,10 +506,16 @@ object {
 		border-radius: 50%;
 		/* height: 50px;
 		width: 50px; */
-		position: fixed;
-		bottom: 5%;
-		right: 5%;
-		box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.6);
+		position: fixed !important;
+		bottom: 5% !important;
+		right: 5% !important;
+		top: auto !important;
+		background-color: #859455;
+		box-shadow: 1px 1px 16px 1px rgba(0, 0, 0, 0.6);
+	}
+	.contact-widget svg {
+		color: whitesmoke;
+		height: 27px;
 	}
 	.contact-widget div:nth-child(1) object{
 		height: 27px;
