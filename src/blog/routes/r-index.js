@@ -18,9 +18,9 @@ export default {
 		template: `
 		<div class="small-12 columns">
 			<div o-each-article="articles" class="articles">
-				<div>
+				<div class="article">
 					<h3 o-text="article.title"></h3>
-					<img o-src="article.thumbnail" class="thumbnail blog-thumb">
+					<img o-src="article.thumbnail">
 					<div o-html="article.body"></div>
 					<a o-href="article.href" class="button green" target="_blank">Read More</a>
 				</div>

@@ -25,7 +25,7 @@
 }());
 
 (function() {
-	var contactWidget = document.querySelector('.contact-widget');
+	var contactWidget = document.querySelector('.contact-widget-body');
 	if (!contactWidget) return;
 
 	var contactWidgetHeight = contactWidget.getBoundingClientRect().height;
@@ -38,16 +38,16 @@
 			contactWidgetParentTop = contactWidgetParent.getBoundingClientRect().top;
 			contactWidgetBottom = (contactWidgetParentTop + contactWidgetHeight);
 
+			if (window.innerWidth < 940) {
+				return contactWidget.classList.remove('fixed');
+			}
+
 			if (contactWidgetParentTop <= 0) {
-					contactWidget.style.top = '0';
-					contactWidget.style.right = '0';
-					contactWidget.style.zIndex = '1';
-					contactWidget.style.position = 'fixed';
-			} else if (contactWidgetBottom >= 0) {
-				contactWidget.style.top = 'initial';
-				contactWidget.style.right = 'initial';
-				contactWidget.style.zIndex = 'initial';
-				contactWidget.style.position = 'initial';
+				return contactWidget.classList.add('fixed');
+			}
+
+			if (contactWidgetBottom >= 0) {
+				return contactWidget.classList.remove('fixed');
 			}
 
 		});

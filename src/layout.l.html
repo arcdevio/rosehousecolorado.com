@@ -3,8 +3,11 @@
 <head>
 
 	<base href="/"/>
+	<title><!-- { "variable": "title" } --></title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="<!-- { "variable": "metaKeywords" } -->">
+	<meta name="description" content="<!-- { "variable": "metaDescription" } -->">
 
 	<link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon/apple-icon-60x60.png">
@@ -24,9 +27,12 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="theme-color" content="#ffffff">
 
-	<title><!-- { "variable": "title" } --></title>
-	<meta name="description" content="<!-- { "variable": "metaDescription" } -->">
-	<meta name="keywords" content="<!-- { "variable": "metaKeywords" } -->">
+	<link rel="preload" href="/assets/foundation.min.css" as="style">
+	<link rel="preload" href="/assets/nav-bar.min.js" as="script">
+	<link rel="preload" href="/assets/oxe.min.js" as="script">
+	<link rel="preload" href="/blog/index.js" as="script">
+	<link rel="preload" href="/index.js" as="script">
+	<link rel="preload" href="/index.css" as="style">
 
 	<script src="/assets/nav-bar.min.js" defer></script>
 	<script src="/index.js" defer></script>
@@ -154,7 +160,7 @@
 		<div class="bottom-foot">
 			<div class="row">
 				<div class="columns">
-					<p>&#9400; The Rose House | <a href="/privacy">Privacy Policy</a> | <a href="/sitemap.html">Site Map</a> | Created By <a href="https://arcdev.io/" rel="noopener" target="_blank">Arc IO</a></p>
+					<p>&#9400; The Rose House | <a href="/privacy/">Privacy Policy</a> | <a href="/sitemap/">Site Map</a> | Created By <a href="https://arcdev.io/" rel="noopener" target="_blank">Arc IO</a></p>
 					<p>If you have questions, suggestions, concerns or compliments about our services, please call 888-398-4111 or email <a href="mailto:info@rosehousecolorado.com">info@rosehousecolorado.com</a>.</p>
 				</div>
 			</div>
