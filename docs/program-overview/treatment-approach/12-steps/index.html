@@ -4,6 +4,7 @@
 
 	<base href="/"/>
 	<title>12 Step Program Colorado | The Rose House</title>
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="keywords" content="12 steps, community, meetings, women, addiction, boulder colorado, rose house, sober">
@@ -27,45 +28,20 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="theme-color" content="#ffffff">
 
+	<link rel="preload" href="/program-overview/admissions/verify-insurance/index.js" as="script">
 	<link rel="preload" href="/assets/foundation.min.css" as="style">
+	<link rel="preload" href="/assets/analytic.min.js" as="script">
 	<link rel="preload" href="/assets/nav-bar.min.js" as="script">
 	<link rel="preload" href="/assets/oxe.min.js" as="script">
+	<link rel="preload" href="/contact/index.js" as="script">
 	<link rel="preload" href="/blog/index.js" as="script">
 	<link rel="preload" href="/index.js" as="script">
 	<link rel="preload" href="/index.css" as="style">
 
+	<script>window.AID = 'UA-87780296-1';</script>
+	<script src="/assets/analytic.min.js" async></script>
 	<script src="/assets/nav-bar.min.js" defer></script>
 	<script src="/index.js" defer></script>
-
-    <!-- START Google Analytics -->
-	<script>
-		window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-		ga('create', 'UA-87780296-1', 'auto');
-		ga('send', 'pageview');
-	</script>
-	<script>
-		document.addEventListener('DOMContentLoaded', function () {
-			var elements = document.querySelectorAll('[data-track]');
-			for (var i = 0, l = elements.length; i < l; i++) {
-				elements[i].addEventListener('click', function (event) {
-					var value = event.target.getAttribute('data-track');
-					var options = value.split(/\s*,\s*/); // category, action, label, value
-					ga.apply(null, ['send', 'event'].concat(options));
-				});
-			}
-		});
-	</script>
-	<script src="https://www.google-analytics.com/analytics.js" async></script>
-    <!-- END Google Analytics -->
-
-    <!-- START Google Tag Manager -->
-	<!-- <script src="https://www.googletagmanager.com/gtag/js?id=UA-87780296-1"  async></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'UA-87780296-1');
-	</script> -->
-    <!-- END Google Tag Manager -->
 
 	<link rel="stylesheet" href="/assets/foundation.min.css"/>
 	<link rel="stylesheet" href="/index.css"/>
@@ -145,7 +121,7 @@
 
 
 <div class="contact-widget">
-	<a data-track="phone, click" href="tel:18883984112" class="contact-widget-body">
+	<a data-track="click: phone, click" href="tel:18883984112" class="contact-widget-body">
 		<svg class="contact-widget-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
 		    <path fill="currentcolor" d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"></path>
 		</svg>

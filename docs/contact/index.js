@@ -1,6 +1,6 @@
 
 (function() {
-	
+
 	var response = document.querySelector('.form-response');
 	var form = document.querySelector('.contact-form');
 	if (!form) return;
@@ -19,16 +19,14 @@
 			resolve(data);
 		},
 		complete: function (error, success) {
-
 			if (error) {
 				response.style.color = '#89293D';
-				response.innerText = 'Error Please See Console';
+				response.innerText = 'Error Please Call';
 			} else {
 				form.style.display = 'none';
 				response.style.color = '#B0BF7F';
-				response.innerText = 'Contact Information Is Sent';
+				response.innerText = 'Contact Form Submitted';
 			}
-
 		}
 	});
 
