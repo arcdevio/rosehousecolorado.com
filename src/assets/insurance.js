@@ -14,12 +14,11 @@
 		responseType: 'json',
 		action: 'https://www.enformed.io/zpn17s0',
 		prepare: function (data, resolve) {
-			data['*default_email'] = 'ahill@rosehousecolorado.com';
-			data['*cc'] = 'mchambers101@gmail.com,cconger@rosehousecolorado.com';
-			resolve(data);
+			// data['*default_email'] = 'ahill@rosehousecolorado.com';
+			// data['*cc'] = 'mchambers101@gmail.com,cconger@rosehousecolorado.com';
+			// resolve(data);
 		},
 		complete: function (error, success) {
-
 			if (error) {
 				response.style.color = '#89293D';
 				response.innerText = 'Error Please Call';
@@ -28,7 +27,6 @@
 				response.style.color = '#B0BF7F';
 				response.innerText = 'Verification Form Submitted';
 			}
-
 		}
 	});
 

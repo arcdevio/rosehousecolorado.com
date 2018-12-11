@@ -19,7 +19,6 @@
 			// resolve(data);
 		},
 		complete: function (error, success) {
-
 			if (error) {
 				response.style.color = '#89293D';
 				response.innerText = 'Error Please Call';
@@ -28,7 +27,6 @@
 				response.style.color = '#B0BF7F';
 				response.innerText = 'Contact Form Submitted';
 			}
-
 		}
 	});
 
