@@ -22,11 +22,11 @@
 
 			if (error) {
 				response.style.color = '#89293D';
-				response.innerText = 'Error Pease see Console';
+				response.innerText = 'Error Please Call';
 			} else {
 				form.style.display = 'none';
 				response.style.color = '#B0BF7F';
-				response.innerText = 'Verification Information Is Sent';
+				response.innerText = 'Verification Form Submitted';
 			}
 
 		}
