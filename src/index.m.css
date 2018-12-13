@@ -343,6 +343,17 @@ object {
 	background-size: cover;
 	background: url('https://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:c95468,f_auto,c_fill,g_center,h_900,o_53,w_1920/v1469641634/rose-house/8173917606_17e737fc7f_o_dzhgzn.jpg') no-repeat;
 }
+.center {
+	max-width: 50rem;
+	flex-wrap: wrap;
+	display: flex;
+}
+.center > div {
+	margin: 1rem auto;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
 .top-foot h3 {
 	color: whitesmoke;
 }
