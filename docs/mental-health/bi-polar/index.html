@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
 
-	<base href="/"/>
+	<base href="/">
+	<script>
+		document.querySelector('base').href = window.location.pathname.slice(-1) === '/' ? window.location.pathname : window.location.pathname + '/';
+	</script>
+
 	<title>Bipolar Treatment | The Rose House Colorado</title>
 
 	<meta charset="utf-8">
@@ -145,10 +149,10 @@
 		<nav class="side-menu">
 			<ul>
 				<li><a href="../dual-diagnosis/">Dual Diagnosis</a></li>
-				<li><a href="../trauma">Trauma</a></li>
-				<li><a href="../depression">Depression</a></li>
-				<li><a href="../bi-polar">Bipolar</a></li>
-				<li><a href="../anxiety">Anxiety</a></li>
+				<li><a href="../trauma/">Trauma</a></li>
+				<li><a href="../depression/">Depression</a></li>
+				<li><a href="../bi-polar/">Bipolar</a></li>
+				<li><a href="../anxiety/">Anxiety</a></li>
 			</ul>
 		</nav>
 	</div>

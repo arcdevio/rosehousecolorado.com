@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
 
-	<base href="/"/>
+	<base href="/">
+	<script>
+		document.querySelector('base').href = window.location.pathname.slice(-1) === '/' ? window.location.pathname : window.location.pathname + '/';
+	</script>
+
 	<title>What To Bring | The Rose House</title>
 
 	<meta charset="utf-8">
@@ -150,11 +154,11 @@
 					<li><a href="../what-to-bring/">What to Bring</a></li>
 				</ul>
 				<li><a href="/program-overview/levels-care-offered/">Levels of Care Offered</a></li>
-				<li><a href="/program-overview/mission">Mission &amp; Story</a></li>
-				<li><a href="/program-overview/aftercare">Aftercare</a></li>
-				<li><a href="/program-overview/staff">Staff</a></li>
+				<li><a href="/program-overview/mission/">Mission &amp; Story</a></li>
+				<li><a href="/program-overview/aftercare/">Aftercare</a></li>
+				<li><a href="/program-overview/staff/">Staff</a></li>
 				<li><a href="/program-overview/treatment-approach/">Treatment Approach</a></li>
-				<li><a href="/program-overview/rose-house-photos">Photos/ Video</a></li>
+				<li><a href="/program-overview/rose-house-photos/">Photos/ Video</a></li>
 			</ul>
 		</nav>
 	</div>

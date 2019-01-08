@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
 
-	<base href="/"/>
+	<base href="/">
+	<script>
+		document.querySelector('base').href = window.location.pathname.slice(-1) === '/' ? window.location.pathname : window.location.pathname + '/';
+	</script>
+
 	<title>Levels of Care Offered | Program Overview | The Rose House</title>
 
 	<meta charset="utf-8">

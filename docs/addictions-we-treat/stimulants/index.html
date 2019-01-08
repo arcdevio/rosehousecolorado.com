@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
 
-	<base href="/"/>
+	<base href="/">
+	<script>
+		document.querySelector('base').href = window.location.pathname.slice(-1) === '/' ? window.location.pathname : window.location.pathname + '/';
+	</script>
+
 	<title>Stimulant Addiction Treatment | The Rose House Colorado</title>
 
 	<meta charset="utf-8">
@@ -143,10 +147,10 @@
 	<div class="small-12 medium-3 columns">
 		<nav class="side-menu">
 			<ul>
-				<li><a href="../alcohol">Alcohol Addiction</a></li>
-				<li><a href="../heroin">Opiate/Heroin Addiction</a></li>
-				<li><a href="../stimulants">Stimulant Addiction</a></li>
-				<li><a href="../marijuana">Marijuana Addiction</a></li>
+				<li><a href="../alcohol/">Alcohol Addiction</a></li>
+				<li><a href="../heroin/">Opiate/Heroin Addiction</a></li>
+				<li><a href="../stimulants/">Stimulant Addiction</a></li>
+				<li><a href="../marijuana/">Marijuana Addiction</a></li>
 			</ul>
 		</nav>
 	</div>
