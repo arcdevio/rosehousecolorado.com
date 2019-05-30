@@ -49,6 +49,9 @@ ul.c {
 object {
 	pointer-events: none;
 }
+video {
+	width: 100%;
+}
 .content {
 	padding: 30px;
 }
@@ -269,6 +272,7 @@ object {
 	buttons
 */
 .button {
+	margin: 1rem auto;
 	color:whitesmoke;
 	font-weight: bold;
 	background-color: #E54C66;
@@ -279,7 +283,7 @@ object {
 	background-color: #E54C66;
 }
 .button.green {
-	margin: auto;
+	
 	color: whitesmoke;
 	padding: 1rem 2rem;
 	background: #859455;
