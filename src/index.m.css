@@ -5,9 +5,10 @@
 	pink: E54C66
 	rose: 89293D
 */
-body > * {
+* {
 	margin: 0;
 	padding: 0;
+    font-size: 16px;
 	box-sizing: border-box;
 }
 body {
@@ -255,11 +256,10 @@ video {
 	width: 100%;
 }
 .side-menu > ul > li > a {
-	display: inline-block;
-	font-size: 16px;
+	width: 100%;
 	padding: 8px 16px;
 	font-weight: normal;
-	width: 100%;
+	display: inline-block;
 }
 .side-menu > ul > li:hover {
 	background: rgba(0,0 ,0,0.1);
@@ -283,7 +283,7 @@ video {
 	background-color: #E54C66;
 }
 .button.green {
-	
+
 	color: whitesmoke;
 	padding: 1rem 2rem;
 	background: #859455;
