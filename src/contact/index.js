@@ -12,7 +12,7 @@
 		query: form,
 		method: 'post',
 		responseType: 'json',
-		action: 'https://www.enformed.io/zpn17s0',
+		action: 'https://www.enformed.io/csl0xqaw',
 		prepare: function (data, resolve) {
 			data['*default_email'] = 'ahill@rosehousecolorado.com';
 			data['*cc'] = 'mchambers101@gmail.com,cconger@rosehousecolorado.com';
