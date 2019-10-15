@@ -1,1 +1,32 @@
-(function(){var a=document.querySelector('.form-response'),b=document.querySelector('.contact-form');b&&(At.setup.spinner.size='6px',At.setup.spinner.thickness='30px',At.submit({query:b,method:'post',responseType:'json',action:'https://www.enformed.io/csl0xqaw',prepare:function(a,b){a['*default_email']='ahill@rosehousecolorado.com',a['*cc']='mchambers101@gmail.com,cconger@rosehousecolorado.com',b(a)},complete:function(c){c?(a.style.color='#89293D',a.innerText='Error Please Call'):(b.style.display='none',a.style.color='#B0BF7F',a.innerText='Contact Form Submitted')}}))})();
+
+(function () {
+
+	var response = document.querySelector('.form-response');
+	var form = document.querySelector('.contact-form');
+	if (!form) return;
+
+	At.setup.spinner.size = '6px';
+	At.setup.spinner.thickness = '30px';
+
+	At.submit({
+		query: form,
+		method: 'post',
+		responseType: 'json',
+		action: 'https://www.enformed.io/csl0xqaw',
+		prepare: function prepare(data, resolve) {
+			data['*default_email'] = 'ahill@rosehousecolorado.com';
+			data['*cc'] = 'mchambers101@gmail.com,cconger@rosehousecolorado.com';
+			resolve(data);
+		},
+		complete: function complete(error, success) {
+			if (error) {
+				response.style.color = '#89293D';
+				response.innerText = 'Error Please Call';
+			} else {
+				form.style.display = 'none';
+				response.style.color = '#B0BF7F';
+				response.innerText = 'Contact Form Submitted';
+			}
+		}
+	});
+})();

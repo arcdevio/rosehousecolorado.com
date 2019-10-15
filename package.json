@@ -6,7 +6,7 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "muleify -pw src dev -s dev",
-		"build": "rm -r docs/* && muleify -ptm src docs"
+		"build": "rm -r docs/* && muleify -pt src docs"
 	},
 	"repository": {
 		"type": "git",
