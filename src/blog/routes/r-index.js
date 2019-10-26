@@ -16,7 +16,7 @@ export default {
 			]
 		},
 		template: `
-		<div class="small-12 columns">
+		<div class="col-xs">
 			<div o-each-article="articles" class="articles">
 				<div class="article">
 					<h3 o-text="article.title"></h3>
