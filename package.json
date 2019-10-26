@@ -5,10 +5,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"s": "muleify -sw src dev",
-		"b": "rm -r docs/* && muleify -p src docs",
-		"co": "cp node_modules/oxe/dst/oxe.min.js src/assets/.",
-		"ca": "cp node_modules/analytic/dst/analytic.min.js src/assets/."
+		"test": "muleify -pw src dev -s dev",
+		"build": "rm -r docs/* && muleify -pt src docs"
 	},
 	"repository": {
 		"type": "git",
@@ -20,11 +18,12 @@
 		"url": "https://github.com/arcdevio/peaksrecovery.com/issues"
 	},
 	"homepage": "https://github.com/arcdevio/peaksrecovery.com#readme",
-	"dependencies": {
-		"analytic": "github:arcdevio/analytic#master",
-		"astatine": "^1.2.0",
+	"dependencies": {},
+	"devDependencies": {
+		"oxe": "^3.20.1",
 		"erbium": "^1.6.1",
+		"astatine": "^1.2.0",
 		"flexboxgrid": "^6.3.1",
-		"oxe": "^3.20.1"
+		"analytic": "github:arcdevio/analytic"
 	}
 }

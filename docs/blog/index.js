@@ -12,10 +12,7 @@ Promise.resolve().then(function () {
 		},
 		router: {
 			contain: true,
-			routes: [
-				rIndex
-			]
+			routes: [rIndex]
 		}
 	});
-
 }).catch(console.error);
