@@ -57,7 +57,7 @@ li {
 	display: flex;
 }
 ul > ul {
-	list-style: circle;
+	/* list-style: circle; */
 }
 ul.a {
 	list-style: square;
@@ -161,6 +161,17 @@ hr {
 form  {
 
 }
+legend {
+	padding: 0.5rem;
+    margin: 0.5rem 1rem;
+}
+fieldset {
+	padding: 1rem;
+}
+fieldset > fieldset {
+	border-color: lightgrey;
+	border-style: solid;
+}
 input, textarea {
 	width: 100%;
 	padding: 0.5rem;
@@ -212,6 +223,9 @@ input[type='submit'] {
 	position: absolute;
 	text-align: center;
 }
+.slogan h3 {
+	color: white;
+}
 .slogan > div {
 	max-width: 600px;
 	margin: auto;
@@ -248,16 +262,19 @@ input[type='submit'] {
 	background-color: #89293D;
 }
 .call-outs > li {
-	background: rgba(176,191,127,0.3);
 	margin: 0.5rem;
 	padding: 0.5rem;
-	border-radius: 8px;
+	border-radius: 3px;
+	background: rgba(176,191,127,0.2);
 }
 .box {
 	width: 100%;
 	padding: 10px;
 	color: #FEFDEC;
 	display: inline-block;
+}
+.box h3 {
+	color: white;
 }
 .section-head {
 	margin-top: 15px;

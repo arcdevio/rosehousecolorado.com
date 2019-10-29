@@ -32,24 +32,25 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="theme-color" content="#ffffff">
 
+	<link rel="preload" href="/assets/flexboxgrid.min.css" as="style">
 	<link rel="preload" href="/program-overview/admissions/verify-insurance/index.js" as="script">
-	<link rel="preload" href="/assets/foundation.min.css" as="style">
 	<link rel="preload" href="/assets/analytic.min.js" as="script">
 	<link rel="preload" href="/assets/nav-bar.min.js" as="script">
-	<link rel="preload" href="/assets/oxe.min.js" as="script">
+	<!-- <link rel="preload" href="/assets/oxe.min.js" as="script"> -->
 	<link rel="preload" href="/contact/index.js" as="script">
-	<link rel="preload" href="/blog/index.js" as="script">
+	<!-- <link rel="preload" href="/blog/index.js" as="script"> -->
 	<link rel="preload" href="/index.js" as="script">
 	<link rel="preload" href="/index.css" as="style">
 
 	<script>window.AID = 'UA-87780296-1';</script>
 	<script src="/assets/analytic.min.js"></script>
-    
+
 	<script src="/assets/nav-bar.min.js" defer></script>
 	<script src="/index.js" defer></script>
 
-	<link rel="stylesheet" href="/assets/foundation.min.css"/>
+	<link rel="stylesheet" href="/assets/flexboxgrid.min.css">
 	<link rel="stylesheet" href="/index.css"/>
+
 </head>
 <body>
 
@@ -115,7 +116,7 @@
 						<li><a href="/mental-health/anxiety/">Anxiety</a></li>
 					</ul>
 				</li>
-				<!-- <li><a href="/blog/">Blog</a></li> -->
+				<li><a href="/testimonials/">Testimonials</a></li>
 				<li><a href="/contact/">Contact</a></li>
 			</ul>
 		</nav>
@@ -166,68 +167,52 @@
 </div>
 
 <div class="program-icons">
-	<div class="row">
-		<div class="small-12 medium-5 columns">
+	<section class="row">
+		<div class="col-xs-12 col-sm-5">
 			<div class="box">
 				<h3>Mission &amp; Story</h3>
 				<p>Women get better at The Rose House.  We believe that by engaging in high quality, gender specific, extended care addiction and mental health treatment, women can experience sustained sobriety and emotional healing.  Our mission is to provide evidence-based, dual diagnosis integrative treatment, delivered by a compassionate staff within a dynamic community of recovery.</p>
 				<a class="button white" href="/program-overview/mission/">Read More</a>
 			</div>
 		</div>
-		<div class="small-12 medium-4 columns">
+		<div class="col-xs-12 col-sm-4">
 			<div class="box">
 				<h3>Treatment Approach</h3>
 				<p>For women suffering from addiction, underlying issues of trauma and mental health need to be addressed. At The Rose House, we focus on the whole person by promoting psychological, emotional, physical, spiritual, and cognitive healing. We offer <a href="/program-overview/treatment-approach/gender-specific/">gender-specific</a>  treatment, which studies show is most effective with women experiencing co-occurring disorders.</p>
 				<a class="button white" href="/program-overview/treatment-approach/">Read More</a>
 			</div>
 		</div>
-		<div class="small-12 medium-3 columns">
+		<div class="col-xs-12 col-sm-3">
 			<div class="box">
 				<h3>Admission Process</h3>
 				<p>We realize that committing to extended care treatment is a very important step.  We would be happy to work with you to see if our treatment and your needs are a match.  Click below to learn more about next steps and our admission process.</p>
 				<a class="button white" href="/program-overview/admissions/">Read More</a>
 			</div>
 		</div>
-	</div>
+	</section>
 </div>
 
-<div class="about-section">
-	<div class="row">
-		<div class="small-12 columns">
-			<div class="section-head">
-				<h1>About Us</h1>
-				<hr>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-        <div class="small-12 medium-5 large-6 columns">
-
-            <video controls poster="https://res.cloudinary.com/dbc2wlvk8/image/upload/f_auto/v1559075658/rose-house/Screen_Shot_2019-05-23_at_3.40.58_PM.png">
+<section>
+	<div class="row middle-sm">
+        <div class="col-xs-12 col-sm-4">
+			<img src= "https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_south,h_500,w_480/v1476478574/rose-house/IMG_0510.jpg" alt="womens recovery hike in the mountains">
+            <!-- <video controls poster="https://res.cloudinary.com/dbc2wlvk8/image/upload/f_auto/v1559075658/rose-house/Screen_Shot_2019-05-23_at_3.40.58_PM.png">
 				<source src="/video/rose-house.webm" type="video/webm">
                 <source src="/video/rose-house.mp4" type="video/mp4">
                 Your browser does not support this video.
-            </video>
-            <a class="button green" href="/program-overview/mission/">Learn More</a>
-
+            </video> -->
         </div>
 
-        <div class="small-12 medium-7 large-6 columns">
+        <div class="col-xs-12 col-sm-8">
+			<h1>About Us</h1>
             <p>If you are reading this message, either you or someone you care about is in need of help. We welcome you to our website where you can learn more about how The Rose House helps women and their families. The Rose House is a soft place to land when life gets too hard. Call <a href="tel:7203521623">720-352-1623</a> and let's talk today.</p>
-
             <p>The Rose House is a <strong>licensed and accredited, residential alcohol and drug addiction treatment program for women</strong> in the beautiful state of Colorado. In our 16 bed facility, we provide intensive therapy, relapse prevention, and facilitate the development of life skills necessary to maintain long-term sobriety.</p>
-
+			<a class="button green" href="/program-overview/mission/">Learn More</a>
         </div>
-
-        <!-- <div class="small-12 medium-6 columns">
-            <div class="thumbnail">
-                <img src= "https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,fl_any_format.lossy,h_500/v1476478574/rose-house/IMG_0510.jpg" alt="womens recovery hike in the mountains">
-            </div>
-        </div> -->
     </div>
+</section>
 
-</div>
-<div class="testimonial">
+<!-- <div class="testimonial">
 	<h3>Rose House Testimonial</h3>
 	<hr style="width: 50%;">
 	<div class="active">
@@ -248,82 +233,70 @@
 	<div>
 		<p>"I wanted to take a few minutes and thank the Rose House staff for all the wonderful things you all did for my daughter… With your help and guidance she has blossomed… She is much more clear, positive, and confident in herself than she has EVER been… Again, I thank you from the bottom of my heart for all you have done…"</p>
 	</div>
-</div>
+</div> -->
 
-<div class="verify-insurance">
+<section>
 	
-<div class="row">
-	<div class="small-12 columns">
+<div class="row center-xs">
+	<div class="col-xs-8">
 		<h1>Verify Insurance</h1>
 		<p>The Rose House is an Out-of-Network provider and works with a variety of insurance PPO plans. We are not a Medicaid/ Medicare provider. The Rose House verifies insurance benefits as a service to our clients.</p>
+		<a class="button green" href="/program-overview/admissions/verify-insurance/">Verify Here</a>
 	</div>
 </div>
 
 <div class="row">
-	<div class="small-12 columns">
-		<a href="/program-overview/admissions/verify-insurance/">
-			<button class="button green">Verify Here</button>
-		</a>
-		<!-- <div class="insurance-logos">
-			<img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,w_150/v1471459339/rose-house/478fe156cb99f3838e900bfb396567ca.jpg">
-			<img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,w_150/v1471459340/rose-house/cigna-logo-wallpaper.jpg">
-			<img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,w_150/v1471459340/rose-house/Harvard-Pilgrim-Health-Insurance.jpg">
-			<img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,w_150/v1471459340/rose-house/health-net-logo.jpg">
-			<img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,w_150/v1471459340/rose-house/logo_ahpa.png">
-			<img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,w_125/v1471459340/rose-house/humana-logo-blog-large.jpg">
-			<img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,fl_any_format.lossy,w_90/v1477953541/rose-house/blue-cross.png">
-			<img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,fl_any_format.lossy,w_120/v1477953541/rose-house/download.png">
-		</div> -->
+	<div class="col ">
 	</div>
 </div>
 
-</div>
+</section>
 
 	</main>
 
 	<footer>
 		<div class="top-foot">
-			<div class="row center">
-				<div>
-					<a href="https://www.naatp.org/resources/addiction-industry-directory/19111/the-rose-house" target="_blank"><img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,w_400/v1542239410/rose-house/NAATP_Member_Logo_Reverse_Horizontal_RGB.png" alt="NAATP Member Logo"></a>
-				</div>
-				<div>
-					<img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,w_100/v1541527497/rose-house/GoldSeal_transparent.gif" alt="">
-				</div>
-				<div>
-					<img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,w_125,f_auto/v1520993742/rose-house/Screenshot_from_2018-03-13_19-14-52.png" alt="">
+				<div class="row between-xs">
+					<div>
+						<a href="https://www.naatp.org/resources/addiction-industry-directory/19111/the-rose-house" target="_blank"><img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,w_400/v1542239410/rose-house/NAATP_Member_Logo_Reverse_Horizontal_RGB.png" alt="NAATP Member Logo"></a>
+					</div>
+					<div>
+						<img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,w_100/v1541527497/rose-house/GoldSeal_transparent.gif" alt="">
+					</div>
+					<div>
+						<img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,w_125,f_auto/v1520993742/rose-house/Screenshot_from_2018-03-13_19-14-52.png" alt="">
+					</div>
 				</div>
 
-			</div>
-			<div class="row">
-				<div class="medium-12 large-5 columns">
-					<h3>The Rose House</h3>
-					<hr>
-                    <video controls poster="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,fl_any_format.lossy,h_700,w_1900/v1471393512/rose-house/DSC00031_sx32rj.jpg">
-                        <source src="./video/rose-house.webm" type="video/webm" />
-                        <source src="./video/rose-house.mp4" type="video/mp4" />
-                    </video>
-					<p><strong>Admissions:</strong> 720-352-1623</p>
-					<p><strong>Other Inquiries:</strong> 888-398-4111</p>
-					<p><strong>Fax:</strong> 303-494-1783</p>
-					<p><strong>Address:</strong><br />P.O. Box 270416, Louisville, CO 80027</p>
-				</div>
-				<div class="medium-12 large-7 columns hide-sm">
-					<h3>Our Mission</h3>
-					<hr>
-					<p>Women get better at The Rose House. We believe that by engaging in high quality, gender specific, extended care addiction and mental health treatment, women can experience sustained sobriety and emotional healing. Our mission is to provide evidence-based, dual diagnosis integrative treatment, delivered by a compassionate staff within a dynamic community of recovery.</p>
+			<section>
+				<div class="row">
+					<div class="col-xs-12 col-sm">
+						<h3>The Rose House</h3>
+						<hr>
+	                    <video controls poster="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,fl_any_format.lossy,h_700,w_1900/v1471393512/rose-house/DSC00031_sx32rj.jpg">
+	                        <source src="./video/rose-house.webm" type="video/webm" />
+	                        <source src="./video/rose-house.mp4" type="video/mp4" />
+	                    </video>
+						<p><strong>Admissions:</strong> 720-352-1623</p>
+						<p><strong>Other Inquiries:</strong> 888-398-4111</p>
+						<p><strong>Fax:</strong> 303-494-1783</p>
+						<p><strong>Address:</strong><br />P.O. Box 270416, Louisville, CO 80027</p>
+					</div>
+					<div class="col-xs-12 col-sm hide-sm">
+						<h3>Our Mission</h3>
+						<hr>
+						<p>Women get better at The Rose House. We believe that by engaging in high quality, gender specific, extended care addiction and mental health treatment, women can experience sustained sobriety and emotional healing. Our mission is to provide evidence-based, dual diagnosis integrative treatment, delivered by a compassionate staff within a dynamic community of recovery.</p>
 
-					<a class="button white" href="/program-overview/mission/">Read More</a>
+						<a class="button white" href="/program-overview/mission/">Read More</a>
+					</div>
 				</div>
-			</div>
+			</section>
 		</div>
-		<div class="bottom-foot">
-			<div class="row">
-				<div class="columns">
-					<p>&#9400; The Rose House | <a href="/privacy/">Privacy Policy</a> | <a href="/sitemap/">Site Map</a> | Created By <a href="https://arcdev.io/" rel="noopener" target="_blank">Arc IO</a></p>
-					<p>If you have questions, suggestions, concerns or compliments about our services, please call 888-398-4111 or email <a href="mailto:info@rosehousecolorado.com">info@rosehousecolorado.com</a>.</p>
-				</div>
-			</div>
+		<div class="row center-xs">
+			<section class="col-xs-10">
+				<p>&#9400; The Rose House | <a href="/privacy/">Privacy Policy</a> | <a href="/sitemap/">Site Map</a> | Created By <a href="https://arcdev.io/" rel="noopener" target="_blank">Arc IO</a></p>
+				<p>If you have questions, suggestions, concerns or compliments about our services, please call 888-398-4111 or email <a href="mailto:info@rosehousecolorado.com">info@rosehousecolorado.com</a>.</p>
+			</section>
 		</div>
 	</footer>
 

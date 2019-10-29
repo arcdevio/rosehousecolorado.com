@@ -32,24 +32,25 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="theme-color" content="#ffffff">
 
+	<link rel="preload" href="/assets/flexboxgrid.min.css" as="style">
 	<link rel="preload" href="/program-overview/admissions/verify-insurance/index.js" as="script">
-	<link rel="preload" href="/assets/foundation.min.css" as="style">
 	<link rel="preload" href="/assets/analytic.min.js" as="script">
 	<link rel="preload" href="/assets/nav-bar.min.js" as="script">
-	<link rel="preload" href="/assets/oxe.min.js" as="script">
+	<!-- <link rel="preload" href="/assets/oxe.min.js" as="script"> -->
 	<link rel="preload" href="/contact/index.js" as="script">
-	<link rel="preload" href="/blog/index.js" as="script">
+	<!-- <link rel="preload" href="/blog/index.js" as="script"> -->
 	<link rel="preload" href="/index.js" as="script">
 	<link rel="preload" href="/index.css" as="style">
 
 	<script>window.AID = 'UA-87780296-1';</script>
 	<script src="/assets/analytic.min.js"></script>
-    
+
 	<script src="/assets/nav-bar.min.js" defer></script>
 	<script src="/index.js" defer></script>
 
-	<link rel="stylesheet" href="/assets/foundation.min.css"/>
+	<link rel="stylesheet" href="/assets/flexboxgrid.min.css">
 	<link rel="stylesheet" href="/index.css"/>
+
 </head>
 <body>
 
@@ -115,7 +116,7 @@
 						<li><a href="/mental-health/anxiety/">Anxiety</a></li>
 					</ul>
 				</li>
-				<!-- <li><a href="/blog/">Blog</a></li> -->
+				<li><a href="/testimonials/">Testimonials</a></li>
 				<li><a href="/contact/">Contact</a></li>
 			</ul>
 		</nav>
@@ -143,63 +144,67 @@
 	<img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/q_69/v1473905492/rose-house/AdobeStock_91237724.png" alt="team hiking in the rockies" />
 </div>
 
-<div class="row content">
-	<div class="small-12 columns">
-		<h1>Staff</h1>
-		<h3>Meet Our Staff</h3>
-		<p>Caring professionals with decades of experience in the addiction treatment field.</p>
-		<hr>
+<section>
+	<div class="row">
+		<div class="col-xs">
+			<h1>Staff</h1>
+			<h3>Meet Our Staff</h3>
+			<p>Caring professionals with decades of experience in the addiction treatment field.</p>
+			<hr>
+		</div>
 	</div>
-	<div class="small-12 columns">
-		<div class="staff"></div>
+	<div class="row">
+		<div class="col-xs">
+			<div class="staff"></div>
+		</div>
 	</div>
-</div>
+</section>
 
 	</main>
 
 	<footer>
 		<div class="top-foot">
-			<div class="row center">
-				<div>
-					<a href="https://www.naatp.org/resources/addiction-industry-directory/19111/the-rose-house" target="_blank"><img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,w_400/v1542239410/rose-house/NAATP_Member_Logo_Reverse_Horizontal_RGB.png" alt="NAATP Member Logo"></a>
-				</div>
-				<div>
-					<img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,w_100/v1541527497/rose-house/GoldSeal_transparent.gif" alt="">
-				</div>
-				<div>
-					<img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,w_125,f_auto/v1520993742/rose-house/Screenshot_from_2018-03-13_19-14-52.png" alt="">
+				<div class="row between-xs">
+					<div>
+						<a href="https://www.naatp.org/resources/addiction-industry-directory/19111/the-rose-house" target="_blank"><img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,w_400/v1542239410/rose-house/NAATP_Member_Logo_Reverse_Horizontal_RGB.png" alt="NAATP Member Logo"></a>
+					</div>
+					<div>
+						<img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,w_100/v1541527497/rose-house/GoldSeal_transparent.gif" alt="">
+					</div>
+					<div>
+						<img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,w_125,f_auto/v1520993742/rose-house/Screenshot_from_2018-03-13_19-14-52.png" alt="">
+					</div>
 				</div>
 
-			</div>
-			<div class="row">
-				<div class="medium-12 large-5 columns">
-					<h3>The Rose House</h3>
-					<hr>
-                    <video controls poster="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,fl_any_format.lossy,h_700,w_1900/v1471393512/rose-house/DSC00031_sx32rj.jpg">
-                        <source src="./video/rose-house.webm" type="video/webm" />
-                        <source src="./video/rose-house.mp4" type="video/mp4" />
-                    </video>
-					<p><strong>Admissions:</strong> 720-352-1623</p>
-					<p><strong>Other Inquiries:</strong> 888-398-4111</p>
-					<p><strong>Fax:</strong> 303-494-1783</p>
-					<p><strong>Address:</strong><br />P.O. Box 270416, Louisville, CO 80027</p>
-				</div>
-				<div class="medium-12 large-7 columns hide-sm">
-					<h3>Our Mission</h3>
-					<hr>
-					<p>Women get better at The Rose House. We believe that by engaging in high quality, gender specific, extended care addiction and mental health treatment, women can experience sustained sobriety and emotional healing. Our mission is to provide evidence-based, dual diagnosis integrative treatment, delivered by a compassionate staff within a dynamic community of recovery.</p>
+			<section>
+				<div class="row">
+					<div class="col-xs-12 col-sm">
+						<h3>The Rose House</h3>
+						<hr>
+	                    <video controls poster="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,fl_any_format.lossy,h_700,w_1900/v1471393512/rose-house/DSC00031_sx32rj.jpg">
+	                        <source src="./video/rose-house.webm" type="video/webm" />
+	                        <source src="./video/rose-house.mp4" type="video/mp4" />
+	                    </video>
+						<p><strong>Admissions:</strong> 720-352-1623</p>
+						<p><strong>Other Inquiries:</strong> 888-398-4111</p>
+						<p><strong>Fax:</strong> 303-494-1783</p>
+						<p><strong>Address:</strong><br />P.O. Box 270416, Louisville, CO 80027</p>
+					</div>
+					<div class="col-xs-12 col-sm hide-sm">
+						<h3>Our Mission</h3>
+						<hr>
+						<p>Women get better at The Rose House. We believe that by engaging in high quality, gender specific, extended care addiction and mental health treatment, women can experience sustained sobriety and emotional healing. Our mission is to provide evidence-based, dual diagnosis integrative treatment, delivered by a compassionate staff within a dynamic community of recovery.</p>
 
-					<a class="button white" href="/program-overview/mission/">Read More</a>
+						<a class="button white" href="/program-overview/mission/">Read More</a>
+					</div>
 				</div>
-			</div>
+			</section>
 		</div>
-		<div class="bottom-foot">
-			<div class="row">
-				<div class="columns">
-					<p>&#9400; The Rose House | <a href="/privacy/">Privacy Policy</a> | <a href="/sitemap/">Site Map</a> | Created By <a href="https://arcdev.io/" rel="noopener" target="_blank">Arc IO</a></p>
-					<p>If you have questions, suggestions, concerns or compliments about our services, please call 888-398-4111 or email <a href="mailto:info@rosehousecolorado.com">info@rosehousecolorado.com</a>.</p>
-				</div>
-			</div>
+		<div class="row center-xs">
+			<section class="col-xs-10">
+				<p>&#9400; The Rose House | <a href="/privacy/">Privacy Policy</a> | <a href="/sitemap/">Site Map</a> | Created By <a href="https://arcdev.io/" rel="noopener" target="_blank">Arc IO</a></p>
+				<p>If you have questions, suggestions, concerns or compliments about our services, please call 888-398-4111 or email <a href="mailto:info@rosehousecolorado.com">info@rosehousecolorado.com</a>.</p>
+			</section>
 		</div>
 	</footer>
 
