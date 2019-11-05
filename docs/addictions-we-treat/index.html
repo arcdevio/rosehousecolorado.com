@@ -32,13 +32,13 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="theme-color" content="#ffffff">
 
+	<link rel="preload" href="/assets/flexboxgrid.min.css" as="style">
 	<link rel="preload" href="/program-overview/admissions/verify-insurance/index.js" as="script">
-	<link rel="preload" href="/assets/foundation.min.css" as="style">
 	<link rel="preload" href="/assets/analytic.min.js" as="script">
 	<link rel="preload" href="/assets/nav-bar.min.js" as="script">
-	<link rel="preload" href="/assets/oxe.min.js" as="script">
+	<!-- <link rel="preload" href="/assets/oxe.min.js" as="script"> -->
 	<link rel="preload" href="/contact/index.js" as="script">
-	<link rel="preload" href="/blog/index.js" as="script">
+	<!-- <link rel="preload" href="/blog/index.js" as="script"> -->
 	<link rel="preload" href="/index.js" as="script">
 	<link rel="preload" href="/index.css" as="style">
 
@@ -48,8 +48,9 @@
 	<script src="/assets/nav-bar.min.js" defer></script>
 	<script src="/index.js" defer></script>
 
-	<link rel="stylesheet" href="/assets/foundation.min.css">
-	<link rel="stylesheet" href="/index.css">
+	<link rel="stylesheet" href="/assets/flexboxgrid.min.css">
+	<link rel="stylesheet" href="/index.css"/>
+
 </head>
 <body>
 
@@ -115,7 +116,7 @@
 						<li><a href="/mental-health/anxiety/">Anxiety</a></li>
 					</ul>
 				</li>
-				<!-- <li><a href="/blog/">Blog</a></li> -->
+				<li><a href="/testimonials/">Testimonials</a></li>
 				<li><a href="/contact/">Contact</a></li>
 			</ul>
 		</nav>
@@ -140,80 +141,84 @@
 	<img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,fl_any_format.lossy,g_center,h_400,w_1900/v1476478530/rose-house/AdobeStock_69107622.jpg" alt="Boulder Colorado mountains" />
 </div>
 
-<div class="row content">
-	<div class="small-12 columns">
-		<h1>Addications We Treat</h1>
-		<h3>The Rose House Addications We Treat</h3>
-		<hr>
+<section>
+	<div class="row">
+		<div class="col-xs">
+			<h1>Addications We Treat</h1>
+			<h3>The Rose House Addications We Treat</h3>
+			<hr>
+		</div>
 	</div>
-	<div class="small-12 medium-3 columns">
-		<nav class="side-menu">
-			<ul>
-				<li><a href="./alcohol/">Alcohol Addiction</a></li>
-				<li><a href="./heroin/">Opiate/Heroin Addiction</a></li>
-				<li><a href="./stimulants/">Stimulant Addiction</a></li>
-				<li><a href="./marijuana/">Marijuana Addiction</a></li>
-			</ul>
-		</nav>
+	<div class="row">
+		<div class="col-xs-12 col-sm-3">
+			<nav class="side-menu">
+				<ul>
+					<li><a href="./alcohol/">Alcohol Addiction</a></li>
+					<li><a href="./heroin/">Opiate/Heroin Addiction</a></li>
+					<li><a href="./stimulants/">Stimulant Addiction</a></li>
+					<li><a href="./marijuana/">Marijuana Addiction</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="col-xs-12 col-sm-9">
+			<p>Lorem ipsum dolor sit amet, an dolores scripserit duo. Eos ea liber persius discere. Cu facete inciderint est. Duo te enim liber inciderint, ne mei molestiae instructior, ne meliore petentium adipiscing pri. Sea eu facete menandri repudiandae.</p>
+
+			<p>Assum tacimates facilisis at pri, labitur epicurei cu mei. Augue mollis et nam. Eos ne brute maluisset, ne scaevola petentium usu. Dolores antiopam no mei, vel odio hinc abhorreant et. Ea sed case ceteros, ipsum accommodare et vis.</p>
+
+			<p>Eirmod laoreet quaerendum sed ut, est ne voluptua mediocrem. Eu platonem delicata pri. No assum dictas probatus qui. Idque meliore his ea. Ne est justo constituam, nulla regione eripuit ad per.</p>
+
+			<p>Mei id meis splendide. His feugiat adolescens no, qui ad nonumes referrentur, cu errem adipisci dissentiunt sed. Nobis constituto ius in. Tation corrumpit eloquentiam ut vim, est no utamur persius. Zril primis petentium mea in.</p>
+
+			<p>At sit nullam scripserit, wisi mundi in vim. Ne equidem fierent vim, eos eu nostrum percipit. Aperiam argumentum eam ad, odio alterum fuisset has eu, his debet aliquid oportere ei. Quem invidunt prodesset duo et, alii nusquam eos at.</p>
+		</div>
 	</div>
-	<div class="small-12 medium-9 columns">
-		<p>Lorem ipsum dolor sit amet, an dolores scripserit duo. Eos ea liber persius discere. Cu facete inciderint est. Duo te enim liber inciderint, ne mei molestiae instructior, ne meliore petentium adipiscing pri. Sea eu facete menandri repudiandae.</p>
-
-		<p>Assum tacimates facilisis at pri, labitur epicurei cu mei. Augue mollis et nam. Eos ne brute maluisset, ne scaevola petentium usu. Dolores antiopam no mei, vel odio hinc abhorreant et. Ea sed case ceteros, ipsum accommodare et vis.</p>
-
-		<p>Eirmod laoreet quaerendum sed ut, est ne voluptua mediocrem. Eu platonem delicata pri. No assum dictas probatus qui. Idque meliore his ea. Ne est justo constituam, nulla regione eripuit ad per.</p>
-
-		<p>Mei id meis splendide. His feugiat adolescens no, qui ad nonumes referrentur, cu errem adipisci dissentiunt sed. Nobis constituto ius in. Tation corrumpit eloquentiam ut vim, est no utamur persius. Zril primis petentium mea in.</p>
-
-		<p>At sit nullam scripserit, wisi mundi in vim. Ne equidem fierent vim, eos eu nostrum percipit. Aperiam argumentum eam ad, odio alterum fuisset has eu, his debet aliquid oportere ei. Quem invidunt prodesset duo et, alii nusquam eos at.</p>
-	</div>
-</div>
+</section>
 
 	</main>
 
 	<footer>
 		<div class="top-foot">
-			<div class="row center">
-				<div>
-					<a href="https://www.naatp.org/resources/addiction-industry-directory/19111/the-rose-house" target="_blank"><img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,w_400/v1542239410/rose-house/NAATP_Member_Logo_Reverse_Horizontal_RGB.png" alt="NAATP Member Logo"></a>
-				</div>
-				<div>
-					<img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,w_100/v1541527497/rose-house/GoldSeal_transparent.gif" alt="">
-				</div>
-				<div>
-					<img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,w_125,f_auto/v1520993742/rose-house/Screenshot_from_2018-03-13_19-14-52.png" alt="">
+				<div class="row center-xs member">
+					<div>
+						<a href="https://www.naatp.org/resources/addiction-industry-directory/19111/the-rose-house" target="_blank"><img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,w_400/v1542239410/rose-house/NAATP_Member_Logo_Reverse_Horizontal_RGB.png" alt="NAATP Member Logo"></a>
+					</div>
+					<div>
+						<img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,w_100/v1541527497/rose-house/GoldSeal_transparent.gif" alt="">
+					</div>
+					<div>
+						<img src="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,w_125,f_auto/v1520993742/rose-house/Screenshot_from_2018-03-13_19-14-52.png" alt="">
+					</div>
 				</div>
 
-			</div>
-			<div class="row">
-				<div class="medium-12 large-5 columns">
-					<h3>The Rose House</h3>
-					<hr>
-                    <video controls poster="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,fl_any_format.lossy,h_700,w_1900/v1471393512/rose-house/DSC00031_sx32rj.jpg">
-                        <source src="./video/rose-house.webm" type="video/webm" />
-                        <source src="./video/rose-house.mp4" type="video/mp4" />
-                    </video>
-					<p><strong>Admissions:</strong> 720-352-1623</p>
-					<p><strong>Other Inquiries:</strong> 888-398-4111</p>
-					<p><strong>Fax:</strong> 303-494-1783</p>
-					<p><strong>Address:</strong><br />P.O. Box 270416, Louisville, CO 80027</p>
-				</div>
-				<div class="medium-12 large-7 columns hide-sm">
-					<h3>Our Mission</h3>
-					<hr>
-					<p>Women get better at The Rose House. We believe that by engaging in high quality, gender specific, extended care addiction and mental health treatment, women can experience sustained sobriety and emotional healing. Our mission is to provide evidence-based, dual diagnosis integrative treatment, delivered by a compassionate staff within a dynamic community of recovery.</p>
+			<section>
+				<div class="row">
+					<div class="col-xs-12 col-sm">
+						<h3>The Rose House</h3>
+						<hr>
+	                    <video controls poster="https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,fl_any_format.lossy,h_700,w_1900/v1471393512/rose-house/DSC00031_sx32rj.jpg">
+	                        <source src="./video/rose-house.webm" type="video/webm" />
+	                        <source src="./video/rose-house.mp4" type="video/mp4" />
+	                    </video>
+						<p><strong>Admissions:</strong> 720-352-1623</p>
+						<p><strong>Other Inquiries:</strong> 888-398-4111</p>
+						<p><strong>Fax:</strong> 303-494-1783</p>
+						<p><strong>Address:</strong><br />P.O. Box 270416, Louisville, CO 80027</p>
+					</div>
+					<div class="col-xs-12 col-sm hide-sm">
+						<h3>Our Mission</h3>
+						<hr>
+						<p>Women get better at The Rose House. We believe that by engaging in high quality, gender specific, extended care addiction and mental health treatment, women can experience sustained sobriety and emotional healing. Our mission is to provide evidence-based, dual diagnosis integrative treatment, delivered by a compassionate staff within a dynamic community of recovery.</p>
 
-					<a class="button white" href="/program-overview/mission/">Read More</a>
+						<a class="button white" href="/program-overview/mission/">Read More</a>
+					</div>
 				</div>
-			</div>
+			</section>
 		</div>
-		<div class="bottom-foot">
-			<div class="row">
-				<div class="columns">
-					<p>&#9400; The Rose House | <a href="/privacy/">Privacy Policy</a> | <a href="/sitemap/">Site Map</a> | Created By <a href="https://arcdev.io/" rel="noopener" target="_blank">Arc IO</a></p>
-					<p>If you have questions, suggestions, concerns or compliments about our services, please call 888-398-4111 or email <a href="mailto:info@rosehousecolorado.com">info@rosehousecolorado.com</a>.</p>
-				</div>
-			</div>
+		<div class="row center-xs">
+			<section class="col-xs-10">
+				<p>&#9400; The Rose House | <a href="/privacy/">Privacy Policy</a> | <a href="/sitemap/">Site Map</a> | Created By <a href="https://arcdev.io/" rel="noopener" target="_blank">Arc IO</a></p>
+				<p>If you have questions, suggestions, concerns or compliments about our services, please call 888-398-4111 or email <a href="mailto:info@rosehousecolorado.com">info@rosehousecolorado.com</a>.</p>
+			</section>
 		</div>
 	</footer>
 

@@ -44,7 +44,7 @@ window.Global.staff = [{
 }, {
 	name: 'Kathy Pahler',
 	title: 'Director of Business Development',
-	image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1473774568/rose-house/KathyPahlerHeadShot_RH-768x1150.jpg',
+	image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,w_600/v1572315259/rose-house/KathyPahler.jpg',
 	descriptions: ['Originally from North Carolina, Kathy is a graduate of The University of Colorado, Boulder and has called Colorado home for three decades. She has many years of experience in sales and marketing which she brings to her position as The Director of Business Development. Being a part of The Rose House community appeals to her commitment to living a healthy and conscious lifestyle. In her free time, Kathy practices yoga, enjoys reading, biking, and spending time with her husband and two adult children.']
 }, {
 	name: 'Sandra Radney',

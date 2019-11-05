@@ -13,6 +13,6 @@ export default {
 				href: 'https://www.washingtonpost.com/national/health-science/are-women-increasingly-at-risk-of-addiction/2017/02/24/dfa5b98c-d2ba-11e6-9cb0-54ab630851e8_story.html?tid=ss_mail&utm_term=.d4cf2ac083a7'
 			}]
 		},
-		template: '\n\t\t<div class="small-12 columns">\n\t\t\t<div o-each-article="articles" class="articles">\n\t\t\t\t<div class="article">\n\t\t\t\t\t<h3 o-text="article.title"></h3>\n\t\t\t\t\t<img o-src="article.thumbnail">\n\t\t\t\t\t<div o-html="article.body"></div>\n\t\t\t\t\t<a o-href="article.href" class="button green" target="_blank">Read More</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t'
+		template: '\n\t\t<div class="col-xs">\n\t\t\t<div o-each-article="articles" class="articles">\n\t\t\t\t<div class="article">\n\t\t\t\t\t<h3 o-text="article.title"></h3>\n\t\t\t\t\t<img o-src="article.thumbnail">\n\t\t\t\t\t<div o-html="article.body"></div>\n\t\t\t\t\t<a o-href="article.href" class="button green" target="_blank">Read More</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t'
 	}
 };
