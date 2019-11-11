@@ -2,25 +2,24 @@
 // testimonial
 (function() {
 	var slider = document.querySelector('.testimonial');
+	var next = document.querySelector('.next');
+	var prev = document.querySelector('.prev');
 
 	if (slider) {
-		var index = 2;
+		var index = 0;
+		var slides = slider.children;
 
-		setInterval(function () {
-
-			if (index === slider.children.length) {
-				slider.children[index - 1].classList.toggle('active');
-				index = 2;
-				slider.children[index].classList.toggle('active');
-			}
-
-			if (index > 2) {
-				slider.children[index - 1].classList.toggle('active');
-				slider.children[index].classList.toggle('active');
-			}
-
+		next.addEventListener('click', function () {
 			index++;
-		}, 3000);
+			if (index > slides.length -1) {
+				slides[index - 1].classList.toggle('active');
+				index = 0;
+				slides[index].classList.toggle('active');
+			} else {
+				slides[index - 1].classList.toggle('active');
+				slides[index].classList.toggle('active');
+			}
+		});
 	}
 }());
 
