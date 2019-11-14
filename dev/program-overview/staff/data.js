@@ -40,7 +40,7 @@ window.Global.staff = [
 	},{
 		name: 'Rebecca Glasmann',
 		title: 'House Manager',
-		image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_900,q_60,w_600/v1475687651/rose-house/profile-picture/Rebecca_Glasmann_Family_Referral_Coordinator.jpg',
+		image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,h_900,w_600/v1573762385/rose-house/20191113_144237.jpg',
 		descriptions: ['Rebecca is originally from South Dakota. She has been in Colorado now for over 20 years and grateful to live in such a beautiful place. She enjoys spending time in the mountains especially in the Fall. She feels blessed to be the mother of three beautiful children. She is currently working on her Associates in Psychology and her CAC I. In recovery herself, she knows the journey these women are embarking on and is passionate about sharing her experience, strength and hope each step of the way. In addition to supporting the women in the house, she works as the Family Coordinator to give support and resources to family members so they may better support their loved ones and themselves. Addiction and mental illness is a family disease and it is important that each member of the family get the care and support they need. She is grateful to be a part of an amazing team at the Rose House and have the chance to help other women discover what a gift they are.']
 	},{
 		name: 'Kathy Pahler',
