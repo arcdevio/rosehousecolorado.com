@@ -15,7 +15,7 @@
 		action: 'https://www.enformed.io/csl0xqaw',
 		prepare: function (data, resolve) {
 			data['*default_email'] = 'ahill@rosehousecolorado.com';
-			data['*cc'] = 'mchambers101@gmail.com,cconger@rosehousecolorado.com';
+			data['*cc'] = 'mchambers101@gmail.com,ngrebe@rosehousecolorado.com';
 			resolve(data);
 		},
 		complete: function (error, success) {
