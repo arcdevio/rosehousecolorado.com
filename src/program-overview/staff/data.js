@@ -9,7 +9,7 @@ window.Global.staff = [
 		descriptions: ['Dr. Marcie Chambers received her PhD in Psychology from the University of Colorado at Boulder. She was in private practice for a number of years, treating clients for depression, anxiety, trauma, codependency and addiction. Her practice included treating individuals, couples, and families. Dr. Chambers taught psychology at the University of Colorado, Regis University and Metro State College. Dr. Chambers opened The Rose House in Boulder County, Colorado in 2008.']
 	},{
 		name: 'Allison Hill',
-		title: 'Director of Operations',
+		title: 'Executive Director',
 		image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_faces,h_900,q_60,w_600/v1475687551/rose-house/profile-picture/Allison_Hein_House_Manager.png',
 		descriptions: ['Allison lives in Morrison, Colorado, close to the beautiful Red Rocks. She loves going outside, being a mom and spending quality time with her family. Allison is a Certified Addiction Counselor Level II, registered with the State of Colorado.. She is passionate about Recovery, in Love with Life and feels very fortunate to be a part of the Rose House team. Having completed the Rose House program herself, Allison is grateful for the opportunity to support women on their journey of recovery!']
 	},{
@@ -33,13 +33,13 @@ window.Global.staff = [
 		image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,h_900,w_600/v1573594460/rose-house/IMG_0104.jpg',
 		descriptions: ['Larry Algiene is a Licensed Professional Counselor in the state of Colorado and has been practicing since 2008. He has a BS in Computer Information Systems from Colorado Christian University, MA in Clinical and School Counseling from the University of Northern Colorado and is a Certified Addictions Counselor. Larry has extensive experience treating trauma and excels in supporting clients with emotional development challenges.  Larry is trained in CBT, Post Induction Therapy, EMDR and Family Systems management.  He has worked with emotional development in Parole, Probation and Residential settings for over twenty years.  Prior to coming to the Rose House, Larry worked as the Drug Court Mental Health Therapist in Weld County and was a member of the Colorado Army National Guard for 17 years.  Larry has been married for 17 years and spends all of his free time chasing his son and daughter.']
 	},{
-		name: 'Melissa Sladin, MA',
-		title: 'Step Down Manager/Therapist',
-		image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1542239953/rose-house/profile-picture/Melissa_photo.jpg',
-		descriptions: ['Melissa holds a Masters degree in Clinical Mental Health Counseling from Naropa University and a Bachelors in Psychology from the University of Massachusetts. Her training and research has focused on women\'s issues, including sexuality and sexual trauma, patterns of intergenerational trauma, PTSD, attachment, grief, and motherhood, and she has received specialized training in Mindfulness, Gestalt, Hakomi, and group facilitation approaches. She has been in the field for 8+ years and deeply believes in the depth of work that can occur in the Rose House program. When she is not continuing her education and attending ongoing trainings, she is immersed in her family as a mother of two incredible little ones and partner to her awesome husband, playing with her border collies, hiking, rock climbing, knitting, creating art, or occasionally watching her favorite dark comedies. She is passionate about promoting a life of balance for women and aims to embody that belief every day in her home life and her work. She is deeply grateful to be a part of the passionate team of experienced clinical professionals here at the Rose House.']
+		name: 'Tanisha Cordova',
+		title: 'House Manager',
+		image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1475687687/rose-house/profile-picture/Tanisha_Cordova_Psychiatric_Technician.jpg',
+		descriptions: ['']
 	},{
 		name: 'Rebecca Glasmann',
-		title: 'House Manager',
+		title: 'Step Down Manager',
 		image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,h_900,w_600/v1573762385/rose-house/20191113_144237.jpg',
 		descriptions: ['Rebecca is originally from South Dakota. She has been in Colorado now for over 20 years and grateful to live in such a beautiful place. She enjoys spending time in the mountains especially in the Fall. She feels blessed to be the mother of three beautiful children. She is currently working on her Associates in Psychology and her CAC I. In recovery herself, she knows the journey these women are embarking on and is passionate about sharing her experience, strength and hope each step of the way. In addition to supporting the women in the house, she works as the Family Coordinator to give support and resources to family members so they may better support their loved ones and themselves. Addiction and mental illness is a family disease and it is important that each member of the family get the care and support they need. She is grateful to be a part of an amazing team at the Rose House and have the chance to help other women discover what a gift they are.']
 	},{
