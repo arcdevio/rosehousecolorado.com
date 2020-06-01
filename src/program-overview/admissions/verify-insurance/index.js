@@ -19,8 +19,6 @@
             if (name) data[name] = value;
         }
 
-    	// data['*cc'] = '';
-    	// data['*default_email'] = 'alex.steven.elias@gmail.com';
 		data['*default_email'] = 'ahill@rosehousecolorado.com';
 		data['*cc'] = 'mchambers101@gmail.com,ngrebe@rosehousecolorado.com';
 
