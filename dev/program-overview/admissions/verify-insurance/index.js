@@ -16,10 +16,12 @@
 		prepare: function (data, resolve) {
 			data['*default_email'] = 'ahill@rosehousecolorado.com';
 			data['*cc'] = 'mchambers101@gmail.com,ngrebe@rosehousecolorado.com';
+			
 			resolve(data);
 		},
 		complete: function (error, success) {
 			if (error) {
+				console.log(error);
 				response.style.color = '#89293D';
 				response.innerText = 'Error Please Call';
 			} else {
