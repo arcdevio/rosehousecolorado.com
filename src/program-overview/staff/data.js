@@ -18,7 +18,7 @@ window.Global.staff = [
 		image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_face,h_900,q_60,w_600/v1475687598/rose-house/profile-picture/Dr.jpg',
 		descriptions: ['Dr. William received his medical degree from University of Benin College of Medicine. He was Chief Resident at the University at Harlem Hospital Center, College of Physicians &amp; Surgeons of Columbia. Dr. William is certified by the American Board of Psychiatry and Neurology. He is a Fellow of the American Psychiatric Association, board certified by the American Board of Addiction Medicine (ABAM) and Member of the Colorado Psychiatric Society.']
 	},{
-		name: 'Elisabeth Fabrizio, RN',
+		name: 'Elisabeth Fabrizio, RN, FNP',
 		title: 'Director of Nursing',
 		image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,h_900,w_600/v1608148758/rose-house/profile-picture/20201208_140537.jpg',
 		descriptions: ['As a registered nurse and also a family nurse practitioner, I have called Colorado home for over 15 years. Having worked in addiction medicine for almost five years, I am very happy to be working at The Rose House with women in recovery. In addition to being the nurse at The Rose House, I also have a position in a detox facility. In my free time, I enjoy spending time with my daughters, my beagles, or baking some new recipe. I am always willing to discuss health concerns, medical questions, and anything related to health and wellness.']
