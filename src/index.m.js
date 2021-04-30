@@ -1,5 +1,5 @@
 
-(function() {
+(function () {
 	var slider = document.querySelector('.testimonial');
 	// var next = document.querySelector('.next');
 	// var prev = document.querySelector('.prev');
@@ -9,12 +9,12 @@
 
 		setInterval(function () {
 			if (index === slider.children.length) {
-				slider.children[index - 1].classList.toggle('active');
+				slider.children[ index - 1 ].classList.toggle('active');
 				index = 0;
-				slider.children[index].classList.toggle('active');
+				slider.children[ index ].classList.toggle('active');
 			} else {
-				slider.children[index - 1].classList.toggle('active');
-				slider.children[index].classList.toggle('active');
+				slider.children[ index - 1 ].classList.toggle('active');
+				slider.children[ index ].classList.toggle('active');
 			}
 			index++;
 		}, 10000);
@@ -39,7 +39,7 @@
 	// }
 }());
 
-(function() {
+(function () {
 	var contactWidget = document.querySelector('.contact-widget-body');
 	if (!contactWidget) return;
 
@@ -70,7 +70,7 @@
 
 }());
 
-(function() {
+(function () {
 
 	var response = document.querySelector('.form-response');
 	var form = document.querySelector('.contact-form') || document.querySelector('.insurance-form');
@@ -79,37 +79,39 @@
 	form.addEventListener('submit', function (e) {
 		e.preventDefault();
 
-        response.innerText = 'Submitting Form';
+		response.innerText = 'Submitting Form';
 
 		var data = {};
 		var elements = [];
 
-        elements.push.apply(elements, form.querySelectorAll('input'))
-        elements.push.apply(elements, form.querySelectorAll('textarea'));
+		elements.push.apply(elements, form.querySelectorAll('input'));
+		elements.push.apply(elements, form.querySelectorAll('textarea'));
 
 		for (var i = 0; i < elements.length; i++) {
-			var input = elements[i];
+			var input = elements[ i ];
 			var name = input.name;
 			var value = input.value;
-			if (name) data[name] = value;
+			if (name) data[ name ] = value;
 		}
 
-		data['*default_email'] = 'ahill@rosehousecolorado.com';
-		data['*cc'] = 'mchambers101@gmail.com,ngrebe@rosehousecolorado.com';
+		// data[ '*default_email' ] = 'ahill@rosehousecolorado.com';
+		// data[ '*cc' ] = 'mchambers101@gmail.com,ngrebe@rosehousecolorado.com';
 
-		fetch('https://www.enformed.io/csl0xqaw/', {
+		data[ '$to' ] = 'alex.steven.elias@gmail.com';
+		// data[ '$to' ] = 'ahill@rosehousecolorado.com';
+		// data[ '$cc' ] = 'mchambers101@gmail.com,ngrebe@rosehousecolorado.com';
+
+		// fetch('https://www.enformed.io/csl0xqaw/', {
+		fetch('/email', {
 			method: 'POST',
-			headers: {
-				'Accept': 'application/json',
-				'Content-Type': 'application/json'
-			},
 			body: JSON.stringify(data)
-		}).then(function (response) {
-			response.json();
+		}).then(function (result) {
+			if (result.status !== 200) throw new Error(result.statusText);
+			form.reset();
 		}).then(function (data) {
 			form.style.display = 'none';
 			response.style.color = '#B0BF7F';
-			response.innerText = 'Submitted Form';
+			response.innerText = 'Success: Form Sent';
 		}).catch(function (error) {
 			response.style.color = '#89293D';
 			response.innerText = 'Error Please Call';
