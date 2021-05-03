@@ -94,15 +94,10 @@
 			if (name) data[ name ] = value;
 		}
 
-		// data[ '*default_email' ] = 'ahill@rosehousecolorado.com';
-		// data[ '*cc' ] = 'mchambers101@gmail.com,ngrebe@rosehousecolorado.com';
+		data[ '$to' ] = 'ahill@rosehousecolorado.com,alex.steven.elias@gmail.com';
+		data[ '$cc' ] = 'mchambers101@gmail.com,ngrebe@rosehousecolorado.com';
 
-		data[ '$to' ] = 'alex.steven.elias@gmail.com';
-		// data[ '$to' ] = 'ahill@rosehousecolorado.com';
-		// data[ '$cc' ] = 'mchambers101@gmail.com,ngrebe@rosehousecolorado.com';
-
-		// fetch('https://www.enformed.io/csl0xqaw/', {
-		fetch('/email', {
+		fetch('/email/', {
 			method: 'POST',
 			body: JSON.stringify(data)
 		}).then(function (result) {
@@ -113,8 +108,9 @@
 			response.style.color = '#B0BF7F';
 			response.innerText = 'Success: Form Sent';
 		}).catch(function (error) {
+			console.log(error);
 			response.style.color = '#89293D';
-			response.innerText = 'Error Please Call';
+			response.innerText = 'Error: Please Call';
 		});
 
 	});

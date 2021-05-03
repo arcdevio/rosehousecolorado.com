@@ -22,7 +22,6 @@
 	"devDependencies": {
 		"oxe": "^3.20.1",
 		"erbium": "^1.6.1",
-		"flexboxgrid": "^6.3.1",
-		"analytic": "github:arcdevio/analytic"
+		"flexboxgrid": "^6.3.1"
 	}
 }
