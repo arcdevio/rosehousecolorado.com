@@ -94,7 +94,7 @@
 			if (name) data[ name ] = value;
 		}
 
-		data[ '$to' ] = 'ahill@rosehousecolorado.com,alex.steven.elias@gmail.com';
+		data[ '$to' ] = 'ahill@rosehousecolorado.com';
 		data[ '$cc' ] = 'mchambers101@gmail.com,ngrebe@rosehousecolorado.com';
 
 		fetch('/email', {
