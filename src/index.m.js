@@ -97,7 +97,7 @@
 		data[ '$to' ] = 'ahill@rosehousecolorado.com,alex.steven.elias@gmail.com';
 		data[ '$cc' ] = 'mchambers101@gmail.com,ngrebe@rosehousecolorado.com';
 
-		fetch('/email/', {
+		fetch('/email', {
 			method: 'POST',
 			body: JSON.stringify(data)
 		}).then(function (result) {
