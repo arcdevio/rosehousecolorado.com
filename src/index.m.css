@@ -19,28 +19,30 @@ body {
 	overflow-x: hidden;
 }
 h1, h2, h3, h4 {
-	color: #89293D;
-	font-family: serif;
-	text-rendering: optimizeLegibility;
     margin-top: 0;
-    margin-bottom: .5rem;
+	color: #89293D;
     line-height: 1.4;
 	font-family: serif;
+    margin-bottom: .5rem;
 	text-transform: capitalize;
+	text-rendering: optimizeLegibility;
 }
 h1 {
 	font-size: 3rem;
 }
+h2 {
+	font-size: 2.3rem;
+}
 h3 {
-	font-size: 1.6rem;
 	font-weight: 400;
+	font-size: 1.6rem;
 }
 h4 {
 	font-size: 1.4rem;
 }
-p {
-	margin-bottom: 0.5rem;
+p, li {
 	line-height: 1.6rem;
+	margin-bottom: 0.5rem;
 }
 a {
 	color: #89293D;
@@ -53,13 +55,6 @@ a:hover {
 ul {
     margin-left: 1.25rem;
 }
-li {
-	line-height: 1.6rem;
-	display: flex;
-}
-ul > ul {
-	/* list-style: circle; */
-}
 ul.a {
 	list-style: square;
 }
@@ -71,66 +66,65 @@ ul.c {
 }
 
 .c > li ::before {
-	content: url('./assets/svg/check.svg');
 	margin-right: 0.5rem;
+	content: url('./assets/svg/check.svg');
 }
 object {
 	pointer-events: none;
 }
-video {
+video, img {
 	width: 100%;
 }
 section {
 	max-width: 1240px;
-	padding: 6vh 3vw 6vh 3vw;
 	margin-left: auto;
 	margin-right: auto;
-}
-img {
-	width: 100%;
+	padding: 6vh 3vw 6vh 3vw;
 }
 hr {
-	/* max-width: 62.5rem; */
 	height: 0;
-	border-right: 0;
-	border-top: 0;
-	border-bottom: 1px solid #cacaca;
-	border-left: 0;
-	margin: 1.25rem auto;
 	clear: both;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	margin: 1.25rem auto;
+	border-bottom: 1px solid #cacaca;
 }
 cite {
 	display: block;
-	margin-top: 1.5rem;
+    color: #8a8a8a;
     font-size: .9rem;
 	font-weight: bold;
-    color: #8a8a8a;
 	font-style: normal;
+	margin-top: 1.5rem;
 }
 .bg1 {
-	background-color: whitesmoke;
 	padding: 2rem;
-
+	background-color: whitesmoke;
 }
 .row {
 	margin-left: auto;
 	margin-right: auto;
 }
-.content {
+/* .content {
 	padding: 30px;
+} */
+.main-image {
+	width: 100%;
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 .logo {
 	left: 8px;
 	z-index: 100;
 	height: 140px;
+	padding: 0.6rem;
 	position: absolute;
 	background-color: #fff;
 	border-radius: 0 0 5px 5px;
 	box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
-}
-.logo > a {
-	padding: 0.6rem;
-	display: block;
 }
 .media {
 	padding: 6px;
@@ -168,13 +162,7 @@ cite {
 	color: #FFFCED;
 	padding: 16px 32px !important;
 }
-.main-image {
-	width: 100%;
-}
 
-form  {
-
-}
 legend {
 	padding: 0.5rem;
     margin: 0.5rem 1rem;
@@ -183,15 +171,15 @@ fieldset {
 	padding: 1rem;
 }
 fieldset > fieldset {
-	border-color: lightgrey;
 	border-style: solid;
+	border-color: lightgrey;
 }
 input, textarea {
 	width: 100%;
-	padding: 0.5rem;
 	border: none;
-	border-bottom: 1px solid #cacaca;
+	padding: 0.5rem;
 	margin: 0.5rem auto;
+	border-bottom: 1px solid #cacaca;
 }
 input:focus, textarea:focus {
 	outline: none;
@@ -208,7 +196,6 @@ input[type='submit'] {
 }
 .contact-widget-body {
 	right: 1rem;
-	/* z-index: 100; */
 	position: absolute;
 	text-align: center;
 	vertical-align: middle;
@@ -231,23 +218,7 @@ input[type='submit'] {
 	vertical-align: middle;
 	pointer-events: none;
 }
-.slogan {
-	width: 100%;
-	bottom: 0px;
-	position: absolute;
-	text-align: center;
-}
-.slogan h3 {
-	color: white;
-}
-.slogan > div {
-	max-width: 600px;
-	margin: auto;
-	color: #FFFCED;
-	display: inline-block;
-	padding: 10px 10px 0 10px;
-	background-color: rgba(0, 0, 0, 0.5);
-}
+
 .contact-slogan{
 	padding-bottom: 25px;
 }
@@ -466,11 +437,11 @@ footer {
 	color: white;
 	align-items: center;
 }
-.top-foot {
+/* .top-foot {
 	color: whitesmoke;
 	background-size: cover;
 	background: url('https://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:c95468,f_auto,c_fill,g_center,h_900,o_53,w_1920/v1469641634/rose-house/8173917606_17e737fc7f_o_dzhgzn.jpg') no-repeat;
-}
+} */
 .center {
 	max-width: 50rem;
 	flex-wrap: wrap;
@@ -482,7 +453,7 @@ footer {
 	flex-wrap: wrap;
 }
 
-footer h3, footer a {
+footer h2, footer a {
 	color: white;
 }
 .contact-section {
@@ -609,9 +580,6 @@ footer h3, footer a {
 	display: inline-block;
 	border: solid 3px #fff;
 	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
-}
-.member > div {
-	margin: 1rem;
 }
 @media screen and (max-width: 940px) {
 	.contact-widget-body {
