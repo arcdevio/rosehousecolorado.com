@@ -20,7 +20,7 @@ body {
 }
 h1, h2, h3, h4 {
     margin-top: 0;
-	color: #89293D;
+	color: inherit;
     line-height: 1.4;
 	font-family: serif;
     margin-bottom: .5rem;
@@ -41,11 +41,12 @@ h4 {
 	font-size: 1.4rem;
 }
 p, li {
+	color: inherit;
 	line-height: 1.6rem;
 	margin-bottom: 0.5rem;
 }
 a {
-	color: #89293D;
+	color: inherit;
 	display: inline-block;
 	text-decoration: none;
 }
@@ -74,8 +75,10 @@ object {
 }
 video, img {
 	width: 100%;
+	border-radius: 3px;
 }
 section {
+	display: inherit;
 	max-width: 1240px;
 	margin-left: auto;
 	margin-right: auto;
@@ -97,10 +100,6 @@ cite {
 	font-weight: bold;
 	font-style: normal;
 	margin-top: 1.5rem;
-}
-.bg1 {
-	padding: 2rem;
-	background-color: whitesmoke;
 }
 .row {
 	margin-left: auto;
@@ -230,11 +229,38 @@ input[type='submit'] {
 .contact-bar input{
 	color: #FEFDEC;
 }
-.program-icons {
+.rose-bg {
+	color: white;
 	width: 100%;
 	padding: 25px;
-	background-repeat: no-repeat;
-	background-image: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,fl_any_format.lossy,h_500/v1469643887/rose-house/RoseProgramBG_xdwe0e.png");
+	background-color: #89293D;
+}
+.blue-bg {
+	color: white;
+	width: 100%;
+	padding: 25px;
+	background-color: #578DA0;
+}
+.green-bg {
+	width: 100%;
+	padding: 25px;
+	background-color: #859455;
+}
+.white-bg {
+	width: 100%;
+	padding: 25px;
+	background-color: white
+}
+.white-bg h1, .white-bg h2, .white-bg h3 {
+	color: #89293D;
+}
+.light-bg {
+	width: 100%;
+	padding: 25px;
+	background-color: whitesmoke;
+}
+.light-bg h1, .light-bg h2, .light-bg h3 {
+	color: #89293D;
 }
 .mobile-program-icons {
 	text-align: center;
@@ -293,15 +319,6 @@ input[type='submit'] {
 	align-items: center;
 	justify-content: center;
 	font-size: 3rem;
-}
-.box {
-	width: 100%;
-	padding: 10px;
-	color: #FEFDEC;
-	display: inline-block;
-}
-.box h3 {
-	color: white;
 }
 .section-head {
 	margin-top: 15px;
@@ -378,16 +395,22 @@ input[type='submit'] {
 	border-radius: 3px;
 	background: #859455;
 }
-.button.white {
+.button.bordered {
 	background: none;
-	color:whitesmoke;
-	border: 1px solid whitesmoke;
 	text-decoration: none;
+	border-width: 2px;
+	border-style: solid;
 }
-.button.white:hover {
-	background: none;
-	border: 2px solidwhitesmoke;
-	color: whitesmoke;
+.button.bordered:hover {
+	background: rgba(137,41,61,0.1);
+}
+.button.bordered.white {
+	color:whitesmoke;
+	border-color: whitesmoke;
+}
+.button.bordered.dark {
+	color:#89293D;
+	border: 1px solid #89293D;
 }
 .button.flat {
 	background-color: transparent;
@@ -612,9 +635,7 @@ footer h2, footer a {
 	}
 }
 @media screen and (max-width: 900px) {
-	.program-icons {
-		background: #89293D;
-	}
+
 }
 @media screen and (max-width: 600px) {
 	.logo {
