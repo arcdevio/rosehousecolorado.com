@@ -31,10 +31,10 @@ h1 {
 	font-size: 3rem;
 }
 h2 {
-	font-size: 2.3rem;
+	font-size: 2.2rem;
+	font-weight: 400;
 }
 h3 {
-	font-weight: 400;
 	font-size: 1.6rem;
 }
 h4 {
@@ -48,7 +48,6 @@ p, li {
 a {
 	color: inherit;
 	display: inline-block;
-	text-decoration: none;
 }
 a:hover {
 	color: #E54C66;
@@ -187,7 +186,11 @@ input[type='submit'] {
 	width: auto;
 }
 .contact-widget {
+	text-transform: none;
 	position: relative;
+}
+.contact-widget a {
+	text-decoration: none;
 }
 .contact-widget-body.fixed {
 	top: 0;
@@ -262,25 +265,7 @@ input[type='submit'] {
 	text-align: center;
 	margin-top: 1rem;
 }
-.callout {
-	text-align: center;
-}
-.callout span {
-	font-size: 2.6rem;
-	color: #89293D;
-}
-.callout.secondary {
-	border:none;
-	color: #fff;
-	border-radius: 5px;
-	background-color: #89293D;
-}
-.call-outs > li {
-	margin: 0.5rem;
-	padding: 0.5rem;
-	border-radius: 3px;
-	background: rgba(176,191,127,0.2);
-}
+
 .card {
 	padding: 1rem;
 	color: black;
@@ -354,6 +339,9 @@ input[type='submit'] {
 	padding: 8px 16px;
 	font-weight: normal;
 	display: inline-block;
+}
+.side-menu a {
+	text-decoration: none;
 }
 .side-menu > ul > li:hover {
 	background: rgba(0,0 ,0,0.1);

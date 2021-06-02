@@ -41,7 +41,7 @@ for (i = 0, l = profileToggles.length; i < l; i++) {
 	var closeButton = document.createElement('button');
 
 	closeButton.classList.add('profile-close');
-	closeButton.classList.add('button');
+	closeButton.classList.add('button', 'bordered', 'dark');
 	closeButton.innerText = 'Close';
 
 	profileWrap.appendChild(closeButton);
