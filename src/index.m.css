@@ -229,38 +229,34 @@ input[type='submit'] {
 .contact-bar input{
 	color: #FEFDEC;
 }
-.rose-bg {
-	color: white;
+.rose {
 	width: 100%;
 	padding: 25px;
+	color: white;
 	background-color: #89293D;
 }
-.blue-bg {
-	color: white;
+.blue {
 	width: 100%;
 	padding: 25px;
+	color: white;
 	background-color: #578DA0;
 }
-.green-bg {
+.green {
 	width: 100%;
 	padding: 25px;
 	background-color: #859455;
 }
-.white-bg {
+.white {
 	width: 100%;
 	padding: 25px;
+	color: #89293D;
 	background-color: white
 }
-.white-bg h1, .white-bg h2, .white-bg h3 {
-	color: #89293D;
-}
-.light-bg {
+.light {
 	width: 100%;
 	padding: 25px;
-	background-color: whitesmoke;
-}
-.light-bg h1, .light-bg h2, .light-bg h3 {
 	color: #89293D;
+	background-color: whitesmoke;
 }
 .mobile-program-icons {
 	text-align: center;
@@ -268,7 +264,6 @@ input[type='submit'] {
 }
 .callout {
 	text-align: center;
-
 }
 .callout span {
 	font-size: 2.6rem;
@@ -287,13 +282,12 @@ input[type='submit'] {
 	background: rgba(176,191,127,0.2);
 }
 .card {
-	background-color: white;
 	padding: 1rem;
-	box-shadow: 1px 1px 3px 1px lightgray;
-	border-radius: 3px;
+	color: black;
 	min-width: 275px;
 	margin: 1rem auto;
-	color: black;
+	border-radius: 6px;
+	background-color: white;
 }
 .card > div {
 	text-align: center;
@@ -372,6 +366,7 @@ input[type='submit'] {
 	buttons
 */
 .button {
+	width: initial;
 	margin: 1rem auto;
 	color:whitesmoke;
 	font-weight: bold;
