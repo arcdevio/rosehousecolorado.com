@@ -9,23 +9,28 @@
 		min-height: 500px;
 		background-image: url('house.jpeg');
 	}
+
 	.program-icons a {
 		color: #fff;
 		text-decoration: underline;
 	}
+
 	.program-icons a:hover {
 		text-decoration: none;
 	}
+
 	.slogan {
 		width: 100%;
 		bottom: 0px;
 		position: absolute;
 		text-align: center;
 	}
+
 	.slogan h3 {
 		color: white;
 	}
-	.slogan > div {
+
+	.slogan>div {
 		margin: auto;
 		max-width: 600px;
 		color: #FFFCED;
@@ -33,8 +38,28 @@
 		padding: 10px 10px 0 10px;
 		background-color: rgba(0, 0, 0, 0.5);
 	}
+
+	.testimonial {
+		min-height: 310px;
+		position: relative;
+		color: whitesmoke;
+		text-align: center;
+	}
+
+	.testimonial>div {
+		/* left: 50%; */
+		color: black;
+		opacity: 0;
+		position: absolute;
+		transition: opacity 900ms ease;
+	}
+
+	.testimonial>div.active {
+		opacity: 1;
+	}
+
 	.rose {
-		background: repeating-linear-gradient( -45deg, #89293d, #963a4d 3px, #89293D 3px, #89293d 25px );
+		background: repeating-linear-gradient(-45deg, #89293d, #963a4d 3px, #89293D 3px, #89293d 25px);
 		/* background-repeat: no-repeat;
 		background-image: url("https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,fl_any_format.lossy,h_500/v1469643887/rose-house/RoseProgramBG_xdwe0e.png"); */
 	}
@@ -95,9 +120,6 @@
 <section>
 	<div class="row middle-sm">
 		<div class="col-xs-12 col-sm-6 col-md-5">
-			<!-- <div class="row space-between">
-				<button class="button flat next">Read Next</button>
-			</div> -->
 			<div class="testimonial">
 				<div class="active">
 					<div>
