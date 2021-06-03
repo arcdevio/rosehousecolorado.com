@@ -73,7 +73,7 @@
 (function () {
 
 	var response = document.querySelector('.form-response');
-	var form = document.querySelector('.contact-form') || document.querySelector('.insurance-form');
+	var form = document.querySelector('form');
 	if (!form) return;
 
 	form.addEventListener('submit', function (e) {
