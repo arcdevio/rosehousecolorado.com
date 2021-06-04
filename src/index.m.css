@@ -151,13 +151,13 @@ footer h2, footer a {
 	margin: 0.1rem 0.5rem;
 	transition: background-color 300ms ease;
 }
-.media > a > object {
+.media > a > img {
 	height: 2rem;
 	vertical-align: middle;
 }
 .nav-bar {
-	z-index: 1;
 	color: #FFF;
+	z-index: 2 !important;
 	box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
 }
 .nav-tool {
@@ -199,6 +199,9 @@ footer h2, footer a {
 }
 .checklist ul {
     margin-left: 1.5rem;
+}
+.checklist > li {
+	line-height: 1.5rem;
 }
 .checklist > li::before {
 	width: 1rem;
