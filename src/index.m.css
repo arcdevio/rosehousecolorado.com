@@ -116,6 +116,20 @@ footer {
 footer h2, footer a {
 	color: white;
 }
+summary {
+    padding: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+details {
+    margin: 0.5rem 0;
+    border-radius: 3px;
+    border: 1px solid #cacaca;
+}
+details > p {
+	padding: 1rem;
+}
 .row {
 	margin-left: auto;
 	margin-right: auto;
