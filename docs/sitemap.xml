@@ -2,146 +2,454 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://rosehousecolorado.com/addictions-we-treat/alcohol/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/addictions-we-treat/heroin/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/addictions-we-treat/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/addictions-we-treat/marijuana/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/addictions-we-treat/mountains.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/addictions-we-treat/process/index.html</loc>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/addictions-we-treat/stimulants/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
-		<loc>https://rosehousecolorado.com/blog/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<loc>https://rosehousecolorado.com/assets/bpw.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/android-icon-144x144.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/android-icon-192x192.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/android-icon-36x36.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/android-icon-48x48.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/android-icon-72x72.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/android-icon-96x96.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/apple-icon-114x114.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/apple-icon-120x120.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/apple-icon-144x144.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/apple-icon-152x152.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/apple-icon-180x180.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/apple-icon-57x57.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/apple-icon-60x60.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/apple-icon-72x72.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/apple-icon-76x76.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/apple-icon-precomposed.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/apple-icon.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/browserconfig.xml</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/favicon-16x16.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/favicon-32x32.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/favicon-96x96.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/favicon.ico</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/manifest.json</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/ms-icon-144x144.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/ms-icon-150x150.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/ms-icon-310x310.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/favicon/ms-icon-70x70.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/flexboxgrid.min.css</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/gallery.min.js</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/joint-commission.gif</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/naatp.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/nav-bar.min.js</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/rose_house_logo.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/svg/facebook.svg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/svg/instagram.svg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/svg/phone.svg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/svg/quote.svg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/assets/svg/youtube.svg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/contact/backpacking.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/contact/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/error.html</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/faq/index.html</loc>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/google8787635cd481dc27.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/hike.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/house.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/index.css</loc>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/index.js</loc>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/mental-health/anxiety/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/mental-health/backpacking.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/mental-health/bi-polar/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/mental-health/depression/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/mental-health/dual-diagnosis/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/mental-health/personality/index.html</loc>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/mental-health/trauma/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
-		<loc>https://rosehousecolorado.com/partials/contact-widget.p.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<loc>https://rosehousecolorado.com/privacy/index.html</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/privacy/roseHouse_06.png</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/program-overview/admissions/doves.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/program-overview/admissions/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/program-overview/admissions/verify-insurance/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/program-overview/admissions/what-to-bring/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/program-overview/aftercare/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/program-overview/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/program-overview/levels-care-offered/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
-		<loc>https://rosehousecolorado.com/program-overview/mission/brittany-rose/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
-	</url>
-	<url>
-		<loc>https://rosehousecolorado.com/program-overview/mission/helping-women/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<loc>https://rosehousecolorado.com/program-overview/mission/Gender-Specific-Care.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/program-overview/mission/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
-		<loc>https://rosehousecolorado.com/program-overview/mission/inspiration/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<loc>https://rosehousecolorado.com/program-overview/rose-house-photos/images/RoseHouseDogsZeus_Athena.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/program-overview/rose-house-photos/images/TheRoseHouseBackDeck.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/program-overview/rose-house-photos/images/TheRoseHouseBackYard.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/program-overview/rose-house-photos/images/TheRoseHouseBedRoom.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/program-overview/rose-house-photos/images/TheRoseHouseBedRoom2.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/program-overview/rose-house-photos/images/TheRoseHouseBoulderColorado.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/program-overview/rose-house-photos/images/TheRoseHouseDinningRoom.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/program-overview/rose-house-photos/images/TheRoseHouseEntrance.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/program-overview/rose-house-photos/images/TheRoseHouseGarden.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/program-overview/rose-house-photos/images/TheRoseHouseInBoulder.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/program-overview/rose-house-photos/images/TheRoseHouseInBoulderCounty.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/program-overview/rose-house-photos/images/TheRoseHouseKitchen.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/program-overview/rose-house-photos/images/TheRoseHouseKitchenToDinning.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/program-overview/rose-house-photos/images/TheRoseHouseLivingRoom.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/program-overview/rose-house-photos/images/TheRoseHouseLivingRoom2.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/program-overview/rose-house-photos/images/TheRoseHousePool.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/program-overview/rose-house-photos/images/TheRoseHouseTherapyRoom.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/program-overview/rose-house-photos/images/TheRoseHouseYoga_GroupRooom.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/program-overview/rose-house-photos/images/The_RoseHouse_Boulder.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/program-overview/rose-house-photos/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/program-overview/staff/data.js</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/program-overview/staff/images/Paula_Snow.jpg</loc>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/program-overview/staff/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/program-overview/staff/index.js</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/program-overview/staff/team.png</loc>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/program-overview/treatment-approach/12-steps/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/program-overview/treatment-approach/arms-spread-hike.jpeg</loc>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/program-overview/treatment-approach/code-of-ethics/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/program-overview/treatment-approach/evidence-based/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/program-overview/treatment-approach/exercise/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/program-overview/treatment-approach/gender-specific/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/program-overview/treatment-approach/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
-		<loc>https://rosehousecolorado.com/robots.txt</loc>
-		<lastmod>2018-12-10</lastmod>
-	</url>
-	<url>
-		<loc>http://rosehousecolorado.com/sitemap/index.html</loc>
-		<lastmod>2018-12-10</lastmod>
+		<loc>https://rosehousecolorado.com/sitemap/index.html</loc>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 	<url>
 		<loc>https://rosehousecolorado.com/sitemap.xml</loc>
-		<lastmod>2018-12-10</lastmod>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/testimonials/birds.jpg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/testimonials/index.html</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/video/poster.jpg</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/video/rose-house.mp4</loc>
+		<lastmod>2021-06-09</lastmod>
+	</url>
+	<url>
+		<loc>https://rosehousecolorado.com/video/rose-house.webm</loc>
+		<lastmod>2021-06-09</lastmod>
 	</url>
 </urlset>
