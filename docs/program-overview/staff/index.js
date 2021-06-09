@@ -9,14 +9,14 @@ for (i = 0, l = dStaff.length; i < l; i++) {
 		<div class="profile">                                                        \
 			<img src="' + profile.image + '" alt="Profile Picture ' + profile.name + '"/>    \
 			<div class="profile-name">                                               \
-				<div>' + profile.name + '</div>                                            \
-				<div>' + profile.title + '</div>                                             \
+				<div>' + profile.name + '</div>                                          \
+				<div>' + profile.title + '</div>                                         \
 			</div>                                                                   \
 			<div class="profile-toggle">Read More</div>                              \
 			<div class="profile-description">                                        \
 				<div class="profile-wrap">                                           \
 					<img src="' + profile.image + '" alt="Profile Picture ' + profile.name + '"/>    \
-					<h4>' + profile.name + '</h4>                                        \
+					<strong>' + profile.name + '</strong>                                        \
 					<p><strong>' + profile.title + '</strong></p>                        \
 					<p>' + profile.descriptions.join('</p><p>') + '</p>                  \
 				</div>                                                               \
@@ -36,7 +36,7 @@ for (i = 0, l = profileToggles.length; i < l; i++) {
   var html = document.querySelector('html');
   var closeButton = document.createElement('button');
   closeButton.classList.add('profile-close');
-  closeButton.classList.add('button');
+  closeButton.classList.add('button', 'bordered', 'dark');
   closeButton.innerText = 'Close';
   profileWrap.appendChild(closeButton);
   profileToggle.addEventListener('click', function () {
