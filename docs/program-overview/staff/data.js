@@ -29,13 +29,7 @@ window.Global.staff = [{
   title: 'Primary Therapist',
   image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,h_900,w_600/v1573594460/rose-house/IMG_0104.jpg',
   descriptions: ['Larry Algiene is a Licensed Professional Counselor in the state of Colorado and has been practicing since 2008. He has a BS in Computer Information Systems from Colorado Christian University, MA in Clinical and School Counseling from the University of Northern Colorado and is a Certified Addictions Counselor. Larry has extensive experience treating trauma and excels in supporting clients with emotional development challenges.  Larry is trained in CBT, Post Induction Therapy, EMDR and Family Systems management.  He has worked with emotional development in Parole, Probation and Residential settings for over twenty years.  Prior to coming to the Rose House, Larry worked as the Drug Court Mental Health Therapist in Weld County and was a member of the Colorado Army National Guard for 17 years.  Larry has been married for 17 years and spends all of his free time chasing his son and daughter.']
-}, // {
-// 	name: 'Tanisha Cordova',
-// 	title: 'House Manager',
-// 	image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1475687687/rose-house/profile-picture/Tanisha_Cordova_Psychiatric_Technician.jpg',
-// 	descriptions: ['']
-// },
-{
+}, {
   name: 'Rebecca Glasmann, CACII',
   title: 'Step Down Manager',
   image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,h_900,w_600/v1573762385/rose-house/20191113_144237.jpg',
@@ -46,13 +40,18 @@ window.Global.staff = [{
   image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,w_600/v1572315259/rose-house/KathyPahler.jpg',
   descriptions: ['Originally from North Carolina, Kathy is a graduate of The University of Colorado, Boulder and has called Colorado home for three decades. She has many years of experience in sales and marketing which she brings to her position as The Director of Business Development. Being a part of The Rose House community appeals to her commitment to living a healthy and conscious lifestyle. In her free time, Kathy practices yoga, enjoys reading, biking, and spending time with her husband and two adult children.']
 }, {
-  name: 'Sandra Radney, CACII',
-  title: 'Family Coordinator',
+  name: 'Sandra Radney, MA, CAS',
+  title: 'Clinical Lead, Family Coordinator/Case Manager',
   image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1542240179/rose-house/profile-picture/Sandra_Radney_photo.jpg',
-  descriptions: ['Sandra grew up in Wyoming. She earned a BS in Education from Utah State University and her MA in Education from Chapman University. Sandra taught middle and high school students with behavioral, emotional and learning disabilities for years and was the Community Outreach/Prevention Coordinator for the local high school in Wisconsin where she lived with her family for 15 years. Sandra has training in drug and alcohol awareness and prevention, including a CAC I, SAP, Brief Intervention and Motivational Interviewing. She is currently working on a CAC II. Sandra is grateful for the opportunity to support beautiful, brave women in recovery and their families, as well as be a part of the amazing Rose House staff.', 'Sandra enjoys living in the beautiful, sunny state of Colorado with her husband, daughter and two sons and all of the outdoor activities it offers including running, hiking, camping and skiing. She is an avid reader, knitter and traveler.']
+  descriptions: ['Sandra grew up in Wyoming. She earned a BS in Education from Utah State University and her MA in Education from Chapman University. Sandra taught middle and high school students with behavioral, emotional, and learning disabilities for many years and was the Community Outreach/Prevention Coordinator for the local high school in Wisconsin where she lived with her family for 15 years. Sandra has training in SAP, Brief Intervention, Motivational Interviewing, Nonviolent Communication, Internal Family Systems and ARISE. She is a Certified Addiction Specialist, CAS. Sandra is grateful for the opportunity to support beautiful, brave women in recovery and their families, as well as be a part of the amazing Rose House staff. She enjoys living in the sunny state of Colorado with her husband, daughter, two sons and all the outdoor activities it offers including running, hiking, camping, and skiing. She is an avid reader, knitter, and traveler.']
 }, {
-  name: 'Cristy Harland',
+  name: 'Aubrey Snee',
+  title: 'House Manager',
+  image: './images/aubrey-snee.jpg',
+  descriptions: ['Aubrey lives in Boulder, Colorado.  Aubrey has taken her Certified Addiction Counselor Level 1 Classes and attends ongoing education in the field. She has worked in the mental health field for 15 years, and has been part of the Rose House since 2015. She is passionate about being a part of helping others, but specifically women who need healing in order to live life to their fullest potential. She wants people to know and believe there is life after loss... a good life! She enjoys being a mom, skiing, traveling, and volunteering in her community.']
+}, {
+  name: 'Nicole Grebe',
   title: 'Administrator',
-  image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1533317668/rose-house/IMG_3046.jpg',
-  descriptions: ['Cristy grew up in Boulder and loved it so much that she stayed and attended CU. Cristy graduated from the University of Colorado’s Leeds School of Business.', 'Cristy’s interests include volunteering, hiking, reading and traveling. She is a big sports fan and enjoys watching ice hockey and football. Her most treasured times are with her husband and two sons.']
+  image: './images/nicole-grebe.jpeg',
+  descriptions: ['Originally from South Dakota, Nicole moved to Colorado in 2015. She is a graduate of The Rose House Program and began her career in addiction and mental health treatment as a Psych Tech in 2018. Nicole feels privileged to help other women get better at The Rose House. She loves her canine colleagues "Zeus and Athena" and walks them around the beautiful Colorado landscape by The Rose House when she has time.']
 }];
