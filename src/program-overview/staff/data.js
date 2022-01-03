@@ -33,12 +33,6 @@ window.Global.staff = [
         image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,h_900,w_600/v1573594460/rose-house/IMG_0104.jpg',
         descriptions: [ 'Larry Algiene is a Licensed Professional Counselor in the state of Colorado and has been practicing since 2008. He has a BS in Computer Information Systems from Colorado Christian University, MA in Clinical and School Counseling from the University of Northern Colorado and is a Certified Addictions Counselor. Larry has extensive experience treating trauma and excels in supporting clients with emotional development challenges.  Larry is trained in CBT, Post Induction Therapy, EMDR and Family Systems management.  He has worked with emotional development in Parole, Probation and Residential settings for over twenty years.  Prior to coming to the Rose House, Larry worked as the Drug Court Mental Health Therapist in Weld County and was a member of the Colorado Army National Guard for 17 years.  Larry has been married for 17 years and spends all of his free time chasing his son and daughter.' ]
     },
-    // {
-    // 	name: 'Tanisha Cordova',
-    // 	title: 'House Manager',
-    // 	image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1475687687/rose-house/profile-picture/Tanisha_Cordova_Psychiatric_Technician.jpg',
-    // 	descriptions: ['']
-    // },
     {
         name: 'Rebecca Glasmann, CACII',
         title: 'Step Down Manager',
