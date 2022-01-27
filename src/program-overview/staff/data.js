@@ -46,7 +46,7 @@ window.Global.staff = [
     }, {
         name: 'Sandra Radney, MA, CAS',
         title: 'Clinical Lead, Family Coordinator/Case Manager',
-        image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,g_face,h_900,w_600/v1542240179/rose-house/profile-picture/Sandra_Radney_photo.jpg',
+        image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,h_900,w_600/v1643304672/rose-house/profile-picture/sandra_radney.jpg',
         descriptions: [ 'Sandra grew up in Wyoming. She earned a BS in Education from Utah State University and her MA in Education from Chapman University. Sandra taught middle and high school students with behavioral, emotional, and learning disabilities for many years and was the Community Outreach/Prevention Coordinator for the local high school in Wisconsin where she lived with her family for 15 years. Sandra has training in SAP, Brief Intervention, Motivational Interviewing, Nonviolent Communication, Internal Family Systems and ARISE. She is a Certified Addiction Specialist, CAS. Sandra is grateful for the opportunity to support beautiful, brave women in recovery and their families, as well as be a part of the amazing Rose House staff. She enjoys living in the sunny state of Colorado with her husband, daughter, two sons and all the outdoor activities it offers including running, hiking, camping, and skiing. She is an avid reader, knitter, and traveler.' ]
     }, {
         name: 'Aubrey Snee',
