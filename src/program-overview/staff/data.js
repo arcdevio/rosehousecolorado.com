@@ -8,7 +8,7 @@ window.Global.staff = [
         image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_faces,h_900,q_60,w_600/v1475687642/rose-house/profile-picture/Marcie_Chambers_Ph.D.jpg',
         descriptions: [ 'Dr. Marcie Chambers received her PhD in Psychology from the University of Colorado at Boulder. She was in private practice for a number of years, treating clients for depression, anxiety, trauma, codependency and addiction. Her practice included treating individuals, couples, and families. Dr. Chambers taught psychology at the University of Colorado, Regis University and Metro State College. Dr. Chambers opened The Rose House in Boulder County, Colorado in 2008.' ]
     }, {
-        name: 'Allison Hill',
+        name: 'Allison Hill, CAS',
         title: 'Executive Director',
         image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_faces,h_900,q_60,w_600/v1475687551/rose-house/profile-picture/Allison_Hein_House_Manager.png',
         descriptions: [ 'Allison lives in Morrison, Colorado, close to the beautiful Red Rocks. She loves going outside, being a mom and spending quality time with her family. Allison is a Certified Addiction Counselor Level II, registered with the State of Colorado.. She is passionate about Recovery, in Love with Life and feels very fortunate to be a part of the Rose House team. Having completed the Rose House program herself, Allison is grateful for the opportunity to support women on their journey of recovery!' ]
@@ -23,18 +23,18 @@ window.Global.staff = [
         image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,h_900,w_600/v1608148758/rose-house/profile-picture/20201208_140537.jpg',
         descriptions: [ 'As a registered nurse and also a family nurse practitioner, I have called Colorado home for over 15 years. Having worked in addiction medicine for almost five years, I am very happy to be working at The Rose House with women in recovery. In addition to being the nurse at The Rose House, I also have a position in a detox facility. In my free time, I enjoy spending time with my daughters, my beagles, or baking some new recipe. I am always willing to discuss health concerns, medical questions, and anything related to health and wellness.' ]
     }, {
-        name: 'Barbara Flood, LAC, PhD',
+        name: 'Barbara Flood, LAC, LCSW, PhD',
         title: 'Primary Therapist',
         image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,h_900,w_600/v1533316642/rose-house/Barbara_Flood_pic.jpg',
         descriptions: [ 'Dr. Barbara Flood holds a PhD in Transpersonal Psychology and an MSW from the University of Wisconsin Milwaukee. Dr. Flood is a trained addictions counselor and a trauma therapist who has been treating clients for over 30 years. She has extensive training in addressing traumatic events such as childhood sexual, emotional, or physical abuse; rape or sexual assault; intimate partner violence; traumatic grief; and general traumatic events. Dr. Flood has extensive training in grief and loss, Gestalt Therapy, trauma reduction, mindfulness, Play, Sand and Art therapy and Dialectical Behavior Therapy.', 'Dr. Flood has taught psychology in several university, graduate and undergraduate programs including Naropa, CU Denver, and Metropolitan University of Denver.' ]
     }, {
-        name: 'Larry Algiene LPC, CACII',
+        name: 'Larry Algiene LPC, CAS',
         title: 'Primary Therapist',
         image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,h_900,w_600/v1573594460/rose-house/IMG_0104.jpg',
         descriptions: [ 'Larry Algiene is a Licensed Professional Counselor in the state of Colorado and has been practicing since 2008. He has a BS in Computer Information Systems from Colorado Christian University, MA in Clinical and School Counseling from the University of Northern Colorado and is a Certified Addictions Counselor. Larry has extensive experience treating trauma and excels in supporting clients with emotional development challenges.  Larry is trained in CBT, Post Induction Therapy, EMDR and Family Systems management.  He has worked with emotional development in Parole, Probation and Residential settings for over twenty years.  Prior to coming to the Rose House, Larry worked as the Drug Court Mental Health Therapist in Weld County and was a member of the Colorado Army National Guard for 17 years.  Larry has been married for 17 years and spends all of his free time chasing his son and daughter.' ]
     },
     {
-        name: 'Rebecca Glasmann, CACII',
+        name: 'Rebecca Glasmann, CAS',
         title: 'Step Down Manager',
         image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,h_900,w_600/v1573762385/rose-house/20191113_144237.jpg',
         descriptions: [ 'Rebecca is originally from South Dakota. She has been in Colorado now for over 20 years and grateful to live in such a beautiful place. She enjoys spending time in the mountains especially in the Fall. She feels blessed to be the mother of three beautiful children. She is currently working on her Associates in Psychology and her CAC I. In recovery herself, she knows the journey these women are embarking on and is passionate about sharing her experience, strength and hope each step of the way. In addition to supporting the women in the house, she works as the Family Coordinator to give support and resources to family members so they may better support their loved ones and themselves. Addiction and mental illness is a family disease and it is important that each member of the family get the care and support they need. She is grateful to be a part of an amazing team at the Rose House and have the chance to help other women discover what a gift they are.' ]
