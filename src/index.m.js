@@ -95,7 +95,7 @@
 		}
 
 		data[ '$to' ] = 'ahill@rosehousecolorado.com';
-		data[ '$cc' ] = 'mchambers101@gmail.com,ngrebe@rosehousecolorado.com';
+		data['$cc'] = 'mchambers101@gmail.com,ngrebe@rosehousecolorado.com,marketing@rosehousecolorado.com';
 
 		fetch('/email', {
 			method: 'POST',
