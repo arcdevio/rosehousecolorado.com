@@ -58,6 +58,11 @@ object {
 video, img {
 	max-width: 100%;
 }
+header {
+	z-index: 1;
+	width: 100%;
+	position: absolute;
+}
 section {
 	display: inherit;
 	max-width: 1240px;
@@ -158,6 +163,7 @@ details > p {
 	display: flex;
 	padding: 0.1rem;
 	flex-direction: row;
+	background-color: white;
 	justify-content: flex-end;
 }
 .media > a {
@@ -242,10 +248,11 @@ details > p {
 	text-decoration: none;
 }
 .contact-widget-body.fixed {
-	top: 0;
+	top: 0px;
 	position: fixed;
 }
 .contact-widget-body {
+	top: 93px;
 	right: 1rem;
 	position: absolute;
 	text-align: center;
@@ -427,7 +434,8 @@ details > p {
 @media screen and (max-width: 940px) {
 	.contact-widget-body {
 		right: 1rem;
-		bottom: 1rem;
+		/* bottom: 1rem; */
+		top: 91%;
 		padding: 1rem;
 		position: fixed;
 		border-radius: 50%;

@@ -51,13 +51,14 @@
 	window.addEventListener('scroll', function () {
 		window.requestAnimationFrame(function () {
 			contactWidgetParentTop = contactWidgetParent.getBoundingClientRect().top;
+
 			contactWidgetBottom = (contactWidgetParentTop + contactWidgetHeight);
 
 			if (window.innerWidth < 940) {
 				return contactWidget.classList.remove('fixed');
 			}
 
-			if (contactWidgetParentTop <= 0) {
+			if (contactWidgetParentTop <= -93) {
 				return contactWidget.classList.add('fixed');
 			}
 
