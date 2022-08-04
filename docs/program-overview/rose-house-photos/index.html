@@ -156,15 +156,33 @@
 		min-height: 300px;
 		background-image: url('/program-overview/admissions/doves.jpeg');
 	}
+</style>
 
-	.gallery>img {
-		width: 150px;
-		margin: 3px 1px;
+<style>
+	#image-active {
+		width: 100%;
+	}
+	#image-list {
+		overflow-y: hidden;
+		overflow-x: scroll;
+		white-space: nowrap;
+	}
+	#image-list > img {
+		height: 100px;
 		display: inline-block;
-		border: solid 3px #fff;
-		box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+	}
+	#image-list > img:hover {
+		opacity: 0.9;
+		cursor: pointer;
 	}
 </style>
+<script>
+var imageClick = function (image) {
+	var active = document.getElementById('image-active');
+	active.src = image.src;
+	active.alt = image.alt;
+};
+</script>
 
 <div class="main-image">
 	<div class="contact-widget">
@@ -200,26 +218,33 @@
 				</ul>
 			</nav>
 		</div>
-		<div class="gallery col-xs-12 col-sm-8 col-lg-9">
-			<img src="/program-overview/rose-house-photos/images/The_RoseHouse_Boulder.jpeg" alt="the rose house boulder" loading="lazy" />
-			<img src="/program-overview/rose-house-photos/images/TheRoseHouseGarden.jpeg" alt="the rose house garden" loading="lazy" />
-			<img src="/program-overview/rose-house-photos/images/TheRoseHouseBackYard.jpeg" alt="the rose house backyard" loading="lazy" />
-			<img src="/program-overview/rose-house-photos/images/TheRoseHouseBackDeck.jpeg" alt="the rose house back deck" loading="lazy" />
-			<img src="/program-overview/rose-house-photos/images/TheRoseHousePool.jpeg" alt="the rose house pool" loading="lazy" />
-			<img src="/program-overview/rose-house-photos/images/TheRoseHouseInBoulder.jpeg" alt="the rose house in boulder" loading="lazy" />
-			<img src="/program-overview/rose-house-photos/images/TheRoseHouseInBoulderCounty.jpeg" alt="the rose house in boulder county" loading="lazy" />
-			<img src="/program-overview/rose-house-photos/images/TheRoseHouseLivingRoom2.jpeg" alt="the rose house living room 2" loading="lazy" />
-			<img src="/program-overview/rose-house-photos/images/TheRoseHouseLivingRoom.jpeg" alt="the rose house living room" loading="lazy" />
-			<img src="/program-overview/rose-house-photos/images/TheRoseHouseDinningRoom.jpeg" alt="the rose house dinning room" loading="lazy" />
-			<img src="/program-overview/rose-house-photos/images/TheRoseHouseKitchen.jpeg" alt="The Rose House Kitchen" loading="lazy" />
-			<img src="/program-overview/rose-house-photos/images/TheRoseHouseKitchenToDinning.jpeg" alt="The Rose House Kitchen To Dinning" loading="lazy" />
-			<img src="/program-overview/rose-house-photos/images/TheRoseHouseEntrance.jpeg" alt="The Rose House Entrance" loading="lazy" />
-			<img src="/program-overview/rose-house-photos/images/TheRoseHouseTherapyRoom.jpeg" alt="The Rose House Therapy Room" loading="lazy" />
-			<img src="/program-overview/rose-house-photos/images/TheRoseHouseYoga_GroupRooom.jpeg" alt="The Rose House Yoga Group Room" loading="lazy" />
-			<img src="/program-overview/rose-house-photos/images/TheRoseHouseBedRoom.jpeg" alt="The Rose House Bed Room" loading="lazy" />
-			<img src="/program-overview/rose-house-photos/images/TheRoseHouseBedRoom2.jpeg" alt="The Rose HouseBed Room 2" loading="lazy" />
-			<img src="/program-overview/rose-house-photos/images/RoseHouseDogsZeus_Athena.jpeg" alt="Rose House Dogs Zeus Athena" loading="lazy" />
-			<img src="/program-overview/rose-house-photos/images/TheRoseHouseBoulderColorado.jpeg" alt="The Rose House Boulder Colorado" loading="lazy" />
+		<div class="col-xs-12 col-sm-8 col-lg-9">
+			<img id="image-active" src="/program-overview/rose-house-photos/images/1.jpg" alt="the rose house boulder" loading="lazy" />
+			<div id="image-list">
+				<img src="/program-overview/rose-house-photos/images/1.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
+				<img src="/program-overview/rose-house-photos/images/2.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
+				<img src="/program-overview/rose-house-photos/images/3.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
+				<img src="/program-overview/rose-house-photos/images/4.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
+				<img src="/program-overview/rose-house-photos/images/5.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
+				<img src="/program-overview/rose-house-photos/images/6.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
+				<img src="/program-overview/rose-house-photos/images/7.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
+				<img src="/program-overview/rose-house-photos/images/8.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
+				<img src="/program-overview/rose-house-photos/images/9.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
+				<img src="/program-overview/rose-house-photos/images/10.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
+				<img src="/program-overview/rose-house-photos/images/11.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
+				<img src="/program-overview/rose-house-photos/images/12.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
+				<img src="/program-overview/rose-house-photos/images/13.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
+				<img src="/program-overview/rose-house-photos/images/14.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
+				<img src="/program-overview/rose-house-photos/images/15.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
+				<img src="/program-overview/rose-house-photos/images/16.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
+				<img src="/program-overview/rose-house-photos/images/17.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
+				<img src="/program-overview/rose-house-photos/images/18.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
+				<img src="/program-overview/rose-house-photos/images/19.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
+				<img src="/program-overview/rose-house-photos/images/20.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
+				<img src="/program-overview/rose-house-photos/images/21.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
+				<img src="/program-overview/rose-house-photos/images/22.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
+				<img src="/program-overview/rose-house-photos/images/23.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
+			</div>
 		</div>
 	</div>
 	<div class="row">
@@ -230,6 +255,9 @@
 	</div>
 	<div class="row">
 		<div class="col-xs-12 col-sm-6">
+			<iframe width="100%" height="300px" title="overview of the rose house" src="https://www.youtube.com/embed/yJT-MyCiVhw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen loading="lazy"></iframe>
+		</div>
+		<div class="col-xs-12 col-sm-6">
 			<iframe width="100%" height="300px" title="overview of the rose house" src="https://www.youtube.com/embed/B5c0Qbjo5Xw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen loading="lazy"></iframe>
 		</div>
 		<div class="col-xs-12 col-sm-6">
@@ -238,13 +266,10 @@
 		<div class="col-xs-12 col-sm-6">
 			<iframe width="100%" height="300px" title="the rose house - about us" src="https://www.youtube.com/embed/qmjPIqGOM2I?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen loading="lazy"></iframe>
 		</div>
+		https://youtu.be/yJT-MyCiVhw
 	</div>
 </section>
 
-<script src="/assets/gallery.min.js"></script>
-<script>
-	window.erbium.gallery.create('.gallery');
-</script>
 	</main>
 
 	<footer>
