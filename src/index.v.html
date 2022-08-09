@@ -6,7 +6,7 @@
 
 <style>
     .main-image {
-        min-height: 100vh;
+        min-height: 90vh;
         background-image: url('home.jpeg');
     }
 
@@ -20,14 +20,20 @@
     }
 
     .slogan {
-        width: 100%;
-        bottom: 0px;
-        position: absolute;
-        text-align: center;
-        color: var(--rose);
+        height: 8vh;
         width: 100%;
         padding: 0.5rem;
-        background-color: rgb(255, 255, 255, 78%);
+        color: var(--rose);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        min-height: 120px;
+        /* background-color: rgb(255, 255, 255, 78%); */
+    }
+    .slogan h1 {
+        line-height: initial;
     }
 
     .testimonial {
@@ -58,25 +64,28 @@
         .slogan>h1 {
             font-size: 2rem;
         }
+        .slogan {
+            min-height: 140px;
+        }
     }
 
     @media screen and (max-width: 365px) {
         .slogan>h1 {
             font-size: 1.5rem;
         }
+        
     }
 </style>
 
 <div class="main-image">
     <div class="background">
-        <!-- { "partial": "partials/contact-widget.p.html" } -->
-        <div class="slogan">
-            <h1>Women Get Better Here</h1>
-            <p>Providing quality treatment since 2007 for women 18 and older experiencing addiction, trauma, and mental health issues</p>
-        </div>
+    <!-- { "partial": "partials/contact-widget.p.html" } -->
     </div>
 </div>
-
+<div class="slogan">
+    <h1>Women Get Better Here</h1>
+    <p>Providing quality treatment since 2007 for women 18 and older experiencing addiction, trauma, and mental health issues</p>
+</div>
 <div class="rose">
     <section class="row">
         <div class="col-xs-12 col-sm-5">
