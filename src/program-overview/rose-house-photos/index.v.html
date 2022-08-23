@@ -28,6 +28,17 @@
 		opacity: 0.9;
 		cursor: pointer;
 	}
+	.arrows > button {
+		margin: 0.5rem 0;
+		background: none;
+	}
+	.arrows > button:disabled {
+		color: rgba(33,33,33,0.3) !important;
+		border-color: rgba(33,33,33,0.3) !important;;
+	}
+	.arrows > button:hover {
+		cursor: pointer;
+	}
 </style>
 <script>
 var imageClick = function (image) {
@@ -35,6 +46,28 @@ var imageClick = function (image) {
 	active.src = image.src;
 	active.alt = image.alt;
 };
+
+var arrowClick = function (direction) {
+	var active = document.getElementById('image-active');
+	var buttons = Array.prototype.slice.call(document.querySelector('.arrows').children);
+	var images = Array.prototype.slice.call(document.getElementById('image-list').children);
+
+	var currentPosition = images.findIndex(function (image) {
+		return image.src === document.getElementById('image-active').src;
+	});
+
+	var increment = direction === 'right' ? 1 : -1;
+
+	active.src = images[currentPosition + increment].src;
+	active.alt = images[currentPosition + increment].alt;
+
+	var updatedPosition = images.findIndex(function (image) {
+		return image.src === document.getElementById('image-active').src;
+	});
+
+	buttons[0].disabled = updatedPosition === 0;
+	buttons[1].disabled = updatedPosition === images.length - 1;
+}
 </script>
 
 <div class="main-image">
@@ -65,6 +98,7 @@ var imageClick = function (image) {
 		</div>
 		<div class="col-xs-12 col-sm-8 col-lg-9">
 			<img id="image-active" src="/program-overview/rose-house-photos/images/1.jpg" alt="the rose house boulder" loading="lazy" />
+
 			<div id="image-list">
 				<img src="/program-overview/rose-house-photos/images/1.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
 				<img src="/program-overview/rose-house-photos/images/2.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
@@ -89,6 +123,10 @@ var imageClick = function (image) {
 				<img src="/program-overview/rose-house-photos/images/21.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
 				<img src="/program-overview/rose-house-photos/images/22.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
 				<img src="/program-overview/rose-house-photos/images/23.jpg" alt="the rose house boulder" loading="lazy" onclick="imageClick(this);"/>
+			</div>
+			<div class="arrows row between-xs">
+				<button class="button bordered dark" onclick="arrowClick('left')" disabled>Previous</button>
+				<button class="button bordered dark" onclick="arrowClick('right')">Next</button>
 			</div>
 		</div>
 	</div>
