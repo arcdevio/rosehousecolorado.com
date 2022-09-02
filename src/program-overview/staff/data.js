@@ -34,11 +34,6 @@ window.Global.staff = [
         descriptions: [ 'Larry Algiene is a Licensed Professional Counselor in the state of Colorado and has been practicing since 2008. He has a BS in Computer Information Systems from Colorado Christian University, MA in Clinical and School Counseling from the University of Northern Colorado and is a Certified Addiction Specialist. Larry has extensive experience treating trauma and excels in supporting clients with emotional development challenges.  Larry is trained in CBT, Post Induction Therapy, EMDR and Family Systems management.  He has worked with emotional development in Parole, Probation and Residential settings for over twenty years.  Prior to coming to the Rose House, Larry worked as the Drug Court Mental Health Therapist in Weld County and was a member of the Colorado Army National Guard for 17 years.  Larry has been married for 17 years and spends all of his free time chasing his son and daughter.' ]
     },
     {
-        name: 'Rebecca Glasmann, CAS',
-        title: 'Step Down Manager',
-        image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,f_auto,h_900,w_600/v1573762385/rose-house/20191113_144237.jpg',
-        descriptions: [ 'Rebecca is originally from South Dakota. She has been in Colorado now for over 20 years and grateful to live in such a beautiful place. She enjoys spending time in the mountains especially in the Fall. She feels blessed to be the mother of three beautiful children. Rebecca holds a Certified Addiction Specialist license with the State of Colorado. In recovery herself, she knows the journey these women are embarking on and is passionate about sharing her experience, strength and hope each step of the way. She is grateful to be a part of an amazing team at the Rose House and have the chance to help other women discover what a gift they are.' ]
-    }, {
         name: 'Kathy Pahler',
         title: 'Director of Business Development',
         image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,w_600/v1572315259/rose-house/KathyPahler.jpg',
@@ -48,11 +43,6 @@ window.Global.staff = [
         title: 'Clinical Lead, Family Coordinator/Case Manager',
         image: 'https://res.cloudinary.com/dbc2wlvk8/image/upload/c_scale,f_auto,h_900,w_600/v1643304672/rose-house/profile-picture/sandra_radney.jpg',
         descriptions: [ 'Sandra grew up in Wyoming. She earned a BS in Education from Utah State University and her MA in Education from Chapman University. Sandra taught middle and high school students with behavioral, emotional, and learning disabilities for many years and was the Community Outreach/Prevention Coordinator for the local high school in Wisconsin where she lived with her family for 15 years. Sandra has training in SAP, Brief Intervention, Motivational Interviewing, Nonviolent Communication, Internal Family Systems and ARISE. She is a Certified Addiction Specialist, CAS. Sandra is grateful for the opportunity to support beautiful, brave women in recovery and their families, as well as be a part of the amazing Rose House staff. She enjoys living in the sunny state of Colorado with her husband, daughter, two sons and all the outdoor activities it offers including running, hiking, camping, and skiing. She is an avid reader, knitter, and traveler.' ]
-    }, {
-        name: 'Aubrey Snee',
-        title: 'House Manager',
-        image: './images/aubrey-snee.jpg',
-        descriptions: [ 'Aubrey lives in Boulder, Colorado.  Aubrey has taken her Certified Addiction Counselor Level 1 Classes and attends ongoing education in the field. She has worked in the mental health field for 15 years, and has been part of the Rose House since 2015. She is passionate about being a part of helping others, but specifically women who need healing in order to live life to their fullest potential. She wants people to know and believe there is life after loss... a good life! She enjoys being a mom, skiing, traveling, and volunteering in her community.' ]
     }, {
         name: 'Nicole Grebe',
         title: 'Administrator',
