@@ -1,5 +1,6 @@
 # Custom
 dev
+.DS_Store
 
 # Logs
 logs
