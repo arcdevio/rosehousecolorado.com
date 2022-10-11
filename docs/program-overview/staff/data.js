@@ -44,4 +44,14 @@ window.Global.staff = [{
   title: 'Administrator',
   image: './images/nicole-grebe.jpeg',
   descriptions: ['Originally from South Dakota, Nicole moved to Colorado in 2015. She is a graduate of The Rose House Program and began her career in addiction and mental health treatment as a Psych Tech in 2018. Nicole feels privileged to help other women get better at The Rose House. She loves her canine colleagues "Zeus and Athena" and walks them around the beautiful Colorado landscape by The Rose House when she has time.']
+}, {
+  name: 'Mika Dubois, CAS',
+  title: 'Step Down Program Counselor',
+  image: './images/mika-dubois.jpg',
+  descriptions: ['Mika is a devoted professional with years of direct experience in the recovery field. Mika is a Certified Addiction Specialist CAS, SMART Recovery Facilitator, Dialectical Behavior Therapy group facilitator, Acupuncture Detoxification Specialist and Reiki Master Practitioner. From her own journey inrecovery, she brings sincere passion and understanding when working with clients whoseek recovery from mental health disorders and addiction.  A Colorado native, Mika finds joy in spending time in the mountains, hiking, biking, climbing, and skiing.']
+}, {
+  name: 'William Raymond',
+  title: 'House Manager',
+  image: './images/william-raymond.jpg',
+  descriptions: ['Former accountant, William found his passion working in recovery services through his own journey in recovery.  He has been with the Rose House since 2013, starting as a Behavioral Health Tech and currently as acting House Supervisor.  Will plans to further his education as both a certified recovery specialist and recovery coach.  He is an avid world backpacker and is enthusiastic about cultural exchange. In his spare time, he likes to work out, practice yoga, and watch/go to sporting events.']
 }];
