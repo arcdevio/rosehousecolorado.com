@@ -35,7 +35,7 @@ window.Global.staff = [
     {
         name: 'Kelly Sikora, LPC',
         title: 'Primary Therapist',
-        image: '',
+        image: './images/Kelly-Sikora.jpeg',
         descriptions: ['Wellness has been a life-long focus and passion for Kelly. The body-mind connection, as scientifically proven, informs Kelly’s perspective and is evident in her work helping others to attain physical, mental and spiritual health. Kelly believes in providing a therapeutic experience that is safe and welcoming, and an environment in which clients can learn and grow into their highest potential and functioning. Kelly received her bachelor’s degree in Health Education and Coaching from Michigan State University, a masters in Public Health Education from Indiana University, as well as a Masters degree in Transpersonal Counseling Psychology from Naropa University. Kelly has provided group, individual and family therapy to at risk youth and adults, utilizing a trauma focused, strength based approach. Kelly is trained in and incorporates into her role as a therapist, trauma focused cognitive behavior therapy (CBT), Dialectical Behavior Therapy (DBT), Emotionally Focused Therapy (EFT) and Internal Family Systems (IFS). Furthermore, Kelly is experienced in Mindfulness, Meditation, Wilderness and Nature Therapy, and yoga and tai chi. Kelly understands the power of the collective through group work and is passionate about facilitating groups of all kinds. When not at The Rose House, Kelly is passionate about enjoying the beautiful State of Colorado with her children and grandkids.']
     },
     {
